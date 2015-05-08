@@ -1,44 +1,61 @@
 <?php
 namespace Admin99\Controller;
 use Common\Controller\UserCommonController;
-Class UserController extends UserCommonController {        //¼Ì³Ğ»ù±¾µÄuserÀà¿â
-  
-	
+Class UserController extends UserCommonController {        //ç»§æ‰¿åŸºæœ¬çš„userç±»åº“
+  	
+	public function index(){
+		
+		$this->redirect("User/loginIndex");
+		
+		
+    }
 	public function reg(){
-		//×¢²á undefined
+		//æ³¨å†Œ undefined
 		
 	}
 
 	public function login(){
-		//µÇÂ½	
+		//ç™»é™†	
 
-		//ÑéÖ¤ ÊäÈëºÏ·¨ĞÔ£¬ÑéÖ¤ÂëÖ®ÀàµÄ
+
+	
 		$verify=D("Verify"); 
-		
+
 		if(!$verify->create()){
 			$this->error($verify->getError(),'loginIndex');	
 			
-		}
- 
+		} 
 		$user=M("user");
-		
-		//ÓÃ»§µÇÂ½ĞÅÏ¢µÄÑéÖ¤
-		$username=checkInput(I('post.username',''));
-		$password=checkInput(I('post.password',''));
+	
+		//ç”¨æˆ·ç™»é™†ä¿¡æ¯çš„éªŒè¯
+		$username=I('post.username','');
+		$password=md5(I('post.password',''));
+	/* 	$username="admin99";
+		$password=md5("99peiyuan@"); */
+		$ip=get_client_ip();
+		$time=time();
 		$where=array(
 				"username"=>$username,
 				"password"=>$password,
+				
 		);
-		//ÑéÖ¤ÓÃ»§
-		var_dump($where);
+		//éªŒè¯ç”¨æˆ·
+	
 		$findData=$user->where($where)->find();
-		$userid=$findData['id'];
+		$userid=$findData["id"];
 		if($findData){
-			//·ÅÖÃ session ÅĞ¶ÏÓÃ»§
-			$_SEESION['useradmin']=$userid;
-			//$this->success('µÇÂ½³É¹¦£¡Ìø×ªÖĞ.....','index');
+			//æ”¾ç½® session åˆ¤æ–­ç”¨æˆ·
+			session("useradmin",$userid);
+			//æ›´æ–°ç™»é™†è®°å½•
+			$updateData=array(
+				"id"=>$userid,
+				"loginip"=>$ip,
+				"logintime"=>$time
+			);
+			$user->save($updateData);
+			$this->success('ç™»é™†æˆåŠŸï¼è·³è½¬ä¸­.....','index');
 		}else{
-			$this->error("±§Ç¸£¡ÄúÊäÈëÕËºÅ»òÕßÃÜÂë´íÎó£¡ÇëÖØĞÂÊäÈë£¡ÈçÓĞÒÉÎÊÇëÁªÏµ¹ÜÀíÔ±£¬Ğ»Ğ»ºÏ×÷£¡",'loginIndex');
+			$this->error("æŠ±æ­‰ï¼æ‚¨è¾“å…¥è´¦å·æˆ–è€…å¯†ç é”™è¯¯ï¼è¯·é‡æ–°è¾“å…¥ï¼å¦‚æœ‰ç–‘é—®è¯·è”ç³»ç®¡ç†å‘˜ï¼Œè°¢è°¢åˆä½œï¼",'loginIndex');
 			
 		}
 		
@@ -46,29 +63,9 @@ Class UserController extends UserCommonController {        //¼Ì³Ğ»ù±¾µÄuserÀà¿â
 	}
 
 	
-	public function index(){
-		
-		
-		
-		
-    }
-
-	public  function checkInput($value)
-	  {
-					// Stripslashes  ,Í¨¹ıÄ§Êõ·½·¨¼ÓÈë×Ô¶¯Ìí¼Ó×ªÒå·û
-				if (get_magic_quotes_gpc())          //ÅĞ¶ÏÊÇ·ñ¿ªÆôÁË Ä§Êõ·½·¨
-				{
-					$value = stripslashes($value);
-				}
-				// Quote if not a number
-				if (!is_numeric($value))                    //·ÇÊı×ÖÀàĞÍ£¬Ôò½øĞĞ  ×Ö·û´®µÄÌØÊâ×ªÒåº¯Êı´¦Àí
-				{
-				$value = "'" . mysql_real_escape_string($value) . "'";
-				}
-				return $value;
-					
 	
-	}
+
+	
 
 	
 

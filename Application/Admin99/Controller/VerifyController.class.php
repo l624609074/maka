@@ -4,14 +4,14 @@ use Think\Controller;
 Class verifyController extends Controller{
 	
 	function getVerifyCode(){
-		//Éú³ÉÑéÖ¤Âë
+		//ç”ŸæˆéªŒè¯ç 
 	$Verify = new \Think\Verify();
 	$Verify->fontSize = 27;
 	$Verify->length   = 4;
 	$Verify->imageW   =200;
 	$Verify->imageH   = 50;
-	$Verify->useNoise = false;
-	$Verify->useImgBg = true; 
+	$Verify->useNoise = true;
+
 	$Verify->entry();
 		
 	}
