@@ -24,7 +24,7 @@ $(function(){
 		
 	</div>
 	<div class="mid">
-		<form id="form1" name="form1" method="post" action="/maka/index.php/Admin99/User/login" style="width:266px; height:335px;">
+		<form id="form1" name="form1" method="post" action="/maka/index.php/Admin99/Login/doLogin" style="width:266px; height:335px;">
 		  <label>
 
 			<input type="text" name="username" value=""  style="height:45px; width:210px; border:0;  margin-top:115px; margin-left:50px; font-size:18px; color:#666; background:none; font:'微软雅黑' #666;"/>

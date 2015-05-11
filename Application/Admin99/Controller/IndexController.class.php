@@ -1,6 +1,9 @@
 <?php
 namespace Admin99\Controller;
-use Common\Controller\UserCommonController;
-Class IndexController extends UserCommonController {
-		
+use Common\Controller\CommonLoginController;
+Class IndexController extends CommonLoginController {
+		public function index(){
+			
+				
+		}
 }
