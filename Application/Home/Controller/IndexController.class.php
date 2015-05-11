@@ -3,6 +3,11 @@ namespace Home\Controller;
 use Think\Controller;
 class IndexController extends Controller {
     public function index(){
-        $this->display(00);
+		//调出产品的数据
+		$product=M("products");
+		$data=$product->select();
+		$this->assign("data",$data);
+
+        $this->display();
     }
 }
