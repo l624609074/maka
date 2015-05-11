@@ -803,3 +803,159 @@ ERR: 无法加载控制器:Admin99
 [ 2015-05-11T15:11:34+08:00 ] 127.0.0.1 /maka/index.php/admin99/
 ERR: 无法加载控制器:Admin99
 
+[ 2015-05-11T16:27:11+08:00 ] 127.0.0.1 /maka/index.php/CommonVerify/getVerifyCode
+ERR: 无法加载控制器:CommonVerify
+
+[ 2015-05-11T16:27:12+08:00 ] 127.0.0.1 /maka/index.php/CommonVerify/getVerifyCode
+ERR: 无法加载控制器:CommonVerify
+
+[ 2015-05-11T16:27:12+08:00 ] 127.0.0.1 /maka/index.php/CommonVerify/getVerifyCode
+ERR: 无法加载控制器:CommonVerify
+
+[ 2015-05-11T16:27:12+08:00 ] 127.0.0.1 /maka/index.php/CommonVerify/getVerifyCode
+ERR: 无法加载控制器:CommonVerify
+
+[ 2015-05-11T16:27:13+08:00 ] 127.0.0.1 /maka/index.php/CommonVerify/getVerifyCode
+ERR: 无法加载控制器:CommonVerify
+
+[ 2015-05-11T16:27:19+08:00 ] 127.0.0.1 /maka/index.php/CommonVerify/getVerifyCode
+ERR: 无法加载控制器:CommonVerify
+
+[ 2015-05-11T16:41:57+08:00 ] 127.0.0.1 /maka/index.php/Home/Verify/getVerifyCode
+ERR: 无法加载控制器:Verify
+
+[ 2015-05-11T16:42:01+08:00 ] 127.0.0.1 /maka/index.php/Home/Verify/getVerifyCode
+ERR: 无法加载控制器:Verify
+
+[ 2015-05-11T16:42:01+08:00 ] 127.0.0.1 /maka/index.php/Home/Verify/getVerifyCode
+ERR: 无法加载控制器:Verify
+
+[ 2015-05-11T16:42:11+08:00 ] 127.0.0.1 /maka/index.php/Home/Verify/getVerifyCode
+ERR: 无法加载控制器:Verify
+
+[ 2015-05-11T16:43:04+08:00 ] 127.0.0.1 /maka/index.php/Home/Verify/getVerifyCode
+ERR: 无法加载控制器:Verify
+
+[ 2015-05-11T16:43:06+08:00 ] 127.0.0.1 /maka/index.php/Home/Verify/getVerifyCode
+ERR: 无法加载控制器:Verify
+
+[ 2015-05-11T16:43:06+08:00 ] 127.0.0.1 /maka/index.php/Home/Verify/getVerifyCode
+ERR: 无法加载控制器:Verify
+
+[ 2015-05-11T16:43:13+08:00 ] 127.0.0.1 /maka/index.php/Home/Verify/getVerifyCode
+ERR: 无法加载控制器:Verify
+
+[ 2015-05-11T16:44:17+08:00 ] 127.0.0.1 /maka/index.php/Home/Verify/getVerifyCode
+ERR: 无法加载控制器:Verify
+
+[ 2015-05-11T16:44:48+08:00 ] 127.0.0.1 /maka/index.php/home/Verify/getVerifyCode
+ERR: 无法加载控制器:Verify
+
+[ 2015-05-11T16:44:50+08:00 ] 127.0.0.1 /maka/index.php/home/Verify/getVerifyCode
+ERR: 无法加载控制器:Verify
+
+[ 2015-05-11T16:45:04+08:00 ] 127.0.0.1 /maka/index.php/Home/Index/Verify/getVerifyCode
+ERR: 非法操作:Verify
+
+[ 2015-05-11T16:45:04+08:00 ] 127.0.0.1 /maka/index.php/Home/Index/Verify/getVerifyCode
+ERR: 非法操作:Verify
+
+[ 2015-05-11T16:45:08+08:00 ] 127.0.0.1 /maka/index.php/Home/Index/Verify/getVerifyCode
+ERR: 非法操作:Verify
+
+[ 2015-05-11T16:45:25+08:00 ] 127.0.0.1 /maka/index.php/Verify/getVerifyCode
+ERR: 无法加载控制器:Verify
+
+[ 2015-05-11T16:45:30+08:00 ] 127.0.0.1 /maka/index.php/Verify/getVerifyCode
+ERR: 无法加载控制器:Verify
+
+[ 2015-05-11T17:06:57+08:00 ] 127.0.0.1 /maka/index.php/Home/SubOrder/submit
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 La table 'maka.tp_verify' n'existe pas
+
+[ 2015-05-11T17:07:16+08:00 ] 127.0.0.1 /maka/index.php/Home/SubOrder/index
+ERR: 非法操作:index
+
+[ 2015-05-11T17:07:47+08:00 ] 127.0.0.1 /maka/index.php/Home/SubOrder/Index/Index
+ERR: 非法操作:Index
+
+[ 2015-05-11T17:44:54+08:00 ] 127.0.0.1 /maka/index.php/Home/images/js/city.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Images
+
+[ 2015-05-11T17:44:56+08:00 ] 127.0.0.1 /maka/index.php/Home/images/js/city.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Images
+
+[ 2015-05-11T17:45:15+08:00 ] 127.0.0.1 /maka/index.php/Home/images/js/city.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Images
+
+[ 2015-05-11T17:54:21+08:00 ] 127.0.0.1 /maka/index.php/Index/images/js/city.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:images
+
+[ 2015-05-11T17:56:00+08:00 ] 127.0.0.1 /maka/index.php/Index/images/js/city.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:images
+
+[ 2015-05-11T17:59:17+08:00 ] 127.0.0.1 /maka/index.php/Index/images/js/city.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:images
+
+[ 2015-05-11T18:01:26+08:00 ] 127.0.0.1 /maka/index.php/Index/images/js/city.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+ERR: 非法操作:images
+
+[ 2015-05-11T18:04:04+08:00 ] 127.0.0.1 /maka/index.php/Index/images/js/city.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:images
+
+[ 2015-05-11T18:04:22+08:00 ] 127.0.0.1 /maka/index.php/Index/images/js/city.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:images
+
+[ 2015-05-11T18:05:34+08:00 ] 127.0.0.1 /maka/index.php/Index/images/js/city.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:images
+
+[ 2015-05-11T18:06:15+08:00 ] 127.0.0.1 /maka/index.php/Home/SubOrder/6
+ERR: 非法操作:6
+
+[ 2015-05-11T18:07:45+08:00 ] 127.0.0.1 /maka/index.php/Index/images/js/city.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:images
+
+[ 2015-05-11T18:07:57+08:00 ] 127.0.0.1 /maka/index.php/Index/images/js/city.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:images
+
+[ 2015-05-11T18:08:18+08:00 ] 127.0.0.1 /maka/index.php/Index/images/js/city.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:images
+

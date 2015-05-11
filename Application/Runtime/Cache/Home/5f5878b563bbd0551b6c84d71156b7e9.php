@@ -1,15 +1,15 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>315认证网站</title>
-<link href="__PUBLIC__/css/index/style.css" rel="stylesheet" type="text/css" charset="utf-8" />
-<link href="__PUBLIC__/css/form/diqu.css" rel="stylesheet" type="text/css" charset="utf-8" />
-<script src="__PUBLIC__/js/jq.js"></script>
-<script src="__PUBLIC__/js/index/lrtk.js"></script> 
-<script src="__PUBLIC__/js/index/jscarousel.js" type="text/javascript"></script>
-<script src="__PUBLIC__/js/form/city.min.js" type="text/javascript"></script>
-<script src="__PUBLIC__/js/form/jquery.cityselect.js" type="text/javascript"></script>
+<link href="/maka/Public/css/index/style.css" rel="stylesheet" type="text/css" charset="utf-8" />
+<link href="/maka/Public/css/form/diqu.css" rel="stylesheet" type="text/css" charset="utf-8" />
+<script src="/maka/Public/js/jq.js"></script>
+<script src="/maka/Public/js/index/lrtk.js"></script> 
+<script src="/maka/Public/js/index/jscarousel.js" type="text/javascript"></script>
+<script src="/maka/Public/js/form/city.min.js" type="text/javascript"></script>
+<script src="/maka/Public/js/form/jquery.cityselect.js" type="text/javascript"></script>
 </head>
 
 <body>
@@ -35,7 +35,7 @@
 <SCRIPT type="text/javascript">
 $(function(){
 		$(".verifyImg").on("click",function(){
-				$("#codeImg").attr("src","__MODULE__/Verify/getVerifyCode?"+Math.random()+"");
+				$("#codeImg").attr("src","/maka/index.php/Home/Verify/getVerifyCode?"+Math.random()+"");
 			
 		});
 	
@@ -199,8 +199,8 @@ if(value=="") value=defaultValue
             </div>
         </div>
         <div class="yd">
-        <img title="药店有售" src="__PUBLIC__/images/index/activity_01.jpg" />
-        <img title="天猫药店同款" src="__PUBLIC__/images/index/activity_02.jpg" />
+        <img title="药店有售" src="/maka/Public/images/index/activity_01.jpg" />
+        <img title="天猫药店同款" src="/maka/Public/images/index/activity_02.jpg" />
         </div>
     </div>
 </div>
@@ -209,39 +209,39 @@ if(value=="") value=defaultValue
     <div class="blmk" id="blmk" name="blmk">
         <div class="titlebar">秘鲁玛卡——100%秘鲁进口高品质玛卡，纯天然绿色无添加</div>
         <div class="content">
-            <img title="" src="__PUBLIC__/images/index/blmk_01.jpg" />
-            <img title="吸收率高" src="__PUBLIC__/images/index/blmk_02.jpg" />
+            <img title="" src="/maka/Public/images/index/blmk_01.jpg" />
+            <img title="吸收率高" src="/maka/Public/images/index/blmk_02.jpg" />
         </div>
     </div>
     <div class="mkyk" id="mkyk" name="mkyk">
         <div class="titlebar">玛卡益康</div>
         <div class="content">
-            <img title="纯度高达90%，够劲" src="__PUBLIC__/images/index/mkyk_01.jpg" />
-            <img title="纯度高达90%，够劲 " src="__PUBLIC__/images/index/mkyk_02.jpg" />
-            <img title="无依赖" src="__PUBLIC__/images/index/mkyk_03.jpg" />
+            <img title="纯度高达90%，够劲" src="/maka/Public/images/index/mkyk_01.jpg" />
+            <img title="纯度高达90%，够劲 " src="/maka/Public/images/index/mkyk_02.jpg" />
+            <img title="无依赖" src="/maka/Public/images/index/mkyk_03.jpg" />
         </div>
     </div>
     <div class="mkykgx" id="mkykgx" name="mkykgx">
         <div class="titlebar">玛卡益康咀嚼片的功效</div>
         <div class="content">
-            <img title="" src="__PUBLIC__/images/index/mkykgx_01.jpg" />
-            <img title="" src="__PUBLIC__/images/index/mkykgx_02.jpg" />
-            <img title="" src="__PUBLIC__/images/index/mkykgx_03.jpg" />
+            <img title="" src="/maka/Public/images/index/mkykgx_01.jpg" />
+            <img title="" src="/maka/Public/images/index/mkykgx_02.jpg" />
+            <img title="" src="/maka/Public/images/index/mkykgx_03.jpg" />
         </div>
     </div>
     <div class="qsyl" id="qsyl" name="qsyl">
         <div class="titlebar">玛卡强肾三重奏：阳刚男人，三步到位</div>
         <div class="content">
-            <img title="" src="__PUBLIC__/images/index/qsyl_01.jpg" />
-            <img title="" src="__PUBLIC__/images/index/qsyl_02.jpg" />
-            <img title="" src="__PUBLIC__/images/index/qsyl_03.jpg" />
+            <img title="" src="/maka/Public/images/index/qsyl_01.jpg" />
+            <img title="" src="/maka/Public/images/index/qsyl_02.jpg" />
+            <img title="" src="/maka/Public/images/index/qsyl_03.jpg" />
         </div>
     </div>
     <div class="shrq" id="syrq" name="syrq">
         <div class="titlebar">玛卡适用人群</div>
         <div class="content">
-            <img title="" src="__PUBLIC__/images/index/shrq_01.jpg" />
-            <img title="" src="__PUBLIC__/images/index/shrq_02.jpg" />
+            <img title="" src="/maka/Public/images/index/shrq_01.jpg" />
+            <img title="" src="/maka/Public/images/index/shrq_02.jpg" />
         </div>
     </div>
     <div class="zjdy"  id="zjdy" name="zjdy">
@@ -255,28 +255,28 @@ if(value=="") value=defaultValue
 			
 			<div class="move1">
 			
-			<a href="#wyhp"><img src="__PUBLIC__/images/index/anniu.jpg" id="pf_nav" /></a>
+			<a href="#wyhp"><img src="/maka/Public/images/index/anniu.jpg" id="pf_nav" /></a>
 		
 		
 			</div>
 			
 			<div class="move2">
 			
-			<a href="#wyhp"><img src="__PUBLIC__/images/index/anniu.jpg" id="pf_nav" /></a>
+			<a href="#wyhp"><img src="/maka/Public/images/index/anniu.jpg" id="pf_nav" /></a>
 		
 		
 			</div>
 			
 			<div class="move3">
 			
-			<a href="#wyhp"><img src="__PUBLIC__/images/index/anniu.jpg" id="pf_nav" /></a>
+			<a href="#wyhp"><img src="/maka/Public/images/index/anniu.jpg" id="pf_nav" /></a>
 		
 		
 			</div>
 			
 			<div class="move4">
 			
-			<a href="#wyhp"><img src="__PUBLIC__/images/index/anniu.jpg" id="pf_nav" /></a>
+			<a href="#wyhp"><img src="/maka/Public/images/index/anniu.jpg" id="pf_nav" /></a>
 		
 		
 			</div>
@@ -332,78 +332,75 @@ if(value=="") value=defaultValue
     <div class="qwrz" id="qwrz" name="qwrz">
         <div class="titlebar">玛卡权威认证</div>
         <div class="content">
-            <img title="" src="__PUBLIC__/images/index/qwrz_01.jpg" />
-            <img title="" src="__PUBLIC__/images/index/qwrz_02.jpg" />
-            <img title="" src="__PUBLIC__/images/index/qwrz_03.jpg" />
-            <img title="" src="__PUBLIC__/images/index/qwrz_04.jpg" />
+            <img title="" src="/maka/Public/images/index/qwrz_01.jpg" />
+            <img title="" src="/maka/Public/images/index/qwrz_02.jpg" />
+            <img title="" src="/maka/Public/images/index/qwrz_03.jpg" />
+            <img title="" src="/maka/Public/images/index/qwrz_04.jpg" />
             <div class="qwzs">
-                <div class="overlay"><img src="__PUBLIC__/images/index/zs_1.jpg" id="overlay_pic"></div>
+                <div class="overlay"><img src="/maka/Public/images/index/zs_1.jpg" id="overlay_pic"></div>
                 <div id="wrapper">
                     <div id="jsCarousel">
                         <div>
-                            <img src="__PUBLIC__/images/index/zs_1.jpg" />
+                            <img src="/maka/Public/images/index/zs_1.jpg" />
                         </div>
                         <div>
-                            <img src="__PUBLIC__/images/index/zs_2.jpg" />
+                            <img src="/maka/Public/images/index/zs_2.jpg" />
                         </div>
                         <div>
-                            <img src="__PUBLIC__/images/index/zs_3.jpg" />
+                            <img src="/maka/Public/images/index/zs_3.jpg" />
                         </div>
                         <div>
-                            <img src="__PUBLIC__/images/index/zs_4.jpg" />
+                            <img src="/maka/Public/images/index/zs_4.jpg" />
                         </div>
                         <div>
-                            <img src="__PUBLIC__/images/index/zs_5.jpg" />
+                            <img src="/maka/Public/images/index/zs_5.jpg" />
                         </div>
                         <div>
-                            <img src="__PUBLIC__/images/index/zs_6.jpg" />
+                            <img src="/maka/Public/images/index/zs_6.jpg" />
                         </div>
                         <div>
-                            <img src="__PUBLIC__/images/index/zs_7.jpg" />
+                            <img src="/maka/Public/images/index/zs_7.jpg" />
                         </div>
                         <div>
-                            <img src="__PUBLIC__/images/index/zs_8.jpg" />
+                            <img src="/maka/Public/images/index/zs_8.jpg" />
                         </div>
                         <div>
-                            <img src="__PUBLIC__/images/index/zs_9.jpg" />
+                            <img src="/maka/Public/images/index/zs_9.jpg" />
                         </div>
                         <div>
-                            <img src="__PUBLIC__/images/index/zs_10.jpg" />
+                            <img src="/maka/Public/images/index/zs_10.jpg" />
                         </div>
                     </div>
                     <div id="demo-side-bar">
                     </div>
                 </div>
             </div>
-            <img title="" src="__PUBLIC__/images/index/qwrz_06.jpg" />
+            <img title="" src="/maka/Public/images/index/qwrz_06.jpg" />
         </div>
     </div>
     <div class="zjs" id="zjs" name="zjs">
         <div class="titlebar">全球专家说“玛卡”</div>
         <div class="content">
-            <img title="" src="__PUBLIC__/images/index/zjs_01.jpg" />
-            <img title="" src="__PUBLIC__/images/index/zjs_02.jpg" />
+            <img title="" src="/maka/Public/images/index/zjs_01.jpg" />
+            <img title="" src="/maka/Public/images/index/zjs_02.jpg" />
         </div>
     </div>
     <div class="zdxl" id="zdxl" name="zdxl">
         <div class="titlebar">好东西值得信赖！</div>
         <div class="content">
-            <img title="" src="__PUBLIC__/images/index/zdxl_01.jpg" />
-            <img title="" src="__PUBLIC__/images/index/zdxl_02.jpg" />
-            <img title="" src="__PUBLIC__/images/index/zdxl_03.jpg" />
+            <img title="" src="/maka/Public/images/index/zdxl_01.jpg" />
+            <img title="" src="/maka/Public/images/index/zdxl_02.jpg" />
+            <img title="" src="/maka/Public/images/index/zdxl_03.jpg" />
         </div>
     </div>
     <div class="wyhp" id="wyhp" name="wyhp">
         <div class="titlebar">在线订购</div>
         <div class="order_02">
     
-         <form method="post" action="__MODULE__/SubOrder/submit" style="width:528px; height:500px; margin:0 auto; _margin-left:316px;" onsubmit="return mycheck();">
+         <form method="post" action="/maka/index.php/Home/SubOrder/submit" style="width:528px; height:500px; margin:0 auto; _margin-left:316px;" onsubmit="return mycheck();">
             <label>
             <select name="productid" id="taoc" style="width:264px; height:26px; font-size:12px; color:#a30c1f;">
-             	<foreach name="data" item="vo" >   
-					 <option value="<{$vo.id}>" style="color:#000000;"><{$vo.productname}>  ￥<{$vo.price}></option>
-				
-			</foreach>
+             	<?php if(is_array($data)): foreach($data as $key=>$vo): ?><option value="<?php echo ($vo["id"]); ?>" style="color:#000000;"><?php echo ($vo["productname"]); ?>  ￥<?php echo ($vo["price"]); ?></option><?php endforeach; endif; ?>
             </select>
             </label>
                     <label>
@@ -430,7 +427,7 @@ if(value=="") value=defaultValue
                     <br />
             <label>
             <input name="verify" id="sys_check" border=1 type="text" style="width:150px; height:26px; background:none; border:0px; margin-left:4px; margin-top:36px; _margin-top:31px;" />
-<span id="phpsys_update_code" ><img src="__MODULE__/Verify/getVerifyCode" border="0" align="absmiddle" style=" width:90px; height:40px; padding-left:26px;cursor:pointer" id="codeImg" class="verifyImg" /> <a style="color:white;cursor:pointer;"  class="verifyImg" >看不清?</a> </span>
+<span id="phpsys_update_code" ><img src="/maka/index.php/Home/Verify/getVerifyCode" border="0" align="absmiddle" style=" width:90px; height:40px; padding-left:26px;cursor:pointer" id="codeImg" class="verifyImg" /> <a style="color:white;cursor:pointer;"  class="verifyImg" >看不清?</a> </span>
             </label>
 					<br />
 			<label>

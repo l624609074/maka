@@ -9,6 +9,7 @@
 <script src="/maka/Public/js/index/lrtk.js"></script> 
 <script src="/maka/Public/js/index/jscarousel.js" type="text/javascript"></script>
 <script src="/maka/Public/js/form/city.min.js" type="text/javascript"></script>
+<script src="/maka/Public/js/form/jquery.cityselect.js" type="text/javascript"></script>
 </head>
 
 <body>
@@ -32,6 +33,15 @@
 		
 </DIV>
 <SCRIPT type="text/javascript">
+$(function(){
+		$(".verifyImg").on("click",function(){
+				$("#codeImg").attr("src","/maka/index.php/Home/Verify/getVerifyCode?"+Math.random()+"");
+			
+		});
+	
+
+});
+
 window.onscroll=function(){
 	if ($(document).scrollTop() > 47)
 	{
@@ -44,78 +54,67 @@ window.onscroll=function(){
 }
 </SCRIPT>
 <script>
-function checkTel(val){
-	var isPhone = /^([0-9]{3,4}-)?[0-9]{7,8}$/;
-	var isMob=/^((\+?86)|(\(\+86\)))?(13[012356789][0-9]{8}|15[012356789][0-9]{8}|18[02356789][0-9]{8}|147[0-9]{8}|1349[0-9]{7})$/;
-	var value=val.trim();
-	if(isMob.test(value)||isPhone.test(value)){
-		return true;
-	}
-	else{
+/* 表单判断 */
+function mycheck(){
+	var isMobile = /^(?:13\d|15\d|18\d)\d{5}(\d{3}|\*{3})$/; //手机号码验证规则
+	var isPhone = /^((0\d{2,3})-)?(\d{7,8})(-(\d{3,}))?$/;   //座机验证规则
+	var tel = document.form1.contact.value;
+	if(document.form1.name.value ==""){
+		alert("您的姓名不能为空！");
+		document.form1.name.focus();
 		return false;
-	
 	}
+	if(tel ==""){
+		alert("联系电话不能为空！");
+		document.form1.contact.focus();
+		return false;
+	}
+	if(!isMobile.test(tel) && !isPhone.test(tel)){ //如果用户输入的值不同时满足手机号和座机号的正则
+		alert("请正确填写电话号码，例如:13415764179或020-61396139");  //就弹出提示信息
+		document.form1.contact.focus();
+		return false; //返回一个错误，不向下执行
+	}
+	if(document.form1.prov.value == "" || document.form1.prov.value == "请选择"){
+		alert("城市不能为空！");
+		document.form1.prov.focus();
+		return false;
+	}
+	if(document.form1.city.value == "" || document.form1.city.value == "请选择"){
+		alert("地区不能为空！");
+		document.form1.city.focus();
+		return false;
+	}
+	return false;
+	
 }
 
-
-		$(function(){
-
-
-			$(".need").blur(function(){                    //  填写时会出现的情况
-				var value=$(this).val();
-				
-				var  attrName=$(this).attr("name");
-				switch(attrName){
-						case "fullname" :                          //姓名
-								if(value==""){
-								
-										alert("姓名不允许为空");
-										$("input[name=fullname]").focus();
-										return false;
-								}
-						;break;		
-						
-						case "mobile" :                          //电话号码
-								if(value==""){
-								
-										alert("电话号码不允许为空");
-										$("input[name=mobile]").focus();
-										
-										return false;
-								}else{
-								
-									if(checkTel(value)==false){
-										alert("电话号码格式不对");
-										$("input[name=mobile]").focus();
-										return false;
-									}
-										
-								
-								}
-						;	break;		
-						
-						case "lianxi" :                          //地址
-								
-									if(value==""){
-								
-										alert("联系地址不允许为空");
-										$("input[name=lianxi]").focus();
-										return false;
-								}
-						;break;
-				
-				
-				}
-				
-			
-					});
-			
-		
+$(document).ready(function() {
+	$('.prov').blur(function(){
+		var prov = $('.prov').val();
+		if(prov != '请选择'){
+			$('.address').val(prov);
+		}
+	});
+	$('.cityselect').blur(function(){
+		var cityselect = $('.cityselect').val();
+		var prov = $('.prov').val();
+		if(cityselect != '请选择'){
+			$('.address').val(prov + cityselect);
 		}
 		
-		
-);
-
+	});
+	$('.dist').blur(function(){
+		var cityselect = $('.cityselect').val();
+		var prov = $('.prov').val();
+		var dist = $('.dist').val();
+		if(dist != '请选择'){
+			$('.address').val(prov + cityselect + dist);
+		}
+	});
+	$(".city").citySelect({
+		required:false
+	});
+});
 </script>
 <script type="text/javascript">
 $(document).ready(function() {
@@ -158,7 +157,7 @@ function show_student163_time(){
  e_minsold=(e_hrsold-hrsold)*60;
  minsold=Math.floor((e_hrsold-hrsold)*60);
  seconds=Math.floor((e_minsold-minsold)*60);
- span_dt_dt.innerHTML="<em>"+charLeftAll(daysold)+"</em><em>"+charLeftAll(hrsold)+"</em><em>"+charLeftAll(minsold)+"</em><em>"+charLeftAll(seconds)+"</em>" ;
+ //span_dt_dt.innerHTML="<em>"+charLeftAll(daysold)+"</em><em>"+charLeftAll(hrsold)+"</em><em>"+charLeftAll(minsold)+"</em><em>"+charLeftAll(seconds)+"</em>" ;
  
 }
 show_student163_time();
@@ -397,92 +396,42 @@ if(value=="") value=defaultValue
     <div class="wyhp" id="wyhp" name="wyhp">
         <div class="titlebar">在线订购</div>
         <div class="order_02">
-         <script>   
-		 
-function GetRandomNum(Min,Max)
-{   
-var Range = Max - Min;   
-var Rand = Math.random();   
-return(Min + Math.round(Rand * Range));   
-
-}   
-
-var d=0;
-var wa="";
-while(d<20)
-{
-var num = GetRandomNum(1,10);   
-var chars = ['0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
-d++;
-wa=wa+num;
-
-}
-$(function(){
-		$("#changeCode").on("click",function(){
-		
-			
-
-	});
-
-});
-
-      function mycheck()
-      {
-		var dsd = document.getElementById('fullname').value;
-		var mobile = document.getElementById('mobile').value;
-		var lianxi = document.getElementById('lianxi').value;
-		
-		if(dsd==""){
-			alert("姓名不允许为空");
-			return false;
-		}else if(mobile==""){
-			alert("电话号码不允许为空");
-			return false;
-		}else if(checkTel(mobile)==false){
-			alert("电话号码格式不对");
-			return false;
-		}else if(lianxi==""){
-			alert("联系地址不允许为空");
-			return false;
-		}else{
-			alert("您的订单已经提交\n您的订单号是"+wa+"\n我们将在1个工作日和您联系");
-			document.getElementById('ddhh').value=wa;
-			return true;
-			}
-		
-        
-      }
-    </script>
-         <form method="post" action="" style="width:528px; height:500px; margin:0 auto; _margin-left:316px;" onsubmit="return to_submit();">
+    
+         <form method="post" action="/maka/index.php/Home/SubOrder/submit" style="width:528px; height:500px; margin:0 auto; _margin-left:316px;" onsubmit="return mycheck();">
             <label>
             <select name="taoc" id="taoc" style="width:264px; height:26px; font-size:12px; color:#a30c1f;">
              	<?php if(is_array($data)): foreach($data as $key=>$vo): ?><option value="<?php echo ($vo["id"]); ?>" style="color:#000000;"><?php echo ($vo["productname"]); ?>  ￥<?php echo ($vo["price"]); ?></option><?php endforeach; endif; ?>
             </select>
             </label>
                     <label>
-                    <input type="text" class="need"  name="fullname" value=""  id="fullname"onfocus="cls()" onblur="res()"  style="width:260px; height:26px; background:none; border:0px; margin-left:4px; margin-top:32px; _margin-top:40px;" />
+                    <input type="text" class="need"  name="name" value=""  id="name"onfocus="cls()" onblur="res()"  style="width:260px; height:26px; background:none; border:0px; margin-left:4px; margin-top:32px; _margin-top:40px;" />
                     </label>
 					<label>
-                   <input type="text"  class="need"  name="mobile" id="mobile" value="" onfocus="cls()" onblur="res()"  style="width:260px; height:26px; background:none; border:0px; margin-left:4px; margin-top:30px; _margin-top:26px;" />
+                   <input type="text"  class="need"  name="contact" id="mobile" value="" onfocus="cls()" onblur="res()"  style="width:260px; height:26px; background:none; border:0px; margin-left:4px; margin-top:30px; _margin-top:26px;" />
                     <!--  <input type="text" name="mobile" id="mobile" value="" onfocus="cls()" onblur="res()"  style="width:247px; height:30px; background:none; border:0px; margin-top:17px; _margin-top:26px;" maxlength="20"/>-->
                     </label>
+					<div class="city">
+							<select class="prov" name="prov"></select> 
+							<select class="city cityselect" name="city" disabled="disabled"></select>
+							<select class="dist" name="dist"  disabled="disabled"></select>
+						</div>	
 					<label>
-                    <input type="text" name="lianxi" id="lianxi" value="" onfocus="cls()" onblur="res()" style="width:260px; height:26px; background:none; border:0px; margin-left:4px; margin-top:30px; _margin-top:28px;" class="need"   />
+                    <input type="text" name="address" id="lianxi" value="" onfocus="cls()" onblur="res()" style="width:260px; height:26px; background:none; border:0px; margin-left:4px; margin-top:30px; _margin-top:28px;" class="need"   />
                     <input type="text" name="ddhh" id="ddhh" value="" onfocus="cls()" onblur="res()" style=" display:none;" />
                     </label>
 					<br />
 
 					<label>
-						<input type="radio" name="fudao" id="fudao" value="radiobutton" style=" height:18px; width:18px; margin-top:37px; margin-left:20px; _margin-top:30px;"/>
+						<input type="radio" name="payment" id="fudao" value="货到付款" style=" height:18px; width:18px; margin-top:37px; margin-left:20px; _margin-top:30px;"/>
 					</label>
                     <br />
             <label>
-            <input name="sys_check" id="sys_check" type="text" style="width:150px; height:26px; background:none; border:0px; margin-left:4px; margin-top:36px; _margin-top:31px;" />
-<span id="phpsys_update_code" ><img src="" border="0" align="absmiddle" style="cursor:pointer;" onclick="phpsys_update_code(this)" id="codeImg" > <a style="color:white" href="javascript:void();" id="changeCode" >看不清?</a> </span>
+            <input name="verify" id="sys_check" border=1 type="text" style="width:150px; height:26px; background:none; border:0px; margin-left:4px; margin-top:36px; _margin-top:31px;" />
+<span id="phpsys_update_code" ><img src="/maka/index.php/Home/Verify/getVerifyCode" border="0" align="absmiddle" style=" width:90px; height:40px; padding-left:26px;cursor:pointer" id="codeImg" class="verifyImg" /> <a style="color:white;cursor:pointer;"  class="verifyImg" >看不清?</a> </span>
             </label>
 					<br />
 			<label>
-					<textarea name="content" id="content" style="background:none; width:455px; height:190px; border:0px; margin-top:35px; margin-left:5px; "></textarea>
+					<textarea name="word" id="content" style="background:none; width:455px; height:190px; border:0px; margin-top:35px; margin-left:5px; "></textarea>
 			</label>
             
             <br />            

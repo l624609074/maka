@@ -1,9 +1,10 @@
 <?php
-namespace Common\Controller;
+namespace Home\Controller;
 use Think\Controller;
-Class CommonVerifyController extends Controller{
+Class verifyController extends Controller{
+	
 	function getVerifyCode(){
-		//Éú³ÉÑéÖ¤Âë
+		//ç”ŸæˆéªŒè¯ç 
 	$Verify = new \Think\Verify();
 	$Verify->fontSize = 27;
 	$Verify->length   = 4;
@@ -14,7 +15,6 @@ Class CommonVerifyController extends Controller{
 	$Verify->entry();
 		
 	}
-	
 	
 	
 }
