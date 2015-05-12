@@ -1,5 +1,5 @@
 <?php
-namespace Home\Model;
+namespace Appmaka\Model;
 use Think\Model;
 Class VerifyModel extends Model{
 	
@@ -19,5 +19,4 @@ Class VerifyModel extends Model{
 			return	$verify->check($code,'');
 			
 		}
-		
 	}

@@ -11,7 +11,7 @@ return array(
 	"DB_PORT"=>"3306",
 	"DB_PREFIX"=>"tp_",
 	"SHOW_PAGE_TRACE"=>"TRUE",
-	'MODULE_ALLOW_LIST'     =>  array('Home','Admin99'), // 配置你原来的分组列表
+	'MODULE_ALLOW_LIST'     =>  array('Home','Admin99',"Appmaka"), // 配置你原来的分组列表
 	'DEFAULT_MODULE'        =>  'Home', // 配置你原来的默认分组
 	
 	
