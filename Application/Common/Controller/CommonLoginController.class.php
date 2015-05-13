@@ -8,9 +8,10 @@ Class CommonLoginController extends Controller {        //继承基本的user类
        // 自动运行方法
 	   $controllerName=strtolower(CONTROLLER_NAME);
 	   if($controllerName!=strtolower("login")){
-		    if(!session('useradmin')){
 		  
-				$this->display("Login:login");
+		    if(!session('useradmin')){
+		  	
+				$this->redirect("Login/login");
 		   
 			} 
 		   

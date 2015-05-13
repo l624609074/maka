@@ -1,0 +1,237 @@
+[ 2015-05-13T10:06:33+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/LoginOut
+ERR: 非法操作:LoginOut
+
+[ 2015-05-13T10:07:19+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/LoginOut
+ERR: 非法操作:LoginOut
+
+[ 2015-05-13T10:09:53+08:00 ] 127.0.0.1 /maka/index.php/Admin99%20/Admin99/User/Index.html
+ERR: 无法加载控制器:Admin99
+
+[ 2015-05-13T10:10:24+08:00 ] 127.0.0.1 /maka/index.php/Admin99%20/Admin99/User/Index.html
+ERR: 无法加载控制器:Admin99
+
+[ 2015-05-13T10:10:29+08:00 ] 127.0.0.1 /maka/index.php/Admin99%20/Admin99/Login/Index.html
+ERR: 无法加载控制器:Admin99
+
+[ 2015-05-13T10:10:58+08:00 ] 127.0.0.1 /maka/index.php/Admin99%20/Login/User/Index
+ERR: 非法操作:User
+
+[ 2015-05-13T10:11:14+08:00 ] 127.0.0.1 /maka/index.php/Admin99%20/Admin99/User/Index.html
+ERR: 无法加载控制器:Admin99
+
+[ 2015-05-13T10:11:36+08:00 ] 127.0.0.1 /maka/index.php/Admin99%20/Admin99/Login/Index.html
+ERR: 无法加载控制器:Admin99
+
+[ 2015-05-13T14:43:06+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ '__ORDER__.ordertime' inconnu dans order clause
+
+[ 2015-05-13T14:53:54+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T14:54:08+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T14:54:09+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T14:54:10+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:14:00+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:14:06+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: Think\Model:fields方法不存在！
+
+[ 2015-05-13T15:14:14+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:15:00+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:15:00+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:15:01+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:15:01+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:15:01+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:15:16+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:16:51+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:16:52+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:16:52+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:16:52+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:17:04+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:17:04+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:17:04+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:17:05+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:17:21+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ '__PRODUCTS__.id' inconnu dans field list
+
+[ 2015-05-13T15:17:31+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:25:06+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:31:55+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:32:08+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:32:08+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:32:09+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:32:09+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:32:10+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:36:07+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:36:07+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:36:07+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:36:08+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:36:08+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:36:08+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:36:23+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:36:23+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:36:23+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:36:44+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:36:44+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:36:44+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:36:44+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:36:45+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:36:45+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:36:45+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:36:55+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:36:55+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:36:55+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:36:59+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:37:10+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:37:11+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:37:11+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:37:11+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:41:49+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:43:10+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:44:15+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:44:16+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:44:16+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:44:16+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:44:46+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:44:52+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:45:48+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:45:49+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:45:49+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:45:49+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:46:30+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:47:08+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:47:08+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:47:08+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+

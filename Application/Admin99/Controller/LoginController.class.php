@@ -39,7 +39,7 @@ Class LoginController extends CommonLoginController {        //继承基本的us
 		$userid=$findData["id"];
 		if($findData){
 			//放置 session 判断用户
-			session("useradmin",$userid);
+			session("useradmin",$findData["username"]);
 			//更新登陆记录
 			$updateData=array(
 				"id"=>$userid,
@@ -47,11 +47,24 @@ Class LoginController extends CommonLoginController {        //继承基本的us
 				"logintime"=>$time
 			);
 			$user->save($updateData);
-			$this->success('登陆成功！跳转中.....',U('User/index'));
+			$this->success('登陆成功！跳转中.....',U('User/Index'));
 		}else{
 			$this->error("抱歉！您输入账号或者密码错误！请重新输入！如有疑问请联系管理员，谢谢合作！",'login');
 			
 		}
 
 		}
+		//登出
+		public function loginOut(){
+			session("useradmin",null);
+			if(cookie("session_name")){
+				
+				cookie("session_name",null);
+				
+			}
+			
+			$this->success('注销成功！',U('User/Index'));
+		}
+		
+		
 }

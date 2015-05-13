@@ -9,6 +9,7 @@ return array(
 	"DB_USER"=>"root",
 	"DB_PWD"=>"",
 	"DB_PORT"=>"3306",
+	'DB_CHARSET'=> 'utf8',
 	"DB_PREFIX"=>"tp_",
 	"SHOW_PAGE_TRACE"=>"TRUE",
 	'MODULE_ALLOW_LIST'     =>  array('Home','Admin99',"Appmaka"), // 配置你原来的分组列表

@@ -72,6 +72,7 @@ class Model {
     public function __construct($name='',$tablePrefix='',$connection='') {
         // 模型初始化
         $this->_initialize();
+		header("Content-type: text/html; charset=utf-8"); 
         // 获取模型名称
         if(!empty($name)) {
             if(strpos($name,'.')) { // 支持 数据库名.模型名的 定义
