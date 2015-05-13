@@ -1,5 +1,5 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
-<html lang="zh-cn">
+<html >
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +8,7 @@
     <title>99培元-后台管理</title>
     <link rel="stylesheet" href="/maka/Public/Admin/css//pintuer.css">
     <link rel="stylesheet" href="/maka/Public/Admin/css//admin.css">
+    <link rel="stylesheet" href="/maka/Public/Admin/css//page.css">
     <script src="/maka/Public/js/jq.js"></script>
     <script src="/maka/Public/Admin/js/pintuer.js"></script>
     <script src="/maka/Public/Admin/js/respond.js"></script>
@@ -58,14 +59,32 @@
             <input type="button" class="button button-small border-yellow" value="批量删除" />
            
         </div>
-        <table class="table table-hover" border=1>
+        <table class="table table-hover" border=1 style="text-align:center">
         	<tr><th width="35">选择</th>
-			<th width="80">订单号</th><th width="20%">产品名字--盒数--总价格</th><th width="50">用户名</th><th width="100">联系电话</th><th width="100">联系地址</th><th width="100">操作</th><th width="100">付款方式</th><th width="100">用户留言</th><th width="100">下单时间</th><th width="100">订单状态</th><th width="100">快递公司--单号</th><th width="100">操作</th></tr>
+			<th width="10%">订单号</th><th width="120">产品名字*盒数--总价格</th><th width="30">客户名</th><th width="100">联系电话</th><th width="100">联系地址</th><th width="20">付款方式</th><th width="100">用户留言</th><th width="20">下单时间</th><th width="60">订单状态</th><th width="100">快递公司--单号</th><th width="100">操作</th></tr>
             
             
 				<?php if(is_array($data)): foreach($data as $key=>$vo): ?><tr>
-						<td><input type="checkbox" name="id" value="<?php echo ($vo["id"]); ?>" /></td>
-						<td><?php echo ($vo["id"]); ?></td><td><?php echo ($vo["name"]); ?></td><td><?php echo ($vo["id"]); ?></td><td><?php echo ($vo["id"]); ?></td><td><?php echo ($vo["id"]); ?></td><td><?php echo ($vo["id"]); ?></td><td><?php echo ($vo["id"]); ?></td><td><?php echo ($vo["id"]); ?></td><td><?php echo ($vo["id"]); ?></td>		
+						<td><input type="checkbox" name="orderid" value="<?php echo ($vo["orderid"]); ?>" /></td>
+						<td><?php echo ($vo["orderid"]); ?></td><td><?php echo ($vo["productname"]); ?>--<?php echo ($vo["price"]); ?></td><td><?php echo ($vo["name"]); ?></td><td><?php echo ($vo["contact"]); ?></td><td><?php echo ($vo["address"]); ?></td><td><?php echo ($vo["payment"]); ?></td><td>
+						
+							<?php if(strlen($vo['word']) > 30 ): echo (substr($vo["word"],0,30)); ?><a href="" ><font color="red">...查看更多</font></a>
+							<?php else: ?> 
+									<?php echo ($vo["word"]); endif; ?>
+					
+						
+				</td><td><?php echo (date("Y-m-d h:i:s",$vo["ordertime"])); ?></td>
+				<td>
+					
+					    <?php switch($vo["status"]): case "0": ?><font color="red">未确认</font><?php break;?>
+								<?php case "1": ?><font color="blue">已确认</font><?php break;?>
+								<?php case "2": ?><font color="green">已发货</font><?php break;?>
+								<?php default: endswitch;?>
+					
+				</td>
+
+
+				<td><?php echo ($vo["expressname"]); ?>--<?php echo ($vo["expressnum"]); ?></td>		
 						<td>
 							<a class="button border-blue button-little" href="#">确认</a> 
 							<a class="button border-yellow button-little" href="#" >发货</a>
@@ -88,15 +107,7 @@
         <div class="panel-foot text-center">
 				<?php echo ($show); ?>
 		
-           <!--  <ul class="pagination"><li><a href="#">上一页</a></li></ul>
-            <ul class="pagination pagination-group">
-                <li><a href="#">1</a></li>
-                <li class="active"><a href="#">2</a></li>
-                <li><a href="#">3</a></li>
-                <li><a href="#">4</a></li>
-                <li><a href="#">5</a></li>
-            </ul>
-            <ul class="pagination"><li><a href="#">下一页</a></li></ul> -->
+        
         </div>
     </div>
     </form>

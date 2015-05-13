@@ -235,3 +235,15 @@ ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans fiel
 [ 2015-05-13T15:47:08+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
 ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
 
+[ 2015-05-13T15:59:20+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:59:32+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:59:33+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+
+[ 2015-05-13T15:59:33+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'id' dans field list est ambigu
+

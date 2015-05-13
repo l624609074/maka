@@ -19,10 +19,15 @@
 				);
 				$order=M("order");
 				if($order->create()){        //采用自动完成
+					$randNum=rand(0,9999999999999);
+					$time=time();
+					$str=$randNum.$time;
+					$orderid=substr(md5($str),1,12);
 					$order->ordertime=NOW_TIME;
+					$order->orderid=$orderid;
 					$id=$order->auto($rules)->add();
 					if($id){
-						$this->success("您的订单已经提交\n您的订单号是【{$id}】\n我们将在1个工作日和您联系！",U('Index/Index#wyhp'),4);
+						$this->success("您的订单已经提交\n您的订单号是【{$orderid}】\n我们将在1个工作日和您联系！",U('Index/Index#wyhp'),4);
 						
 						
 					}	

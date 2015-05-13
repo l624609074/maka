@@ -8,6 +8,7 @@
     <title>99培元-后台管理</title>
     <link rel="stylesheet" href="__PUBLIC__/Admin/css//pintuer.css">
     <link rel="stylesheet" href="__PUBLIC__/Admin/css//admin.css">
+    <link rel="stylesheet" href="__PUBLIC__/Admin/css//page.css">
     <script src="__PUBLIC__/js/jq.js"></script>
     <script src="__PUBLIC__/Admin/js/pintuer.js"></script>
     <script src="__PUBLIC__/Admin/js/respond.js"></script>
@@ -58,15 +59,37 @@
             <input type="button" class="button button-small border-yellow" value="批量删除" />
            
         </div>
-        <table class="table table-hover" border=1>
+        <table class="table table-hover" border=1 style="text-align:center">
         	<tr><th width="35">选择</th>
-			<th width="80">订单号</th><th width="20%">产品名字/盒数--总价格</th><th width="50">用户名</th><th width="100">联系电话</th><th width="100">联系地址</th><th width="100">操作</th><th width="100">付款方式</th><th width="100">用户留言</th><th width="100">下单时间</th><th width="100">订单状态</th><th width="100">快递公司--单号</th><th width="100">操作</th></tr>
+			<th width="10%">订单号</th><th width="120">产品名字*盒数--总价格</th><th width="30">客户名</th><th width="100">联系电话</th><th width="100">联系地址</th><th width="20">付款方式</th><th width="100">用户留言</th><th width="20">下单时间</th><th width="60">订单状态</th><th width="100">快递公司--单号</th><th width="100">操作</th></tr>
             
             
 				<foreach name="data" item="vo" >
 					<tr>
-						<td><input type="checkbox" name="id" value="<{$vo.id}>" /></td>
-						<td><{$vo.id}></td><td><{$vo.productname}>--<{$vo.price}></td><td><{$vo.id}></td><td><{$vo.id}></td><td><{$vo.id}></td><td><{$vo.id}></td><td><{$vo.id}></td><td><{$vo.id}></td><td><{$vo.id}></td>		
+						<td><input type="checkbox" name="orderid" value="<{$vo.orderid}>" /></td>
+						<td><{$vo.orderid}></td><td><{$vo.productname}>--<{$vo.price}></td><td><{$vo.name}></td><td><{$vo.contact}></td><td><{$vo.address}></td><td><{$vo.payment}></td><td>
+						
+							<if condition="strlen($vo['word']) gt 30 ">
+									<{$vo.word|substr=0,30}><a href="" ><font color="red">...查看更多</font></a>
+							<else /> 
+									<{$vo.word}>
+							</if>
+					
+						
+				</td><td><{$vo.ordertime|date="Y-m-d h:i:s",###}></td>
+				<td>
+					
+					    <switch name="vo.status">
+								<case value="0"><font color="red">未确认</font></case>
+								<case value="1"><font color="blue">已确认</font></case>
+								<case value="2"><font color="green">已发货</font></case>
+								<default />
+					</switch>
+					
+				</td>
+
+
+				<td><{$vo.expressname}>--<{$vo.expressnum}></td>		
 						<td>
 							<a class="button border-blue button-little" href="#">确认</a> 
 							<a class="button border-yellow button-little" href="#" >发货</a>
@@ -90,15 +113,7 @@
         <div class="panel-foot text-center">
 				<{$show}>
 		
-           <!--  <ul class="pagination"><li><a href="#">上一页</a></li></ul>
-            <ul class="pagination pagination-group">
-                <li><a href="#">1</a></li>
-                <li class="active"><a href="#">2</a></li>
-                <li><a href="#">3</a></li>
-                <li><a href="#">4</a></li>
-                <li><a href="#">5</a></li>
-            </ul>
-            <ul class="pagination"><li><a href="#">下一页</a></li></ul> -->
+        
         </div>
     </div>
     </form>
