@@ -15,29 +15,6 @@
     <script src="/maka/Public/Admin/js/pintuer.js"></script>
     <script src="/maka/Public/Admin/js/respond.js"></script>
     <script src="/maka/Public/Admin/js/admin.js"></script>
-    <script src="/maka/Public/Admin/js/order.js"></script>
-   <script type="text/javascript"> 
-			//显示灰色 jQuery 遮罩层 
-		function showBg(orderid) { 
-			var bh = $("body").height(); 
-			var bw = $("body").width(); 
-			$("#fullbg").css({ 
-					height:bh, 
-					width:bw, 
-					display:"block" 
-			}); 
-			$("#dialog").show(); 
-			$("input[name='orderIdHidden']").val(orderid);
-			$("#add").text("订单["+orderid+"]--------------------");
-			} 
-			//关闭灰色 jQuery 遮罩 
-			function closeBg() { 
-				$("#fullbg,#dialog").hide(); 
-				$("#orderIdHidden").val("");
-				$("#add").text("");
-			} 
-</script>
-
 
     
 </head>
@@ -62,53 +39,40 @@
                
             </ul>
         </div>
-        <div class="admin-bread">
+        <div class="admin-bread" >
             <span>您好，<font style="color:red" ><?php echo (session('useradmin')); ?> </font>，欢迎您。</span>
             <ul class="bread">
-                <li><a href="index.html" class="icon-home"> 开始</a></li>
+                <li><a href="/maka/index.php/Admin99/User" class="icon-home"> 开始</a></li>
                 
-                <li>订单管理</li>
+                <li>订单信息修改</li>
             </ul>
+			    
+			
         </div>
     </div>
 </div>
-<div style="text-align:center">
-<div id="fullbg"></div> 
-<div id="dialog"> 
-<p class="close"><span id="add"></span><a href="#" onclick="closeBg();">关闭</a>  </p>
-<div><center>
-	<table>
-			<tr><td>快递公司:&nbsp;&nbsp;</td><td><input type="text" name="expressName" /></td></tr>
-			<tr><td>快递单号:&nbsp;&nbsp;</td><td><input type="text" name="expressNum" /></td></tr>
-			
-			<input type="hidden" name="orderIdHidden" value="" />
-	</table>
-<br/>
-<br/>
-<input type="button" value="提交" onclick="orderAction('sent','','/maka/index.php/Admin99/Order')" />
-</center>
 
-</div> 
-</div> 
-</div> 
 <div class="admin">
 	<form method="post">
     <div class="panel admin-panel">
-    	<div class="panel-head"><strong>订单列表</strong></div>
-        <div class="padding border-bottom">
-            <input type="button" class="button button-small checkall" name="checkall" checkfor="id" value="全选" />
-			 <input type="button" class="button button-small border-blue" value="批量确认" />
-            <input type="button" class="button button-small border-green" value="批量发货" />
-            <input type="button" class="button button-small border-yellow" value="批量删除" />
-           
-        </div>
-        <table class="table table-hover" border=1 style="text-align:center">
+				  <table class="table table-hover" border=1 style="text-align:center">
         	<tr><th width="35">选择</th>
-			<th width="10%">订单号</th><th width="120">产品名字*盒数--总价格</th><th width="30">客户名</th><th width="100">联系电话</th><th width="100">联系地址</th><th width="20">付款方式</th><th width="100">用户留言</th><th width="20">下单时间</th><th width="60">订单状态</th><th width="100">快递公司--单号</th><th width="100">操作</th></tr>
+			<th width="10%">订单号</th><th width="120">产品名字*盒数--总价格</th><th width="30">客户名</th><th width="100">联系电话</th><th width="100">联系地址</th><th width="100">用户留言</th><th width="20">下单时间</th><th width="60">订单状态</th><th width="100">快递公司</th><th width="100">快递单号</th></tr>
             
 				<?php if(is_array($data)): foreach($data as $key=>$vo): ?><tr>
-						<td><input type="checkbox" name="orderid" value="<?php echo ($vo["orderid"]); ?>" /></td>
-						<td><?php echo ($vo["orderid"]); ?></td><td><?php echo ($vo["productname"]); ?>--<?php echo ($vo["price"]); ?></td><td><?php echo ($vo["name"]); ?></td><td><?php echo ($vo["contact"]); ?></td><td><?php echo ($vo["address"]); ?></td><td><?php echo ($vo["payment"]); ?></td><td>
+						
+						<td><?php echo ($vo["orderid"]); ?></td><td>
+							<select name="productname">
+							<?php if(is_array($productData)): foreach($productData as $key=>$v): if($v['id'] == $vo['productid']): ?><option selected>已选中--<?php echo ($v["productname"]); ?>/￥<?php echo ($v["price"]); ?></option>
+											<?php else: ?>
+											<option><?php echo ($v["productname"]); ?>/￥<?php echo ($v["price"]); ?></option><?php endif; endforeach; endif; ?>
+							</select>
+						
+						
+						
+						
+						
+						</td><td><?php echo ($vo["name"]); ?></td><td><?php echo ($vo["contact"]); ?></td><td><?php echo ($vo["address"]); ?></td><td><?php echo ($vo["payment"]); ?></td><td>
 						
 							<?php if(strlen($vo['word']) > 30 ): echo (substr($vo["word"],0,30)); ?><a href="" ><font color="red">...查看更多</font></a>
 							<?php else: ?> 
@@ -145,11 +109,6 @@
 		
 		
 		</table>
-        <div class="panel-foot text-center">
-			  <div class="pagination pagination-large"><?php echo ($show); ?></div>
-		
-        
-        </div>
     </div>
     </form>
     <br />

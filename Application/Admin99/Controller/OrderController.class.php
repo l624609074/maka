@@ -9,16 +9,17 @@
 		
 		//确认
 		public function confirm(){
-			$order=M("order");
-			$orderid=I("post.orderid");
-			$data["orderid"]=$orderid;
-			if($order->save($data)){
-				return true;
+			
+			$order=M("order");	
+			$orderid=I("get.orderid");
+			$data["status"]=1;
+			if($order->where("orderid = '{$orderid}'")->save($data)){
+				echo $orderid;
 				
 				
 			}else{
 				
-				return false;
+				echo "";
 				
 			}
 			
@@ -27,18 +28,70 @@
 		
 		//发货
 		
+		public function sent(){
+		
+			$order=M("order");	
+			$orderid=I("get.orderid");
+			 $expressname=I("get.expressName");
+			 $expressnum=I("get.expressNum");
+			$data["expressname"]=$expressname;
+			$data["expressnum"]=$expressnum;
+			$data["status"]=1;
+			$data["senttime"]=NOW_TIME;
+			if($order->where("orderid = '{$orderid}'")->save($data)){
+		
+				
+					echo "ok";
+				
+			}else{
+			
+				echo 0;
+				
+			}
+			
+			
+		}
 		
 			//删除
+	public function delete(){
+		
+			$order=M("order");	
+			$orderid=I("get.orderid");
+			if($order->where("orderid = '{$orderid}'")->delete()){
+		
+				
+					echo "ok";
+				
+			}else{
+			
+				echo 0;
+				
+			}
+			
+			
+		}
+		
 		
 		//改
+	public function modify(){
+		//这是调出 修改数据的方法
+		$order=M("order");	
+		$orderid=I("get.orderid");
+		//调出数据，并进行修改
+		$data=$order->where("orderid = '{$orderid}'")->select();
+		//调出产品选择
+		$product=M("products");
+		$productData=$product->select();
+		$this->assign("productData",$productData);
+		$this->assign("data",$data);
+		$this->display();
 		
+		
+	}
 	
 		
 		//查
-		function All(){
-			$this->redirect("User/Index");
-			
-		}
+		
 	
 	
 	}

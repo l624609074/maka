@@ -1,0 +1,1796 @@
+[ 2015-05-14T11:35:28+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T11:37:32+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T11:37:33+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T11:38:09+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T11:38:21+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T11:38:35+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T11:40:21+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T11:42:36+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T11:43:37+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-14T11:44:24+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T11:44:27+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T11:44:34+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T11:45:43+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T11:46:12+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm?orderid=saf321
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T11:46:14+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm?orderid=saf321
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T11:46:38+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm?orderid=saf321
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T11:46:50+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm?orderid=saf321
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T11:46:52+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm?orderid=saf321
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T11:46:56+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm?orderid=saf321
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T11:48:55+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm?orderid=saf321
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0060s ]
+SQL: UPDATE `tp_order` SET `status`='1' WHERE ( orderid='saf321' ) [ RunTime:0.0370s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-14T11:49:57+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm?orderid=saf321
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0050s ]
+SQL: UPDATE `tp_order` SET `status`='1' WHERE ( orderid = 'saf321' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T11:50:02+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm?orderid=saf321
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0060s ]
+SQL: UPDATE `tp_order` SET `status`='1' WHERE ( orderid = 'saf321' ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T11:50:08+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm?orderid=12
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0050s ]
+SQL: UPDATE `tp_order` SET `status`='1' WHERE ( orderid = '12' ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-14T11:50:54+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm?orderid=3241
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0050s ]
+SQL: UPDATE `tp_order` SET `status`='1' WHERE ( orderid = '3241' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T11:51:25+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm?orderid=3241
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0040s ]
+SQL: UPDATE `tp_order` SET `status`='1' WHERE ( orderid = '3241' ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-14T11:51:29+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm?orderid=45s
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0040s ]
+SQL: UPDATE `tp_order` SET `status`='1' WHERE ( orderid = '45s' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T11:51:51+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm?orderid=fas
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0050s ]
+SQL: UPDATE `tp_order` SET `status`='1' WHERE ( orderid = 'fas' ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T11:53:40+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm?orderid=2352dasg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0070s ]
+SQL: UPDATE `tp_order` SET `status`='1' WHERE ( orderid = '2352dasg' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-14T11:54:12+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm?orderid=asfa23r
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0040s ]
+SQL: UPDATE `tp_order` SET `status`='1' WHERE ( orderid = 'asfa23r' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-14T11:59:56+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm?orderid=saf321
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0060s ]
+SQL: UPDATE `tp_order` SET `status`='1' WHERE ( orderid = 'saf321' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T12:00:09+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm?orderid=12
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0000s ]
+SQL: UPDATE `tp_order` SET `status`='1' WHERE ( orderid = '12' ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-14T14:22:01+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index/p/__MODULE__/Order/Confirm?orderid=3241
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `tp_order` LEFT JOIN tp_products ON tp_order.productid=tp_products.id  ORDER BY ordertime LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_order` LEFT JOIN tp_products ON tp_order.productid=tp_products.id  LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-14T14:22:52+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index/p/__MODULE__/Order/Confirm?orderid=saf321
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_order` LEFT JOIN tp_products ON tp_order.productid=tp_products.id  ORDER BY ordertime LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_order` LEFT JOIN tp_products ON tp_order.productid=tp_products.id  LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-14T14:22:55+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index/p/__MODULE__/Order/Confirm?orderid=3241
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tp_order` LEFT JOIN tp_products ON tp_order.productid=tp_products.id  ORDER BY ordertime LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_order` LEFT JOIN tp_products ON tp_order.productid=tp_products.id  LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-14T14:23:02+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index/p/__MODULE__/Order/Confirm?orderid=3241
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `tp_order` LEFT JOIN tp_products ON tp_order.productid=tp_products.id  ORDER BY ordertime LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_order` LEFT JOIN tp_products ON tp_order.productid=tp_products.id  LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-14T14:23:47+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index/p/__MODULE__/Order/Confirm?orderid=saf321
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `tp_order` LEFT JOIN tp_products ON tp_order.productid=tp_products.id  ORDER BY ordertime LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_order` LEFT JOIN tp_products ON tp_order.productid=tp_products.id  LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-14T14:23:52+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index/p/__MODULE__/Order/Confirm?orderid=fas
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_order` LEFT JOIN tp_products ON tp_order.productid=tp_products.id  ORDER BY ordertime LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_order` LEFT JOIN tp_products ON tp_order.productid=tp_products.id  LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-14T14:24:41+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index/p/__MODULE__/Order/Confirm?orderid=12
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tp_order` LEFT JOIN tp_products ON tp_order.productid=tp_products.id  ORDER BY ordertime LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_order` LEFT JOIN tp_products ON tp_order.productid=tp_products.id  LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-14T14:26:08+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index/p/__MODULE__/Order/Confirm?orderid=saf321
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `tp_order` LEFT JOIN tp_products ON tp_order.productid=tp_products.id  ORDER BY ordertime LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_order` LEFT JOIN tp_products ON tp_order.productid=tp_products.id  LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-14T14:26:24+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index/p/__MODULE__/Order/Confirm?orderid=saf321
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_order` LEFT JOIN tp_products ON tp_order.productid=tp_products.id  ORDER BY ordertime LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_order` LEFT JOIN tp_products ON tp_order.productid=tp_products.id  LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-14T14:26:31+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/Index/p/__MODULE__/Order/Confirm?orderid=45s
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_order` LEFT JOIN tp_products ON tp_order.productid=tp_products.id  ORDER BY ordertime LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_order` LEFT JOIN tp_products ON tp_order.productid=tp_products.id  LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T14:29:07+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm?orderid=saf321
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0130s ]
+SQL: UPDATE `tp_order` SET `status`='1' WHERE ( orderid = 'saf321' ) [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-05-14T14:29:31+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm?orderid=saf321
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0000s ]
+SQL: UPDATE `tp_order` SET `status`='1' WHERE ( orderid = 'saf321' ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-14T14:29:34+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm?orderid=45s
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0000s ]
+SQL: UPDATE `tp_order` SET `status`='1' WHERE ( orderid = '45s' ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2015-05-14T14:30:10+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm?orderid=fas
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: orderid C:\wamp\www\maka\Application\Admin99\Controller\OrderController.class.php 第 15 行.
+SQL: UPDATE `tp_order` SET `status`='1' WHERE ( orderid = '' ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-14T14:30:30+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm?orderid=3241
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: orderid C:\wamp\www\maka\Application\Admin99\Controller\OrderController.class.php 第 15 行.
+SQL: UPDATE `tp_order` SET `status`='1' WHERE ( orderid = '' ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-14T14:30:32+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm?orderid=3241
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: orderid C:\wamp\www\maka\Application\Admin99\Controller\OrderController.class.php 第 15 行.
+SQL: UPDATE `tp_order` SET `status`='1' WHERE ( orderid = '' ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-14T14:30:36+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm?orderid=12
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined variable: orderid C:\wamp\www\maka\Application\Admin99\Controller\OrderController.class.php 第 15 行.
+SQL: UPDATE `tp_order` SET `status`='1' WHERE ( orderid = '' ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-14T14:30:39+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm?orderid=3241
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: orderid C:\wamp\www\maka\Application\Admin99\Controller\OrderController.class.php 第 15 行.
+SQL: UPDATE `tp_order` SET `status`='1' WHERE ( orderid = '' ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T14:30:42+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm?orderid=fas
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: orderid C:\wamp\www\maka\Application\Admin99\Controller\OrderController.class.php 第 15 行.
+SQL: UPDATE `tp_order` SET `status`='1' WHERE ( orderid = '' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T14:31:10+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm?orderid=3241
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0060s ]
+SQL: UPDATE `tp_order` SET `status`='1' WHERE ( orderid = '3241' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T14:31:12+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm?orderid=fas
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0150s ]
+SQL: UPDATE `tp_order` SET `status`='1' WHERE ( orderid = 'fas' ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2015-05-14T15:03:03+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm?orderid=saf321
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T15:03:32+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm?orderid=saf321
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T15:04:30+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm?orderid=asdf23r4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T15:05:04+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm?orderid=25sadg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-14T15:05:43+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm?orderid=sfz
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-14T15:05:51+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm?orderid=2649acdedd9e
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-14T15:05:52+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm?orderid=2649acdedd9e
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T15:05:52+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm?orderid=2649acdedd9e
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-14T15:06:30+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm?orderid=2352dasg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-14T15:06:32+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm?orderid=2352dasg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T15:07:18+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm?orderid=2352dasg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T15:07:59+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm?orderid=fas
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T15:08:29+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm?orderid=fas
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T15:08:45+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm?orderid=fas
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T15:09:05+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm?orderid=fas
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0050s ]
+SQL: UPDATE `tp_order` SET `status`='1' WHERE ( orderid = 'fas' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T15:09:23+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm?orderid=2352dasg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0040s ]
+SQL: UPDATE `tp_order` SET `status`='1' WHERE ( orderid = '2352dasg' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T15:09:47+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm?orderid=asfa23r
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0060s ]
+SQL: UPDATE `tp_order` SET `status`='1' WHERE ( orderid = 'asfa23r' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T15:10:11+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm?orderid=asdf23r4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0040s ]
+SQL: UPDATE `tp_order` SET `status`='1' WHERE ( orderid = 'asdf23r4' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T15:26:31+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm?orderid=saf321
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0070s ]
+SQL: UPDATE `tp_order` SET `status`='1' WHERE ( orderid = 'saf321' ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T15:31:06+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/undefined?orderid=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:undefined
+
+[ 2015-05-14T15:33:21+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/undefined?orderid=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:undefined
+
+[ 2015-05-14T15:33:33+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm?orderid=saf321
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0050s ]
+SQL: UPDATE `tp_order` SET `status`='1' WHERE ( orderid = 'saf321' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T15:33:36+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm?orderid=12
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0060s ]
+SQL: UPDATE `tp_order` SET `status`='1' WHERE ( orderid = '12' ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-14T15:33:38+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm?orderid=saf321
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0060s ]
+SQL: UPDATE `tp_order` SET `status`='1' WHERE ( orderid = 'saf321' ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-05-14T15:33:42+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm?orderid=12
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0040s ]
+SQL: UPDATE `tp_order` SET `status`='1' WHERE ( orderid = '12' ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T15:33:44+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm?orderid=12
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0040s ]
+SQL: UPDATE `tp_order` SET `status`='1' WHERE ( orderid = '12' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T15:33:53+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/undefined?orderid=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:undefined
+
+[ 2015-05-14T15:34:46+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=&expressName=%E8%90%A8%E8%8A%AC&expressNum=123
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0050s ]
+SQL: UPDATE `tp_order` SET `expressname`='',`expressnum`='',`status`='1' WHERE ( orderid = '' ) [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T15:35:29+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=&expressName=%E8%90%A8%E8%8A%AC&expressNum=123
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0050s ]
+SQL: UPDATE `tp_order` SET `expressname`='',`expressnum`='',`status`='1' WHERE ( orderid = '' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T15:35:36+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=&expressName=%E8%90%A8%E8%8A%AC&expressNum=123
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0060s ]
+SQL: UPDATE `tp_order` SET `expressname`='',`expressnum`='',`status`='1' WHERE ( orderid = '' ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T15:35:50+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=&expressName=%E8%90%A8%E8%8A%AC&expressNum=123
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0070s ]
+SQL: UPDATE `tp_order` SET `expressname`='',`expressnum`='',`status`='1' WHERE ( orderid = '' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-14T15:38:20+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=&expressName=%E8%90%A8%E8%8A%AC&expressNum=123
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0050s ]
+SQL: UPDATE `tp_order` SET `expressname`='',`expressnum`='',`status`='1' WHERE ( orderid = '' ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T15:38:39+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=&expressName=%E8%90%A8%E8%8A%AC&expressNum=123
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0050s ]
+SQL: UPDATE `tp_order` SET `expressname`='',`expressnum`='',`status`='1' WHERE ( orderid = '' ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T15:39:14+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=&expressName=%E8%90%A8%E8%8A%AC&expressNum=123
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0050s ]
+SQL: UPDATE `tp_order` SET `expressname`='',`expressnum`='',`status`='1' WHERE ( orderid = '' ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T15:40:12+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=&expressName=%E8%90%A8%E8%8A%AC&expressNum=123
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0060s ]
+SQL: UPDATE `tp_order` SET `expressname`='',`expressnum`='',`status`='1' WHERE ( orderid = '' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T15:41:01+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=&expressName=%E8%90%A8%E8%8A%AC&expressNum=123
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0050s ]
+SQL: UPDATE `tp_order` SET `expressname`='',`expressnum`='',`status`='1' WHERE ( orderid = '' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T15:43:16+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=3241&expressName=%E8%90%A8%E8%8A%AC&expressNum=123
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0040s ]
+SQL: UPDATE `tp_order` SET `expressname`='',`expressnum`='',`status`='1' WHERE ( orderid = '3241' ) [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T15:43:49+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=45s&expressName=%E8%90%A8%E8%8A%AC&expressNum=123
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0040s ]
+SQL: UPDATE `tp_order` SET `expressname`='',`expressnum`='',`status`='1' WHERE ( orderid = '45s' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T15:44:49+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=3241&expressName=%E8%90%A8%E8%8A%AC&expressNum=123
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0050s ]
+SQL: UPDATE `tp_order` SET `expressname`='',`expressnum`='',`status`='1' WHERE ( orderid = '3241' ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T15:44:55+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=fas&expressName=%E8%90%A8%E8%8A%AC&expressNum=123
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0050s ]
+SQL: UPDATE `tp_order` SET `expressname`='',`expressnum`='',`status`='1' WHERE ( orderid = 'fas' ) [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T15:45:18+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=2352dasg&expressName=%E8%90%A8%E8%8A%AC&expressNum=123
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0050s ]
+SQL: UPDATE `tp_order` SET `expressname`='',`expressnum`='',`status`='1' WHERE ( orderid = '2352dasg' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T15:46:04+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=asfa23r&expressName=%E8%90%A8%E8%8A%AC&expressNum=123
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0060s ]
+SQL: UPDATE `tp_order` SET `expressname`='萨芬',`expressnum`='123',`status`='1' WHERE ( orderid = 'asfa23r' ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T15:51:10+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=asfa23r&expressName=%E8%90%A8%E8%8A%AC&expressNum=111111111111111
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0050s ]
+SQL: UPDATE `tp_order` SET `expressname`='萨芬',`expressnum`='111111111111111',`status`='1' WHERE ( orderid = 'asfa23r' ) [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: expressName C:\wamp\www\maka\Application\Admin99\Controller\OrderController.class.php 第 43 行.
+NOTIC: [8] Undefined variable: expressNum C:\wamp\www\maka\Application\Admin99\Controller\OrderController.class.php 第 44 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T15:51:48+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=asdf23r4&expressName=%E8%90%A8%E8%8A%AC&expressNum=22222222222222
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0040s ]
+SQL: UPDATE `tp_order` SET `expressname`='萨芬',`expressnum`='22222222222222',`status`='1' WHERE ( orderid = 'asdf23r4' ) [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: expressName C:\wamp\www\maka\Application\Admin99\Controller\OrderController.class.php 第 43 行.
+NOTIC: [8] Undefined variable: expressNum C:\wamp\www\maka\Application\Admin99\Controller\OrderController.class.php 第 44 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T15:52:07+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=sfz&expressName=%E8%90%A8%E8%8A%AC&expressNum=33333333333333
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0050s ]
+SQL: UPDATE `tp_order` SET `expressname`='萨芬',`expressnum`='33333333333333',`status`='1' WHERE ( orderid = 'sfz' ) [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: expressName C:\wamp\www\maka\Application\Admin99\Controller\OrderController.class.php 第 43 行.
+NOTIC: [8] Undefined variable: expressNum C:\wamp\www\maka\Application\Admin99\Controller\OrderController.class.php 第 44 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T15:53:08+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=25sadg&expressName=%E8%90%A8%E8%8A%AC&expressNum=55555555555555555
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0050s ]
+SQL: UPDATE `tp_order` SET `expressname`='萨芬',`expressnum`='55555555555555555',`status`='1' WHERE ( orderid = '25sadg' ) [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: expressName C:\wamp\www\maka\Application\Admin99\Controller\OrderController.class.php 第 43 行.
+NOTIC: [8] Undefined variable: expressNum C:\wamp\www\maka\Application\Admin99\Controller\OrderController.class.php 第 44 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-05-14T15:55:54+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=2649acdedd9e&expressName=%E8%90%A8%E8%8A%AC&expressNum=66666666666666
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0050s ]
+SQL: UPDATE `tp_order` SET `expressname`='萨芬',`expressnum`='66666666666666',`status`='1' WHERE ( orderid = '2649acdedd9e' ) [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: expressName C:\wamp\www\maka\Application\Admin99\Controller\OrderController.class.php 第 44 行.
+NOTIC: [8] Undefined variable: expressNum C:\wamp\www\maka\Application\Admin99\Controller\OrderController.class.php 第 48 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T16:03:11+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=f9442fca944e&expressName=%E8%90%A8%E8%8A%AC&expressNum=777777777777777
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0050s ]
+SQL: UPDATE `tp_order` SET `expressname`='萨芬',`expressnum`='777777777777777',`status`='1' WHERE ( orderid = 'f9442fca944e' ) [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: expressName C:\wamp\www\maka\Application\Admin99\Controller\OrderController.class.php 第 44 行.
+NOTIC: [8] Undefined variable: expressNum C:\wamp\www\maka\Application\Admin99\Controller\OrderController.class.php 第 48 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-05-14T16:05:25+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=f9442fca944e&expressName=%E8%90%A8%E8%8A%AC&expressNum=777777777777777
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0050s ]
+SQL: UPDATE `tp_order` SET `expressname`='萨芬',`expressnum`='777777777777777',`status`='1' WHERE ( orderid = 'f9442fca944e' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T16:05:43+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=f9442fca944e&expressName=%E8%90%A8%E8%8A%AC&expressNum=777777777777777
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0040s ]
+SQL: UPDATE `tp_order` SET `expressname`='萨芬',`expressnum`='777777777777777',`status`='1' WHERE ( orderid = 'f9442fca944e' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T16:06:29+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=f9442fca944e&expressName=%E8%90%A8%E8%8A%AC&expressNum=777777777777777
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0050s ]
+SQL: UPDATE `tp_order` SET `expressname`='萨芬',`expressnum`='777777777777777',`status`='1' WHERE ( orderid = 'f9442fca944e' ) [ RunTime:0.0050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T16:06:39+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=f9442fca944e&expressName=%E8%90%A8%E8%8A%AC&expressNum=ssss1377777
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0030s ]
+SQL: UPDATE `tp_order` SET `expressname`='萨芬',`expressnum`='ssss1377777',`status`='1' WHERE ( orderid = 'f9442fca944e' ) [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: expressName C:\wamp\www\maka\Application\Admin99\Controller\OrderController.class.php 第 44 行.
+NOTIC: [8] Undefined variable: expressNum C:\wamp\www\maka\Application\Admin99\Controller\OrderController.class.php 第 48 行.
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given C:\wamp\www\maka\Application\Admin99\Controller\OrderController.class.php 第 50 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T16:09:35+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=f9442fca944e&expressName=%E8%90%A8%E8%8A%AC&expressNum=ssss1377777
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0070s ]
+SQL: UPDATE `tp_order` SET `expressname`='萨芬',`expressnum`='ssss1377777',`status`='1' WHERE ( orderid = 'f9442fca944e' ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-05-14T16:09:46+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=f9442fca944e&expressName=%E8%90%A8%E8%8A%AC&expressNum=ssss1377777
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0050s ]
+SQL: UPDATE `tp_order` SET `expressname`='萨芬',`expressnum`='ssss1377777',`status`='1' WHERE ( orderid = 'f9442fca944e' ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T16:10:17+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=f9442fca944e&expressName=%E8%90%A8%E8%8A%AC&expressNum=ssss1377777
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0050s ]
+SQL: UPDATE `tp_order` SET `expressname`='萨芬',`expressnum`='ssss1377777',`status`='1' WHERE ( orderid = 'f9442fca944e' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T16:10:32+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=f9442fca944e&expressName=%E8%90%A8%E8%8A%AC&expressNum=ssss1377777
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0150s ]
+SQL: UPDATE `tp_order` SET `expressname`='萨芬',`expressnum`='ssss1377777',`status`='1' WHERE ( orderid = 'f9442fca944e' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T16:10:44+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=f9442fca944e&expressName=%E8%90%A8%E8%8A%AC&expressNum=ssss1377777
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0040s ]
+SQL: UPDATE `tp_order` SET `expressname`='萨芬',`expressnum`='ssss1377777',`status`='1' WHERE ( orderid = 'f9442fca944e' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T16:10:54+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=f9442fca944e&expressName=%E8%90%A8%E8%8A%AC&expressNum=111111111111111111
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0050s ]
+SQL: UPDATE `tp_order` SET `expressname`='萨芬',`expressnum`='111111111111111111',`status`='1' WHERE ( orderid = 'f9442fca944e' ) [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: expressName C:\wamp\www\maka\Application\Admin99\Controller\OrderController.class.php 第 44 行.
+NOTIC: [8] Undefined variable: expressNum C:\wamp\www\maka\Application\Admin99\Controller\OrderController.class.php 第 48 行.
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given C:\wamp\www\maka\Application\Admin99\Controller\OrderController.class.php 第 50 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T16:11:27+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=f9442fca944e&expressName=%E8%90%A8%E8%8A%AC&expressNum=111111111111111111
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0040s ]
+SQL: UPDATE `tp_order` SET `expressname`='萨芬',`expressnum`='111111111111111111',`status`='1' WHERE ( orderid = 'f9442fca944e' ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T16:11:58+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=f9442fca944e&expressName=%E5%95%8A%E6%B2%99%E5%8F%91&expressNum=11221
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0050s ]
+SQL: UPDATE `tp_order` SET `expressname`='啊沙发',`expressnum`='11221',`status`='1' WHERE ( orderid = 'f9442fca944e' ) [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: expressName C:\wamp\www\maka\Application\Admin99\Controller\OrderController.class.php 第 44 行.
+NOTIC: [8] Undefined variable: expressNum C:\wamp\www\maka\Application\Admin99\Controller\OrderController.class.php 第 48 行.
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given C:\wamp\www\maka\Application\Admin99\Controller\OrderController.class.php 第 50 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T16:13:12+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=f9442fca944e&expressName=%E5%95%8A%E6%B2%99%E5%8F%91&expressNum=11221
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0050s ]
+SQL: UPDATE `tp_order` SET `expressname`='啊沙发',`expressnum`='11221',`status`='1' WHERE ( orderid = 'f9442fca944e' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T16:13:52+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=f9442fca944e&expressName=%E5%95%8A%E6%B2%99%E5%8F%91&expressNum=11221
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0060s ]
+SQL: UPDATE `tp_order` SET `expressname`='啊沙发',`expressnum`='11221',`status`='1' WHERE ( orderid = 'f9442fca944e' ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T16:14:10+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=f9442fca944e&expressName=%E5%95%8A%E6%B2%99%E5%8F%91&expressNum=11221
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0060s ]
+SQL: UPDATE `tp_order` SET `expressname`='啊沙发',`expressnum`='11221',`status`='1' WHERE ( orderid = 'f9442fca944e' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T16:15:03+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=2649acdedd9e&expressName=%E5%95%8A%E6%B2%99%E5%8F%91&expressNum=11221
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0060s ]
+SQL: UPDATE `tp_order` SET `expressname`='啊沙发',`expressnum`='11221',`status`='1' WHERE ( orderid = '2649acdedd9e' ) [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: expressName C:\wamp\www\maka\Application\Admin99\Controller\OrderController.class.php 第 44 行.
+NOTIC: [8] Undefined variable: expressNum C:\wamp\www\maka\Application\Admin99\Controller\OrderController.class.php 第 48 行.
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given C:\wamp\www\maka\Application\Admin99\Controller\OrderController.class.php 第 50 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T16:17:02+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=f9442fca944e&expressName=%E5%95%8A%E6%B2%99%E5%8F%91&expressNum=1122133
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0050s ]
+SQL: UPDATE `tp_order` SET `expressname`='啊沙发',`expressnum`='1122133',`status`='1' WHERE ( orderid = 'f9442fca944e' ) [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: expressName C:\wamp\www\maka\Application\Admin99\Controller\OrderController.class.php 第 44 行.
+NOTIC: [8] Undefined variable: expressNum C:\wamp\www\maka\Application\Admin99\Controller\OrderController.class.php 第 48 行.
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given C:\wamp\www\maka\Application\Admin99\Controller\OrderController.class.php 第 50 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T16:17:43+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=f9442fca944e&expressName=%E5%95%8A%E6%B2%99%E5%8F%91&expressNum=3233
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0050s ]
+SQL: UPDATE `tp_order` SET `expressname`='啊沙发',`expressnum`='3233',`status`='1' WHERE ( orderid = 'f9442fca944e' ) [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: expressName C:\wamp\www\maka\Application\Admin99\Controller\OrderController.class.php 第 44 行.
+NOTIC: [8] Undefined variable: expressNum C:\wamp\www\maka\Application\Admin99\Controller\OrderController.class.php 第 48 行.
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given C:\wamp\www\maka\Application\Admin99\Controller\OrderController.class.php 第 50 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T16:17:59+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=f9442fca944e&expressName=%E5%95%8A%E6%B2%99%E5%8F%91&expressNum=3233
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0040s ]
+SQL: UPDATE `tp_order` SET `expressname`='啊沙发',`expressnum`='3233',`status`='1' WHERE ( orderid = 'f9442fca944e' ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T16:19:02+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=f9442fca944e&expressName=%E5%95%8A%E6%B2%99%E5%8F%91&expressNum=3233
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0040s ]
+SQL: UPDATE `tp_order` SET `expressname`='啊沙发',`expressnum`='3233',`status`='1' WHERE ( orderid = 'f9442fca944e' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T16:19:06+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=f9442fca944e&expressName=%E5%95%8A%E6%B2%99%E5%8F%91&expressNum=3233
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0090s ]
+SQL: UPDATE `tp_order` SET `expressname`='啊沙发',`expressnum`='3233',`status`='1' WHERE ( orderid = 'f9442fca944e' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T16:19:30+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=f9442fca944e&expressName=%E5%95%8A%E6%B2%99%E5%8F%91&expressNum=3233
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0070s ]
+SQL: UPDATE `tp_order` SET `expressname`='啊沙发',`expressnum`='3233',`status`='1' WHERE ( orderid = 'f9442fca944e' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T16:19:56+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=f9442fca944e&expressName=%E5%95%8A%E6%B2%99%E5%8F%91&expressNum=3233
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0050s ]
+SQL: UPDATE `tp_order` SET `expressname`='啊沙发',`expressnum`='3233',`status`='1' WHERE ( orderid = 'f9442fca944e' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T16:20:41+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=f9442fca944e&expressName=%E5%95%8A%E6%B2%99%E5%8F%91&expressNum=3233
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0040s ]
+SQL: UPDATE `tp_order` SET `expressname`='啊沙发',`expressnum`='3233',`status`='1' WHERE ( orderid = 'f9442fca944e' ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-14T16:20:57+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=f9442fca944e&expressName=%E5%95%8A%E6%B2%99%E5%8F%91&expressNum=3233
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0040s ]
+SQL: UPDATE `tp_order` SET `expressname`='啊沙发',`expressnum`='3233',`status`='1' WHERE ( orderid = 'f9442fca944e' ) [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T16:21:16+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=f9442fca944e&expressName=%E5%95%8A%E6%B2%99%E5%8F%91&expressNum=3233
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0050s ]
+SQL: UPDATE `tp_order` SET `expressname`='啊沙发',`expressnum`='3233',`status`='1' WHERE ( orderid = 'f9442fca944e' ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T16:21:16+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=&expressName=%E5%95%8A%E6%B2%99%E5%8F%91&expressNum=3233
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0040s ]
+SQL: UPDATE `tp_order` SET `expressname`='啊沙发',`expressnum`='3233',`status`='1' WHERE ( orderid = '' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T16:21:25+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=f9442fca944e&expressName=%E5%95%8A%E6%B2%99%E5%8F%91&expressNum=3233
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0060s ]
+SQL: UPDATE `tp_order` SET `expressname`='啊沙发',`expressnum`='3233',`status`='1' WHERE ( orderid = 'f9442fca944e' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T16:21:46+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=f9442fca944e&expressName=%E5%95%8A%E6%B2%99%E5%8F%91&expressNum=3233
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0040s ]
+SQL: UPDATE `tp_order` SET `expressname`='啊沙发',`expressnum`='3233',`status`='1' WHERE ( orderid = 'f9442fca944e' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T16:22:06+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=f9442fca944e&expressName=%E5%95%8A%E6%B2%99%E5%8F%91&expressNum=3233
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0050s ]
+SQL: UPDATE `tp_order` SET `expressname`='啊沙发',`expressnum`='3233',`status`='1' WHERE ( orderid = 'f9442fca944e' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T16:22:19+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=f9442fca944e&expressName=%E5%95%8A%E6%B2%99%E5%8F%91&expressNum=3233
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0040s ]
+SQL: UPDATE `tp_order` SET `expressname`='啊沙发',`expressnum`='3233',`status`='1' WHERE ( orderid = 'f9442fca944e' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T16:23:02+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=f9442fca944e&expressName=%E5%95%8A%E6%B2%99%E5%8F%91&expressNum=3233
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0050s ]
+SQL: UPDATE `tp_order` SET `expressname`='啊沙发',`expressnum`='3233',`status`='1' WHERE ( orderid = 'f9442fca944e' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T16:24:25+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=2649acdedd9e&expressName=%E5%95%8A%E6%B2%99%E5%8F%91&expressNum=3233
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0050s ]
+SQL: UPDATE `tp_order` SET `expressname`='啊沙发',`expressnum`='3233',`status`='1' WHERE ( orderid = '2649acdedd9e' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T16:24:44+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=f9442fca944e&expressName=%E5%95%8A%E6%B2%99%E5%8F%91&expressNum=3233
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0040s ]
+SQL: UPDATE `tp_order` SET `expressname`='啊沙发',`expressnum`='3233',`status`='1' WHERE ( orderid = 'f9442fca944e' ) [ RunTime:0.0060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T16:25:10+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=f9442fca944e&expressName=%E5%95%8A%E6%B2%99%E5%8F%91&expressNum=3233
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0060s ]
+SQL: UPDATE `tp_order` SET `expressname`='啊沙发',`expressnum`='3233',`status`='1' WHERE ( orderid = 'f9442fca944e' ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-05-14T16:25:43+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=f9442fca944e&expressName=%E5%95%8A%E6%B2%99%E5%8F%91&expressNum=3233
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0050s ]
+SQL: UPDATE `tp_order` SET `expressname`='啊沙发',`expressnum`='3233',`status`='1' WHERE ( orderid = 'f9442fca944e' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T16:25:44+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=&expressName=%E5%95%8A%E6%B2%99%E5%8F%91&expressNum=3233
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0040s ]
+SQL: UPDATE `tp_order` SET `expressname`='啊沙发',`expressnum`='3233',`status`='1' WHERE ( orderid = '' ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T16:25:59+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=f9442fca944e&expressName=%E5%95%8A%E6%B2%99%E5%8F%91&expressNum=3233
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0050s ]
+SQL: UPDATE `tp_order` SET `expressname`='啊沙发',`expressnum`='3233',`status`='1' WHERE ( orderid = 'f9442fca944e' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T16:26:11+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=f9442fca944e&expressName=%E5%95%8A%E6%B2%99%E5%8F%91&expressNum=3233
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0050s ]
+SQL: UPDATE `tp_order` SET `expressname`='啊沙发',`expressnum`='3233',`status`='1' WHERE ( orderid = 'f9442fca944e' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-05-14T16:26:24+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=f9442fca944e&expressName=%E5%95%8A%E6%B2%99%E5%8F%91&expressNum=3233
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0070s ]
+SQL: UPDATE `tp_order` SET `expressname`='啊沙发',`expressnum`='3233',`status`='1' WHERE ( orderid = 'f9442fca944e' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T16:26:24+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=&expressName=%E5%95%8A%E6%B2%99%E5%8F%91&expressNum=3233
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0040s ]
+SQL: UPDATE `tp_order` SET `expressname`='啊沙发',`expressnum`='3233',`status`='1' WHERE ( orderid = '' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T16:26:25+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=&expressName=%E5%95%8A%E6%B2%99%E5%8F%91&expressNum=3233
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0040s ]
+SQL: UPDATE `tp_order` SET `expressname`='啊沙发',`expressnum`='3233',`status`='1' WHERE ( orderid = '' ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T16:26:25+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=&expressName=%E5%95%8A%E6%B2%99%E5%8F%91&expressNum=3233
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0050s ]
+SQL: UPDATE `tp_order` SET `expressname`='啊沙发',`expressnum`='3233',`status`='1' WHERE ( orderid = '' ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T16:26:25+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=&expressName=%E5%95%8A%E6%B2%99%E5%8F%91&expressNum=3233
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0050s ]
+SQL: UPDATE `tp_order` SET `expressname`='啊沙发',`expressnum`='3233',`status`='1' WHERE ( orderid = '' ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T16:26:41+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=f9442fca944e&expressName=%E5%95%8A%E6%B2%99%E5%8F%91&expressNum=3233
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0050s ]
+SQL: UPDATE `tp_order` SET `expressname`='啊沙发',`expressnum`='3233',`status`='1' WHERE ( orderid = 'f9442fca944e' ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T16:26:41+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=&expressName=%E5%95%8A%E6%B2%99%E5%8F%91&expressNum=3233
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0050s ]
+SQL: UPDATE `tp_order` SET `expressname`='啊沙发',`expressnum`='3233',`status`='1' WHERE ( orderid = '' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T16:26:41+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=&expressName=%E5%95%8A%E6%B2%99%E5%8F%91&expressNum=3233
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0050s ]
+SQL: UPDATE `tp_order` SET `expressname`='啊沙发',`expressnum`='3233',`status`='1' WHERE ( orderid = '' ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T16:27:04+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=f9442fca944e&expressName=%E5%95%8A%E6%B2%99%E5%8F%91&expressNum=3233
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0050s ]
+SQL: UPDATE `tp_order` SET `expressname`='啊沙发',`expressnum`='3233',`status`='1' WHERE ( orderid = 'f9442fca944e' ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T16:27:45+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=f9442fca944e&expressName=%E5%95%8A%E6%B2%99%E5%8F%91&expressNum=3233
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0040s ]
+SQL: UPDATE `tp_order` SET `expressname`='啊沙发',`expressnum`='3233',`status`='1' WHERE ( orderid = 'f9442fca944e' ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T16:27:49+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=f9442fca944e&expressName=%E5%95%8A%E6%B2%99%E5%8F%91&expressNum=3233
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0060s ]
+SQL: UPDATE `tp_order` SET `expressname`='啊沙发',`expressnum`='3233',`status`='1' WHERE ( orderid = 'f9442fca944e' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T16:28:46+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=f9442fca944e&expressName=%E5%95%8A%E6%B2%99%E5%8F%91&expressNum=323333
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0050s ]
+SQL: UPDATE `tp_order` SET `expressname`='啊沙发',`expressnum`='323333',`status`='1' WHERE ( orderid = 'f9442fca944e' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T16:29:19+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=f9442fca944e&expressName=%E5%95%8A%E6%B2%99%E5%8F%91&expressNum=323333333
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0040s ]
+SQL: UPDATE `tp_order` SET `expressname`='啊沙发',`expressnum`='323333333',`status`='1' WHERE ( orderid = 'f9442fca944e' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T16:29:27+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=f9442fca944e&expressName=%E5%95%8A%E6%B2%99%E5%8F%91&expressNum=000000000000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0040s ]
+SQL: UPDATE `tp_order` SET `expressname`='啊沙发',`expressnum`='000000000000',`status`='1' WHERE ( orderid = 'f9442fca944e' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T16:29:43+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=f9442fca944e&expressName=%E5%95%8A%E6%B2%99%E5%8F%91&expressNum=33333333333
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0040s ]
+SQL: UPDATE `tp_order` SET `expressname`='啊沙发',`expressnum`='33333333333',`status`='1' WHERE ( orderid = 'f9442fca944e' ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-14T16:30:01+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=f9442fca944e&expressName=%E5%95%8A%E6%B2%99%E5%8F%91&expressNum=3333
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0040s ]
+SQL: UPDATE `tp_order` SET `expressname`='啊沙发',`expressnum`='3333',`status`='1' WHERE ( orderid = 'f9442fca944e' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T16:30:21+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=f9442fca944e&expressName=%E5%95%8A%E6%B2%99%E5%8F%91&expressNum=3323332
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0040s ]
+SQL: UPDATE `tp_order` SET `expressname`='啊沙发',`expressnum`='3323332',`status`='1' WHERE ( orderid = 'f9442fca944e' ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T16:30:59+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=f9442fca944e&expressName=%E5%95%8A%E6%B2%99%E5%8F%91&expressNum=23
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0040s ]
+SQL: UPDATE `tp_order` SET `expressname`='啊沙发',`expressnum`='23',`status`='1' WHERE ( orderid = 'f9442fca944e' ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-05-14T16:31:15+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=f9442fca944e&expressName=%E7%94%B3%E9%80%9A&expressNum=23
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0060s ]
+SQL: UPDATE `tp_order` SET `expressname`='申通',`expressnum`='23',`status`='1' WHERE ( orderid = 'f9442fca944e' ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T16:36:38+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Confirm?orderid=45s
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0060s ]
+SQL: UPDATE `tp_order` SET `status`='1' WHERE ( orderid = '45s' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T19:39:22+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=saf321&expressName=%E9%A1%BA%E4%B8%B0&expressNum=AS46ASWE
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0040s ]
+SQL: UPDATE `tp_order` SET `expressname`='顺丰',`expressnum`='AS46ASWE',`status`='1',`senttime`='1431603562' WHERE ( orderid = 'saf321' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T20:09:50+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=saf321&expressName=%E9%A1%BA%E4%B8%B0&expressNum=AS46ASWE
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0050s ]
+SQL: UPDATE `tp_order` SET `expressname`='顺丰',`expressnum`='AS46ASWE',`status`='1',`senttime`='1431605390' WHERE ( orderid = 'saf321' ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-14T20:09:54+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/sent?orderid=12&expressName=%E9%A1%BA%E4%B8%B0&expressNum=AS46ASWE
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0060s ]
+SQL: UPDATE `tp_order` SET `expressname`='顺丰',`expressnum`='AS46ASWE',`status`='1',`senttime`='1431605394' WHERE ( orderid = '12' ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T20:13:15+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/undefined/Delete?orderid=3241
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:undefined
+
+[ 2015-05-14T20:13:19+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/undefined/Delete?orderid=3241
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:undefined
+
+[ 2015-05-14T20:15:17+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/12/Delete?orderid=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:12
+
+[ 2015-05-14T20:15:20+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/3241/Delete?orderid=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:3241
+
+[ 2015-05-14T20:15:23+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/3241/Delete?orderid=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:3241
+
+[ 2015-05-14T20:15:58+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/45s/Delete?orderid=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:45s
+
+[ 2015-05-14T20:16:48+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/12/Delete?orderid=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:12
+
+[ 2015-05-14T20:16:50+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/12/Delete?orderid=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+ERR: 非法操作:12
+
+[ 2015-05-14T20:17:00+08:00 ] 127.0.0.1 /maka/index.php/Admin99/User/3241/Delete?orderid=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:3241
+
+[ 2015-05-14T20:17:51+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Delete?orderid=3241
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0060s ]
+SQL: DELETE FROM `tp_order` WHERE ( orderid = '3241' ) [ RunTime:0.0260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T20:18:13+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Delete?orderid=45s
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0050s ]
+SQL: DELETE FROM `tp_order` WHERE ( orderid = '45s' ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-14T20:19:28+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Delete?orderid=2352dasg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.0070s ]
+SQL: DELETE FROM `tp_order` WHERE ( orderid = '2352dasg' ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T20:31:14+08:00 ] 127.0.0.1 /maka/index.php/Admin99
+ERR: 非法操作:index
+
+[ 2015-05-14T20:46:49+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Modify/orderid/saf321
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'orderid' inconnu dans where clause
+
+[ 2015-05-14T20:47:34+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Modify/orderid/saf321
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'orderid' inconnu dans where clause
+
+[ 2015-05-14T20:47:34+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Modify/orderid/saf321
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'orderid' inconnu dans where clause
+
+[ 2015-05-14T20:47:35+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Modify/orderid/saf321
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'orderid' inconnu dans where clause
+
+[ 2015-05-14T20:47:35+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Modify/orderid/saf321
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'orderid' inconnu dans where clause
+
+[ 2015-05-14T20:57:57+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Modify/orderid/saf321
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'tp_order.productid' inconnu dans on clause
+
+[ 2015-05-14T20:58:50+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Modify/orderid/saf321
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'tp_order.productid' inconnu dans on clause
+
+[ 2015-05-14T20:59:35+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Modify/orderid/saf321
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ '__ORDER__.orderid' inconnu dans where clause
+
+[ 2015-05-14T20:59:35+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Modify/orderid/saf321
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ '__ORDER__.orderid' inconnu dans where clause
+
+[ 2015-05-14T20:59:36+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Modify/orderid/saf321
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ '__ORDER__.orderid' inconnu dans where clause
+
+[ 2015-05-14T21:00:05+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Modify/orderid/saf321
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'tp_order.productid' inconnu dans on clause
+
+[ 2015-05-14T21:00:06+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Modify/orderid/saf321
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'tp_order.productid' inconnu dans on clause
+
+[ 2015-05-14T21:00:39+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Modify/orderid/saf321
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'tp_order.productid' inconnu dans on clause
+
+[ 2015-05-14T21:00:39+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Modify/orderid/saf321
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'tp_order.productid' inconnu dans on clause
+
+[ 2015-05-14T21:00:39+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Modify/orderid/saf321
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'tp_order.productid' inconnu dans on clause
+
+[ 2015-05-14T21:00:40+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Modify/orderid/saf321
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'tp_order.productid' inconnu dans on clause
+
+[ 2015-05-14T21:00:49+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Modify/orderid/saf321
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'tp_order.id' inconnu dans on clause
+
+[ 2015-05-14T21:00:50+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Order/Modify/orderid/saf321
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'tp_order.id' inconnu dans on clause
+
