@@ -65,7 +65,7 @@
         <div class="admin-bread">
             <span>您好，<font style="color:red" ><?php echo (session('useradmin')); ?> </font>，欢迎您。</span>
             <ul class="bread">
-                <li><a href="index.html" class="icon-home"> 开始</a></li>
+                 <li><a href="/maka/index.php/Admin99/User" class="icon-home"> 开始</a></li>
                 
                 <li>订单管理</li>
             </ul>
@@ -102,6 +102,7 @@
             <input type="button" class="button button-small border-yellow" value="批量删除" />
            
         </div>
+	
         <table class="table table-hover" border=1 style="text-align:center">
         	<tr><th width="35">选择</th>
 			<th width="10%">订单号</th><th width="120">产品名字*盒数--总价格</th><th width="30">客户名</th><th width="100">联系电话</th><th width="100">联系地址</th><th width="20">付款方式</th><th width="100">用户留言</th><th width="20">下单时间</th><th width="60">订单状态</th><th width="100">快递公司--单号</th><th width="100">操作</th></tr>

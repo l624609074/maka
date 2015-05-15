@@ -53,24 +53,24 @@
 </div>
 
 <div class="admin">
-	<form method="post">
+	
     <div class="panel admin-panel">
+	<form action="__MODULE__/Order/doModify" method="POST">
+	
 				  <table class="table table-hover" border=1 style="text-align:center">
-        	<tr><th width="35">选择</th>
-			<th width="10%">订单号</th><th width="120">产品名字*盒数--总价格</th><th width="30">客户名</th><th width="100">联系电话</th><th width="100">联系地址</th><th width="100">用户留言</th><th width="20">下单时间</th><th width="60">订单状态</th><th width="100">快递公司</th><th width="100">快递单号</th></tr>
-            
+        	
+		
+            	<input type="hidden" value="<{$hiddenOrderid}>" name="orderid" />
 				<foreach name="data" item="vo" >
-					<tr>
-						
-						<td><{$vo.orderid}></td><td>
-							<select name="productname">
+			<tr><td width="50%">订单号</td><td><{$vo.orderid}></td></tr>
+			<tr><td width="50%">产品名字*盒数--总价格</td><td><select name="productid">
 							<foreach name="productData" item="v">
-								
+							
 							
 									<if  condition="$v['id'] eq $vo['productid']" >
-											<option selected>已选中--<{$v.productname}>/￥<{$v.price}></option>
+											<option selected value="<{$v.id}>">已选中--<{$v.productname}>/￥<{$v.price}></option>
 											<else/>
-											<option><{$v.productname}>/￥<{$v.price}></option>
+											<option value="<{$v.id}>"><{$v.productname}>/￥<{$v.price}></option>
 									
 									</if>
 									
@@ -78,43 +78,45 @@
 									
 							</foreach>
 							</select>
+						</td></tr>
+			<tr><td width="50%">客户名</td><td><input type="text" value="<{$vo.name}>" name="name" /></td></tr>
+			<tr><td width="50%">联系电话</td><td><input type="text" value="<{$vo.contact}>" name="contact" /></td></tr>
+			<tr><td width="50%">联系地址</td><td><input type="text" value="<{$vo.address}>" name="address" /></td></tr>
+			<tr><td width="50%">用户留言</td><td><textarea name="word"  ><{$vo.word}></textarea></td></tr>
+			<tr><td width="50%">付款方式</td><td><{$vo.payment}></td></tr>
+			<tr><td width="50%">下单时间</td><td><{$vo.ordertime|date="Y-m-d h:i:s",###}></td></tr>
+			<tr><td width="50%">订单状态</td><td><select name="status">
+							
 						
-						
-						
-						
-						
-						</td><td><{$vo.name}></td><td><{$vo.contact}></td><td><{$vo.address}></td><td><{$vo.payment}></td><td>
-						
-							<if condition="strlen($vo['word']) gt 30 ">
-									<{$vo.word|substr=0,30}><a href="" ><font color="red">...查看更多</font></a>
-							<else /> 
-									<{$vo.word}>
-							</if>
-					
-						
-				</td><td><{$vo.ordertime|date="Y-m-d h:i:s",###}></td>
-				<td >
 					
 					    <switch name="vo.status">
-								<case value="0"><span id="<{$vo.orderid}>" ><font color="red">未确认</font></span></case>
-								<case value="1"><span id="<{$vo.orderid}>" ><font color="blue">已确认</font></span></case>
-								<case value="2"><span id="<{$vo.orderid}>" ><font color="green">已发货</font></span></case>
+								<case value="0"><option value="0">--已选中--未确认</option></case>
+								<case value="1"><option value="1">--已选中--已确认</option></case>
+								<case value="2"><option value="2">--已选中--已发货</option></case>
 								<default />
 					</switch>
-					
-				</td>
-
-				<td><{$vo.expressname}>--<{$vo.expressnum}></td>		
-						<td>
-							<a class="button border-blue button-little" href="#" onclick="orderAction('Confirm','<{$vo.orderid}>','__MODULE__/Order')" >确认</a> 
-							<a class="button border-green button-little" href="#" onclick="showBg('<{$vo.orderid}>')" >发货</a>
-							<a class="button border-yellow button-little" href="__MODULE__/Order/Modify/orderid/<{$vo.orderid}>"  onclick="" >修改</a>
-							<a class="button border-red button-little" href="javascript:orderAction('Delete','<{$vo.orderid}>','__MODULE__/Order')" onclick="{if(confirm('确认删除?')){return true;}return false;}">删除</a>
+							<option value="0">
+									--未确认--
 							
-			
-						</td>
+							</option>
+							<option value="1">
+									--已确认--
+							
+							</option>
+							<option value="2">
+									--已发货--
+							
+							</option>
+					
+					
+						</select></td></tr>
+			<tr><td width="50%">快递公司</td><td><input  name="expressname" value="<{$vo.expressname}>"/></td></tr>
+			<tr><td width="50%">快递单号</td><td><input  name="expressnum" value="<{$vo.expressnum}>"/></td></tr>
+			<tr><td width="50%">操作</td><td><input type="submit"  value="确认修改" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" onclick="javascript:history.go(-1);" value="返回" /> </td></tr>
+				
+	
 						
-					</tr>
+					
 				</foreach>
 		
 			
@@ -125,8 +127,9 @@
 		
 		
 		</table>
+		    </form>
     </div>
-    </form>
+
     <br />
 
     <p class="text-center">Power By Blues &copy; 2015</p>

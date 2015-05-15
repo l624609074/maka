@@ -53,53 +53,53 @@
 </div>
 
 <div class="admin">
-	<form method="post">
+	
     <div class="panel admin-panel">
+	<form action="/maka/index.php/Admin99/Order/doModify" method="POST">
+	
 				  <table class="table table-hover" border=1 style="text-align:center">
-        	<tr><th width="35">选择</th>
-			<th width="10%">订单号</th><th width="120">产品名字*盒数--总价格</th><th width="30">客户名</th><th width="100">联系电话</th><th width="100">联系地址</th><th width="100">用户留言</th><th width="20">下单时间</th><th width="60">订单状态</th><th width="100">快递公司</th><th width="100">快递单号</th></tr>
-            
-				<?php if(is_array($data)): foreach($data as $key=>$vo): ?><tr>
-						
-						<td><?php echo ($vo["orderid"]); ?></td><td>
-							<select name="productname">
-							<?php if(is_array($productData)): foreach($productData as $key=>$v): if($v['id'] == $vo['productid']): ?><option selected>已选中--<?php echo ($v["productname"]); ?>/￥<?php echo ($v["price"]); ?></option>
+        	
+		
+            	<input type="hidden" value="<?php echo ($hiddenOrderid); ?>" name="orderid" />
+				<?php if(is_array($data)): foreach($data as $key=>$vo): ?><tr><td width="50%">订单号</td><td><?php echo ($vo["orderid"]); ?></td></tr>
+			<tr><td width="50%">产品名字*盒数--总价格</td><td><select name="productid">
+							<?php if(is_array($productData)): foreach($productData as $key=>$v): if($v['id'] == $vo['productid']): ?><option selected value="<?php echo ($v["id"]); ?>">已选中--<?php echo ($v["productname"]); ?>/￥<?php echo ($v["price"]); ?></option>
 											<?php else: ?>
-											<option><?php echo ($v["productname"]); ?>/￥<?php echo ($v["price"]); ?></option><?php endif; endforeach; endif; ?>
+											<option value="<?php echo ($v["id"]); ?>"><?php echo ($v["productname"]); ?>/￥<?php echo ($v["price"]); ?></option><?php endif; endforeach; endif; ?>
 							</select>
-						
-						
-						
-						
-						
-						</td><td><?php echo ($vo["name"]); ?></td><td><?php echo ($vo["contact"]); ?></td><td><?php echo ($vo["address"]); ?></td><td><?php echo ($vo["payment"]); ?></td><td>
-						
-							<?php if(strlen($vo['word']) > 30 ): echo (substr($vo["word"],0,30)); ?><a href="" ><font color="red">...查看更多</font></a>
-							<?php else: ?> 
-									<?php echo ($vo["word"]); endif; ?>
-					
-						
-				</td><td><?php echo (date("Y-m-d h:i:s",$vo["ordertime"])); ?></td>
-				<td >
-					
-					    <?php switch($vo["status"]): case "0": ?><span id="<?php echo ($vo["orderid"]); ?>" ><font color="red">未确认</font></span><?php break;?>
-								<?php case "1": ?><span id="<?php echo ($vo["orderid"]); ?>" ><font color="blue">已确认</font></span><?php break;?>
-								<?php case "2": ?><span id="<?php echo ($vo["orderid"]); ?>" ><font color="green">已发货</font></span><?php break;?>
-								<?php default: endswitch;?>
-					
-				</td>
-
-				<td><?php echo ($vo["expressname"]); ?>--<?php echo ($vo["expressnum"]); ?></td>		
-						<td>
-							<a class="button border-blue button-little" href="#" onclick="orderAction('Confirm','<?php echo ($vo["orderid"]); ?>','/maka/index.php/Admin99/Order')" >确认</a> 
-							<a class="button border-green button-little" href="#" onclick="showBg('<?php echo ($vo["orderid"]); ?>')" >发货</a>
-							<a class="button border-yellow button-little" href="/maka/index.php/Admin99/Order/Modify/orderid/<?php echo ($vo["orderid"]); ?>"  onclick="" >修改</a>
-							<a class="button border-red button-little" href="javascript:orderAction('Delete','<?php echo ($vo["orderid"]); ?>','/maka/index.php/Admin99/Order')" onclick="{if(confirm('确认删除?')){return true;}return false;}">删除</a>
+						</td></tr>
+			<tr><td width="50%">客户名</td><td><input type="text" value="<?php echo ($vo["name"]); ?>" name="name" /></td></tr>
+			<tr><td width="50%">联系电话</td><td><input type="text" value="<?php echo ($vo["contact"]); ?>" name="contact" /></td></tr>
+			<tr><td width="50%">联系地址</td><td><input type="text" value="<?php echo ($vo["address"]); ?>" name="address" /></td></tr>
+			<tr><td width="50%">用户留言</td><td><textarea name="word" ><?php echo ($vo["word"]); ?></textarea></td></tr>
+			<tr><td width="50%">付款方式</td><td><?php echo ($vo["payment"]); ?></td></tr>
+			<tr><td width="50%">下单时间</td><td><?php echo (date("Y-m-d h:i:s",$vo["ordertime"])); ?></td></tr>
+			<tr><td width="50%">订单状态</td><td><select name="status">
 							
-			
-						</td>
 						
-					</tr><?php endforeach; endif; ?>
+					
+					    <?php switch($vo["status"]): case "0": ?><option value="0">--已选中--未确认</option><?php break;?>
+								<?php case "1": ?><option value="1">--已选中--已确认</option><?php break;?>
+								<?php case "2": ?><option value="2">--已选中--已发货</option><?php break;?>
+								<?php default: endswitch;?>
+							<option value="0">
+									--未确认--
+							
+							</option>
+							<option value="1">
+									--已确认--
+							
+							</option>
+							<option value="2">
+									--已发货--
+							
+							</option>
+					
+					
+						</select></td></tr>
+			<tr><td width="50%">快递公司</td><td><input  name="expressname" value="<?php echo ($vo["expressname"]); ?>"/></td></tr>
+			<tr><td width="50%">快递单号</td><td><input  name="expressnum" value="<?php echo ($vo["expressnum"]); ?>"/></td></tr>
+			<tr><td width="50%">操作</td><td><input type="submit"  value="确认修改" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" onclick="javascript:history.go(-1);" value="返回" /> </td></tr><?php endforeach; endif; ?>
 		
 			
 			
@@ -109,8 +109,9 @@
 		
 		
 		</table>
+		    </form>
     </div>
-    </form>
+
     <br />
 
     <p class="text-center">Power By Blues &copy; 2015</p>
