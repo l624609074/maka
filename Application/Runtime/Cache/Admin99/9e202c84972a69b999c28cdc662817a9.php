@@ -30,9 +30,9 @@ $(function(){
 			<input type="text" name="username" value=""  style="height:45px; width:210px; border:0;  margin-top:115px; margin-left:50px; font-size:18px; color:#666; background:none; font:'微软雅黑' #666;"/>
 			<input type="password" name="password"  value="" style="height:45px; width:210px;  margin-top:31px; border:0; margin-left:50px; font-size:18px; color:#666; background:none; font:'微软雅黑' #666;"/>
 			<div class="block">
-			<input type="text" name="verify" style="height:45px; width:85px; border:0; position:relative; top:-16px; font-size:18px; color:#666; background:none; font:'微软雅黑' #666;"/><img src="/maka/index.php/Admin99/Verify/getVerifyCode"  style=" width:100px; height:45px; padding-left:26px;cursor:pointer" id="verifyImg" />
+			<input type="text" name="verify" style="height:45px; width:85px; border:0; position:relative; top:-16px; font-size:18px; color:#666; background:none; font:'微软雅黑' #666;"/><img src="/maka/index.php/Admin99/Verify/getVerifyCode"  style=" width:100px; height:45px; padding-left:206px;cursor:pointer" id="verifyImg" />
 			<br />
-			<input type="submit" style="border:0;background:none; text-indent:99999px; margin-top:28px;  width:266px; height:34px; cursor:pointer;position:relative;top:-22px;margin-left:-50px" />
+			<input type="submit" style="border:1;background:none; text-indent:99999px; margin-top:28px;  width:266px; height:34px; cursor:pointer;position:relative;top:-22px;margin-left:-50px" />
 		  </label>
         </form>
 	  </div>

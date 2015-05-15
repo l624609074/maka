@@ -13,6 +13,7 @@
 			$order=M("order");	
 			$orderid=I("get.orderid");
 			$data["status"]=1;
+			$data["customer"]=session("useradmin");
 			if($order->where("orderid = '{$orderid}'")->save($data)){
 				echo $orderid;
 				
@@ -34,10 +35,12 @@
 			$orderid=I("get.orderid");
 			 $expressname=I("get.expressName");
 			 $expressnum=I("get.expressNum");
+			 $customer=session("useradmin");
 			$data["expressname"]=$expressname;
 			$data["expressnum"]=$expressnum;
 			$data["status"]=2;
 			$data["senttime"]=NOW_TIME;
+			$data["customer"]= $customer;
 			if($order->where("orderid = '{$orderid}'")->save($data)){
 		
 				
@@ -167,12 +170,12 @@
 							$Start=I("get.Start");
 							$End=I("get.End");
 							//转换时间戳
-							$str1="00:00:00";
-							$str2="23:59:59";
-							$StartStr=$Start.$str1;
-							$EndStr=$End.$str2;
+							$str1=" 00:00:00";
+							$str2=" 23:59:59";
+							 $StartStr=$Start.$str1;
+							 $EndStr=$End.$str2;
 							$StartUnix=strtotime($StartStr);
-							$EndUnix=strtotime($EndUnix);
+							$EndUnix=strtotime($EndStr);
 							$where="ordertime between '{$StartUnix}' and '{$EndUnix}'";
 						
 				
