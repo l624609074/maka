@@ -11,7 +11,7 @@ Class CommonLoginController extends Controller {        //继承基本的user类
 		  
 		    if(!session('useradmin')){
 		  	
-				$this->redirect("Login/login");
+				$this->redirect("Login/Login");
 		   
 			} 
 		   

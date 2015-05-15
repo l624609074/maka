@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta name="renderer" content="webkit">
-    <title>99培元-后台管理</title>
+    <title>99培元-后台订单修改管理</title>
     <link rel="stylesheet" href="/maka/Public/Admin/css/pintuer.css">
     <link rel="stylesheet" href="/maka/Public/Admin/css/admin.css">
     <link rel="stylesheet" href="/maka/Public/Admin/css/float.css">
@@ -71,7 +71,7 @@
 			<tr><td width="50%">客户名</td><td><input type="text" value="<?php echo ($vo["name"]); ?>" name="name" /></td></tr>
 			<tr><td width="50%">联系电话</td><td><input type="text" value="<?php echo ($vo["contact"]); ?>" name="contact" /></td></tr>
 			<tr><td width="50%">联系地址</td><td><input type="text" value="<?php echo ($vo["address"]); ?>" name="address" /></td></tr>
-			<tr><td width="50%">用户留言</td><td><textarea name="word" ><?php echo ($vo["word"]); ?></textarea></td></tr>
+			<tr><td width="50%">用户留言</td><td><textarea name="word"  ><?php echo ($vo["word"]); ?></textarea></td></tr>
 			<tr><td width="50%">付款方式</td><td><?php echo ($vo["payment"]); ?></td></tr>
 			<tr><td width="50%">下单时间</td><td><?php echo (date("Y-m-d h:i:s",$vo["ordertime"])); ?></td></tr>
 			<tr><td width="50%">订单状态</td><td><select name="status">

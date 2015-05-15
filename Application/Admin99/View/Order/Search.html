@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta name="renderer" content="webkit">
-    <title>99培元-后台管理</title>
+    <title>99培元-后台搜索管理</title>
     <link rel="stylesheet" href="__PUBLIC__/Admin/css/pintuer.css">
     <link rel="stylesheet" href="__PUBLIC__/Admin/css/admin.css">
     <link rel="stylesheet" href="__PUBLIC__/Admin/css/float.css">
@@ -57,7 +57,7 @@
               
               
                 <li class="active"><a href="content.html" class="icon-shopping-cart" class="icon-file-text" > 订单管理</a>
-					<ul><li><a href="#"> </a></li><li class="active"><a href="#">订单管理</a></li><li><a href="__MODULE__/Order/Search">订单搜索</a></li><li><a href="#">产品设定</a></li></ul>
+					<ul><li><a href="#"> </a></li><li class="active"><a href="#">订单管理</a></li><li><a href="#">订单搜索</a></li><li><a href="#">产品设定</a></li></ul>
                 </li>
                
             </ul>
@@ -92,73 +92,35 @@
 </div> 
 </div> 
 <div class="admin">
-	<form method="post">
-    <div class="panel admin-panel">
-    	<div class="panel-head"><strong>订单列表</strong></div>
-        <div class="padding border-bottom">
-            <input type="button" class="button button-small checkall" name="checkall" checkfor="id" value="全选" />
-			 <input type="button" class="button button-small border-blue" value="批量确认" />
-            <input type="button" class="button button-small border-green" value="批量发货" />
-            <input type="button" class="button button-small border-yellow" value="批量删除" />
-           
-        </div>
-	
-        <table class="table table-hover" border=1 style="text-align:center">
-        	<tr><th width="35">选择</th>
-			<th width="10%">订单号</th><th width="120">产品名字*盒数--总价格</th><th width="30">客户名</th><th width="100">联系电话</th><th width="100">联系地址</th><th width="20">付款方式</th><th width="100">用户留言</th><th width="20">下单时间</th><th width="60">订单状态</th><th width="100">快递公司--单号</th><th width="100">操作</th></tr>
-            
-				<foreach name="data" item="vo" >
-					<tr>
-						<td><input type="checkbox" name="orderid" value="<{$vo.orderid}>" /></td>
-						<td><{$vo.orderid}></td><td><{$vo.productname}>--<{$vo.price}></td><td><{$vo.name}></td><td><{$vo.contact}></td><td><{$vo.address}></td><td><{$vo.payment}></td><td>
+	<center>
+	<h2>订单搜索页面</h2><br/><br/><br/>
+		<form method="get" action="__MODULE__/Order/DoSearch">
+					<select name="SearchType">
 						
-							<if condition="strlen($vo['word']) gt 30 ">
-									<{$vo.word|substr=0,30}><a href="__MODULE__/Order/Modify/orderid/<{$vo.orderid}>" ><font color="red">...查看更多</font></a>
-							<else /> 
-									<{$vo.word}>
-							</if>
+						<option value="OrderId" >订单号</option>
+						<option value="NoConfirm" >未确定</option>
+							<option value="Confirm" >确定</option>
+						<option value="Sented" >已发货</option>
 					
+						<option value="ExpressNum" >快递单号</option>
+						<option value="Contact" >电话</option>
+						<option value="Name" >姓名</option>
+						<option value="Date" >日期筛选</option>
 						
-				</td><td><{$vo.ordertime|date="Y-m-d h:i:s",###}></td>
-				<td >
-					
-					    <switch name="vo.status">
-								<case value="0"><span id="<{$vo.orderid}>" ><font color="red">未确认</font></span></case>
-								<case value="1"><span id="<{$vo.orderid}>" ><font color="blue">已确认</font></span></case>
-								<case value="2"><span id="<{$vo.orderid}>" ><font color="green">已发货</font></span></case>
-								<default />
-					</switch>
-					
-				</td>
+			
+						
+					</select><br/>
+		<input type="text" name="OrderId" placeholder="订单号"/><br/>
+		<input type="text" name="ExpressNum" placeholder="快递单号"/><br/>
+		<input type="text" name="Contact" placeholder="电话"/><br/>
+		<input type="text" name="Name" placeholder="姓名"/><br/>
+		开始日期<input type="text" name="Start" placeholder="请输入格式2015-01-01"/>结束日期<input type="text" name="End" placeholder="请输入格式2015-01-01"/>
+		<input type="submit" />
+		</form>
 
-				<td><{$vo.expressname}>--<{$vo.expressnum}></td>		
-						<td>
-							<a class="button border-blue button-little" href="#" onclick="orderAction('Confirm','<{$vo.orderid}>','__MODULE__/Order')" >确认</a> 
-							<a class="button border-green button-little" href="#" onclick="showBg('<{$vo.orderid}>')" >发货</a>
-							<a class="button border-yellow button-little" href="__MODULE__/Order/Modify/orderid/<{$vo.orderid}>"  onclick="" >修改</a>
-							<a class="button border-red button-little" href="javascript:orderAction('Delete','<{$vo.orderid}>','__MODULE__/Order')" onclick="{if(confirm('确认删除?')){return true;}return false;}">删除</a>
-							
-			
-						</td>
-						
-					</tr>
-				</foreach>
-		
-			
-			
-			
-			
-        
-		
-		
-		</table>
-        <div class="panel-foot text-center">
-			  <div class="pagination pagination-large"><{$show}></div>
-		
-        
-        </div>
-    </div>
-    </form>
+</center>
+
+
     <br />
 
     <p class="text-center">Power By Blues &copy; 2015</p>

@@ -5,7 +5,7 @@ Class LoginController extends CommonLoginController {        //继承基本的us
 	
 		public function index(){
 			
-			$this->display("login");
+			$this->display("Login");
 			
 		}
 		public function doLogin(){
@@ -16,7 +16,7 @@ Class LoginController extends CommonLoginController {        //继承基本的us
 		$verify=D("Verify"); 
 
 		if(!$verify->create()){
-			$this->error($verify->getError(),'login');	
+			$this->error($verify->getError(),'Login');	
 			
 		} 
 		$user=M("user");
@@ -49,7 +49,7 @@ Class LoginController extends CommonLoginController {        //继承基本的us
 			$user->save($updateData);
 			$this->success('登陆成功！跳转中.....',U('User/Index'));
 		}else{
-			$this->error("抱歉！您输入账号或者密码错误！请重新输入！如有疑问请联系管理员，谢谢合作！",'login');
+			$this->error("抱歉！您输入账号或者密码错误！请重新输入！如有疑问请联系管理员，谢谢合作！",'Login');
 			
 		}
 

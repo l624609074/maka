@@ -111,11 +111,96 @@
 			}
 			
 	
-			
-		}
-
-		//查
+	}
 		
+
+
+		public function Search(){
+				$this->display();
+			
+			}
+		public function DoSearch(){
+				$order=M("order");
+				$SearchType=I("get.SearchType");
+				switch($SearchType){       
+					case "NoConfirm":    //未确定订单
+							$where="status=0";
+						
+				
+						break;	
+						case "Confirm":    //确定订单
+							$where="status=1";
+						
+				
+						break;
+						case "Sented":    //已经发货的订单
+							$where="status=2";
+						
+				
+						break;
+						case "ExpressNum":    //快递单号搜索
+							$ExpressNum=I("get.ExpressNum");
+							$where="ExpressNum like '%{$ExpressNum}%'";
+						
+				
+						break;	
+						case "Name":    //名字搜索
+							$Name=I("get.Name");
+							$where="Name like '%{$Name}%'";
+						
+				
+						break;
+						case "OrderId":    //订单号搜索
+							$OrderId=I("get.OrderId");
+							$where="OrderId like '%{$OrderId}%'";
+						
+				
+						break;	
+						case "Contact":    //电话搜索
+							$Contact=I("get.Contact");
+							$where="Contact like '%{$Contact}%'";
+						
+				
+						break;
+						case "Date":    //日期范围搜索
+						date_default_timezone_set("PRC"); 
+							$Start=I("get.Start");
+							$End=I("get.End");
+							//转换时间戳
+							$str1="00:00:00";
+							$str2="23:59:59";
+							$StartStr=$Start.$str1;
+							$EndStr=$End.$str2;
+							$StartUnix=strtotime($StartStr);
+							$EndUnix=strtotime($EndUnix);
+							$where="ordertime between '{$StartUnix}' and '{$EndUnix}'";
+						
+				
+						break;
+					
+					
+					
+					
+					
+				}
+			
+			
+		$data = $order->join("LEFT JOIN __PRODUCTS__ ON __ORDER__.productid=__PRODUCTS__.id")->where($where)->order('ordertime')->page($_GET['p'].',8')->select();
+		$count = $order->join("LEFT JOIN __PRODUCTS__ ON __ORDER__.productid=__PRODUCTS__.id")->where($where)->count();
 	
-	
+		
+		$Page       = new \Think\Page($count,8);// 实例化分页类 传入总记录数和每页显示的记录数
+		
+		$show       = $Page->show();// 分页显示输出// 进行分页数据查询 注意limit方法的参数要使用Page类的属性
+		$this->assign('data',$data);// 赋值数据集$this->assign('page',$show);// 赋值分页输出
+		$this->assign('show',$show);// 赋值数据集$this->assign('page',$show);// 赋值分页输出
+		$this->display();
+		}
+		
+		
+		
+		
+		
+		
+		
 	}
