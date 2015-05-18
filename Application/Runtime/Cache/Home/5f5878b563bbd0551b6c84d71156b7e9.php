@@ -2,6 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- <meta http-equiv="refresh" content="0.1;url=http://www.99peiyuan.com/ejiao/"> -->
 <title>315认证网站</title>
 <link href="/maka/Public/pcmaka/images/css/style.css" rel="stylesheet" type="text/css" charset="utf-8" />
 <script src="/maka/Public/pcmaka/images/js/jquery.min.js"></script>

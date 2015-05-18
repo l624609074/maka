@@ -59,8 +59,9 @@
 	
 				  <table class="table table-hover" border=1 style="text-align:center">
         	
-		
+				
             	<input type="hidden" value="<?php echo ($hiddenOrderid); ?>" name="orderid" />
+            	<input type="hidden" value="<?php echo (session('useradmin')); ?>" name="operator" />
 				<?php if(is_array($data)): foreach($data as $key=>$vo): ?><tr><td width="50%">订单号</td><td><?php echo ($vo["orderid"]); ?></td></tr>
 			<tr><td width="50%">产品名字*盒数--总价格</td><td><select name="productid">
 							<?php if(is_array($productData)): foreach($productData as $key=>$v): if($v['id'] == $vo['productid']): ?><option selected value="<?php echo ($v["id"]); ?>">已选中--<?php echo ($v["productname"]); ?>/￥<?php echo ($v["price"]); ?></option>

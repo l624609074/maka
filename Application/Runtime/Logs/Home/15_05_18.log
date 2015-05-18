@@ -13,3 +13,30 @@ ERR: 无法加载控制器:Public
 [ 2015-05-18T11:06:58+08:00 ] 127.0.0.1 /maka/Public/pcmaka/images/cd-top-arrow.svg
 ERR: 无法加载控制器:Public
 
+[ 2015-05-18T17:00:13+08:00 ] 127.0.0.1 /maka/index.php/maka/index.php/Admin99/Login/Login.html.html
+ERR: 无法加载控制器:Maka
+
+[ 2015-05-18T17:00:22+08:00 ] 127.0.0.1 /maka/index.php/maka/index.php/Admin99/Login/Login.html.html
+ERR: 无法加载控制器:Maka
+
+[ 2015-05-18T17:00:22+08:00 ] 127.0.0.1 /maka/index.php/maka/index.php/Admin99/Login/Login.html.html
+ERR: 无法加载控制器:Maka
+
+[ 2015-05-18T17:00:23+08:00 ] 127.0.0.1 /maka/index.php/maka/index.php/Admin99/Login/Login.html.html
+ERR: 无法加载控制器:Maka
+
+[ 2015-05-18T17:00:23+08:00 ] 127.0.0.1 /maka/index.php/maka/index.php/Admin99/Login/Login.html.html
+ERR: 无法加载控制器:Maka
+
+[ 2015-05-18T17:02:06+08:00 ] 127.0.0.1 /maka/index.php/maka/index.php/Admin99/Index/Login.html.html
+ERR: 无法加载控制器:Maka
+
+[ 2015-05-18T17:02:31+08:00 ] 127.0.0.1 /maka/index.php/maka/index.php/Admin99/Index/Login.html.html
+ERR: 无法加载控制器:Maka
+
+[ 2015-05-18T17:02:32+08:00 ] 127.0.0.1 /maka/index.php/maka/index.php/Admin99/Index/Login.html.html
+ERR: 无法加载控制器:Maka
+
+[ 2015-05-18T17:02:32+08:00 ] 127.0.0.1 /maka/index.php/maka/index.php/Admin99/Index/Login.html.html
+ERR: 无法加载控制器:Maka
+

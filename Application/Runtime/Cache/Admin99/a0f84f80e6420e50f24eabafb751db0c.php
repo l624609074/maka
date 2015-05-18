@@ -136,7 +136,7 @@
 			
 						</td>
 						
-					<td width="50"><?php echo (session('useradmin')); ?></td>
+					<td width="50"><?php echo ($vo["operator"]); ?></td>
 				
 		
 			</tr><?php endforeach; endif; ?>

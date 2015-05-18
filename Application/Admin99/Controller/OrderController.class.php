@@ -13,7 +13,7 @@
 			$order=M("order");	
 			$orderid=I("get.orderid");
 			$data["status"]=1;
-			$data["customer"]=session("useradmin");
+			$data["operator"]=session("useradmin");
 			if($order->where("orderid = '{$orderid}'")->save($data)){
 				echo $orderid;
 				
@@ -35,12 +35,12 @@
 			$orderid=I("get.orderid");
 			 $expressname=I("get.expressName");
 			 $expressnum=I("get.expressNum");
-			 $customer=session("useradmin");
+			 $operator=session("useradmin");
 			$data["expressname"]=$expressname;
 			$data["expressnum"]=$expressnum;
 			$data["status"]=2;
 			$data["senttime"]=NOW_TIME;
-			$data["customer"]= $customer;
+			$data["operator"]= $operator;
 			if($order->where("orderid = '{$orderid}'")->save($data)){
 		
 				
