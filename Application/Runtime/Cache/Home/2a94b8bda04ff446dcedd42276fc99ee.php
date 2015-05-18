@@ -314,7 +314,7 @@ $(document).ready(function() {
         </label>
         <br />
         <label>
-          <input type="radio" name="payment" id="payment" value="radiobutton" style=" height:18px; width:18px; margin-top:37px; margin-left:20px; _margin-top:30px;"/>
+          <input type="radio" name="payment" id="payment" value="货到付款" checked style=" height:18px; width:18px; margin-top:37px; margin-left:20px; _margin-top:30px;"/>
         </label>
         <br />
         <label>

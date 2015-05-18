@@ -201,7 +201,24 @@
 		}
 		
 		
-		
+		public function AllSent(){
+			//批发发货
+			$order=M("order");
+			//$arr=I("get.AllSent");
+			$arr=array(0=>"f9442fca944e",1=>"d9eddc4c2db2");
+			$arrStr=implode(",",$arr);
+			$data["status"]=2;
+			$data["orderid"]=array("in",$arrStr);
+			var_dump($data);
+			if($order->save($data)){
+				echo "ok!";
+				
+			}else{
+				echo 0;
+			}
+			
+			
+		}
 		
 		
 		

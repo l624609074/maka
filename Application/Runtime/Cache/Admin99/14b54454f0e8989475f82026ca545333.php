@@ -105,9 +105,9 @@
 	
         <table class="table table-hover" border=1 style="text-align:center">
         	<tr><th width="35">选择</th>
-			<th width="10%">订单号</th><th width="120">产品名字*盒数--总价格</th><th width="30">客户名</th><th width="100">联系电话</th><th width="100">联系地址</th><th width="20">付款方式</th><th width="100">用户留言</th><th width="20">下单时间</th><th width="60">订单状态</th><th width="100">快递公司--单号</th><th width="100">操作</th></tr>
-            
-				<?php if(is_array($data)): foreach($data as $key=>$vo): ?><tr>
+			<th width="10%">订单号</th><th width="120">产品名字*盒数--总价格</th><th width="30">客户名</th><th width="100">联系电话</th><th width="100">联系地址</th><th width="20">付款方式</th><th width="100">用户留言</th><th width="20">下单时间</th><th width="60">订单状态</th><th>客户端</th><th width="100">快递公司--单号</th><th width="100">操作</th><th>客服</th></tr>
+          
+				<?php if(is_array($data)): foreach($data as $key=>$vo): ?><tr>	
 						<td><input type="checkbox" name="orderid" value="<?php echo ($vo["orderid"]); ?>" /></td>
 						<td><?php echo ($vo["orderid"]); ?></td><td><?php echo ($vo["productname"]); ?>--<?php echo ($vo["price"]); ?></td><td><?php echo ($vo["name"]); ?></td><td><?php echo ($vo["contact"]); ?></td><td><?php echo ($vo["address"]); ?></td><td><?php echo ($vo["payment"]); ?></td><td>
 						
@@ -125,7 +125,7 @@
 								<?php default: endswitch;?>
 					
 				</td>
-
+				<td width=50><?php echo ($vo["client"]); ?></td>
 				<td><?php echo ($vo["expressname"]); ?>--<?php echo ($vo["expressnum"]); ?></td>		
 						<td>
 							<a class="button border-blue button-little" href="#" onclick="orderAction('Confirm','<?php echo ($vo["orderid"]); ?>','/maka/index.php/Admin99/Order')" >确认</a> 
@@ -136,11 +136,10 @@
 			
 						</td>
 						
-					</tr><?php endforeach; endif; ?>
+					<td width="50"><?php echo (session('useradmin')); ?></td>
+				
 		
-			
-			
-			
+			</tr><?php endforeach; endif; ?>
 			
         
 		
