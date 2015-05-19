@@ -57,7 +57,7 @@
               
               
                 <li class="active"><a href="content.html" class="icon-shopping-cart" class="icon-file-text" > 订单管理</a>
-					<ul><li><a href="#"> </a></li><li class="active"><a href="#">订单管理</a></li><li><a href="/maka/index.php/Admin99/Order/Search">订单搜索</a></li><li><a href="#">产品设定</a></li></ul>
+					<ul><li><a href="#"> </a></li><li class="active"><a href="/maka/index.php/Admin99/User">订单管理</a><li><a href="/maka/index.php/Admin99/Order/Search">订单搜索</a></li><li><a href="/maka/index.php/Admin99/Product/All">产品设定</a></li></ul>
                 </li>
                
             </ul>
