@@ -9,7 +9,7 @@
 				$verify=D("Verify"); 
 
 				if(!$verify->create()){
-				$this->error($verify->getError(),U('Index/Index#wyhp'));	
+				$this->error($verify->getError());	
 			
 				} 
 				$rules=array(
@@ -34,7 +34,7 @@
 					
 				}else{
 					
-					$this->error("提交订单失败，请联系管理员！",U("Index/Index#wyhp'"));
+					$this->error("提交订单失败，请联系管理员！");
 					
 				}
 				

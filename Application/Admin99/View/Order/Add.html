@@ -44,7 +44,7 @@
             <ul class="bread">
                 <li><a href="__MODULE__/User" class="icon-home"> 开始</a></li>
                 
-                <li>订单信息修改</li>
+                <li>添加新订单</li>
             </ul>
 			    
 			
@@ -55,76 +55,32 @@
 <div class="admin">
 	
     <div class="panel admin-panel">
-	<form action="__MODULE__/Order/doModify" method="POST">
+	<form action="__APP__/Home/SubOrder/submit" method="POST">
 	
 				  <table class="table table-hover" border=1 style="text-align:center">
-        	
-				
-            	<input type="hidden" value="<{$hiddenOrderid}>" name="orderid" />
+						<input type="hidden" value="PC" name="client"  />
             	<input type="hidden" value="<{$Think.session.useradmin}>" name="operator" />
-				<foreach name="data" item="vo" >
-			<tr><td width="50%">订单号</td><td><{$vo.orderid}></td></tr>
+            	<input type="hidden" value="<?php echo time();?>" name="uptime" />
+				
 			<tr><td width="50%">产品名字*盒数--总价格</td><td><select name="productid">
-							<foreach name="productData" item="v">
-							
-							
-									<if  condition="$v['id'] eq $vo['productid']" >
-											<option selected value="<{$v.id}>">已选中--<{$v.productname}>/￥<{$v.price}></option>
-											<else/>
-											<option value="<{$v.id}>"><{$v.productname}>/￥<{$v.price}></option>
-									
-									</if>
-									
-									
-									
+							<foreach name="data" item="vo">
+
+											<option  value="<{$vo.id}>"><{$vo.productname}>--¥<{$vo.price}></option>
+
 							</foreach>
 							</select>
 						</td></tr>
-			<tr><td width="50%">客户名</td><td><input type="text" value="<{$vo.name}>" name="name" /></td></tr>
-			<tr><td width="50%">联系电话</td><td><input type="text" value="<{$vo.contact}>" name="contact" /></td></tr>
-			<tr><td width="50%">联系地址</td><td><input type="text" value="<{$vo.address}>" name="address" /></td></tr>
-			<tr><td width="50%">用户留言</td><td><textarea name="word"  ><{$vo.word}></textarea></td></tr>
-			<tr><td width="50%">付款方式</td><td><{$vo.payment}></td></tr>
-			<tr><td width="50%">下单时间</td><td><{$vo.ordertime|date="Y-m-d h:i:s",###}></td></tr>
-			<tr><td width="50%">订单状态</td><td><select name="status">
-							
-						
-					
-					    <switch name="vo.status">
-								<case value="0"><option value="0">--已选中--未确认</option></case>
-								<case value="1"><option value="1">--已选中--已确认</option></case>
-								<case value="2"><option value="2">--已选中--已发货</option></case>
-								<default />
-					</switch>
-							<option value="0">
-									--未确认--
-							
-							</option>
-							<option value="1">
-									--已确认--
-							
-							</option>
-							<option value="2">
-									--已发货--
-							
-							</option>
-					
+			<tr><td width="50%">客户名</td><td><input type="text" value="" name="name" /></td></tr>
+			<tr><td width="50%">联系电话</td><td><input type="text" value="" name="contact" /></td></tr>
+			<tr><td width="50%">联系地址</td><td><input type="text" value="" name="address" /></td></tr>
+			<tr><td width="50%">用户留言</td><td><textarea name="word"  ></textarea></td></tr>
+			<tr><td width="50%">付款方式</td><td><select><option value="0" selected >货到付款</option></select></td></tr>
+		
 					
 						</select></td></tr>
-			<tr><td width="50%">快递公司</td><td><input  name="expressname" value="<{$vo.expressname}>"/></td></tr>
-			<tr><td width="50%">快递单号</td><td><input  name="expressnum" value="<{$vo.expressnum}>"/></td></tr>
-			<tr><td width="50%">操作</td><td><input type="submit"  value="确认修改" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" onclick="javascript:history.go(-1);" value="返回" /> </td></tr>
+			<tr><td width="50%">操作</td><td><input type="submit"  value="提交订单" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" onclick="javascript:history.go(-1);" value="返回" /> </td></tr>
 				
 	
-						
-					
-				</foreach>
-		
-			
-			
-			
-			
-        
 		
 		
 		</table>

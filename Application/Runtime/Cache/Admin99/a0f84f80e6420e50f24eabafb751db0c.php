@@ -57,7 +57,7 @@
               
               
                 <li class="active"><a href="content.html" class="icon-shopping-cart" class="icon-file-text" > 订单管理</a>
-					<ul><li><a href="#"> </a></li><li class="active"><a href="/maka/index.php/Admin99/User">订单管理</a><li><a href="/maka/index.php/Admin99/Order/Search">订单搜索</a></li><li><a href="/maka/index.php/Admin99/Product/All">产品设定</a></li></ul>
+					<ul><li><a href="#"> </a></li><li class="active"><a href="/maka/index.php/Admin99/User">订单管理</a><li><a href="/maka/index.php/Admin99/Order/Search">订单搜索</a></li><li><a href="/maka/index.php/Admin99/Product/All">产品设定</a></li><li><a href="/maka/index.php/Admin99/Advisory/Index">美容测试</a></li></ul>
                 </li>
                
             </ul>
@@ -99,7 +99,8 @@
             <input type="button" class="button button-small checkall" name="checkall" checkfor="id" value="全选" />
 			 <input type="button" class="button button-small border-blue" value="批量确认" />
             <input type="button" class="button button-small border-green" value="批量发货" />
-            <input type="button" class="button button-small border-yellow" value="批量删除" />
+            <input type="button" class="button button-small border-yellow" value="批量删除" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="button" class="button button-small border-yellow" value="添加新订单" onclick="window.location.href='/maka/index.php/Admin99/Order/Add'" />
            
         </div>
 	

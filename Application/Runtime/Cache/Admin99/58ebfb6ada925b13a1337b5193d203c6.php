@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta name="renderer" content="webkit">
-    <title>99培元-产品信息添加</title>
+    <title>99培元-后台订单修改管理</title>
     <link rel="stylesheet" href="/maka/Public/Admin/css/pintuer.css">
     <link rel="stylesheet" href="/maka/Public/Admin/css/admin.css">
     <link rel="stylesheet" href="/maka/Public/Admin/css/float.css">
@@ -44,7 +44,7 @@
             <ul class="bread">
                 <li><a href="/maka/index.php/Admin99/User" class="icon-home"> 开始</a></li>
                 
-                <li>产品信息添加</li>
+                <li>添加新订单</li>
             </ul>
 			    
 			
@@ -55,23 +55,32 @@
 <div class="admin">
 	
     <div class="panel admin-panel">
-
-	<center>
-	   	<div class="panel-head"><strong>产品信息列表</strong></div>
-		<form action="/maka/index.php/Admin99/Product/DoAdd">
+	<form action="/maka/index.php/Home/SubOrder/submit" method="POST">
+	
 				  <table class="table table-hover" border=1 style="text-align:center">
-
-				<tr><td>产品名字</td><td>产品价格</td></tr>
-			
-			<tr><td><input type="text" name="ProductName" /></td><td><input type="text" name="Price" /></td>	</tr>
-
-			<tr  ><td colspan=2><br/><input type="submit" value="确认添加" /></td></tr>
+      
+            	<input type="hidden" value="<?php echo (session('useradmin')); ?>" name="operator" />
+            	<input type="hidden" value="<?php echo time();?>" name="uptime" />
+				
+			<tr><td width="50%">产品名字*盒数--总价格</td><td><select name="productid">
+							<?php if(is_array($data)): foreach($data as $key=>$vo): ?><option  value="<?php echo ($vo["id"]); ?>"><?php echo ($vo["productname"]); ?>--¥<?php echo ($vo["price"]); ?></option><?php endforeach; endif; ?>
+							</select>
+						</td></tr>
+			<tr><td width="50%">客户名</td><td><input type="text" value="" name="name" /></td></tr>
+			<tr><td width="50%">联系电话</td><td><input type="text" value="" name="contact" /></td></tr>
+			<tr><td width="50%">联系地址</td><td><input type="text" value="" name="address" /></td></tr>
+			<tr><td width="50%">用户留言</td><td><textarea name="word"  ></textarea></td></tr>
+			<tr><td width="50%">付款方式</td><td><select><option value="0" selected >货到付款</option></select></td></tr>
+		
+					
+						</select></td></tr>
+			<tr><td width="50%">操作</td><td><input type="submit"  value="提交订单" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" onclick="javascript:history.go(-1);" value="返回" /> </td></tr>
+				
+	
 		
 		
 		</table>
-		</form>
-	</center>
-
+		    </form>
     </div>
 
     <br />

@@ -6,7 +6,37 @@
 	namespace Admin99\Controller;
 	use Common\Controller\CommonLoginController;
 	Class OrderController extends CommonLoginController{
+		public function Add(){
+					//添加订单
+				$product=M("products");
+				$productData=$product->select();
+				$this->assign("data",$productData);
+				$this->display();
+					
+			
+		}	
+		public function DoAdd(){
+			$order=M("order");
 		
+			if($order->create()){
+					if($order->add()){
+						$this->success("添加新订单成功！",U("User/index"));
+						
+					}else{
+						
+						$this->error("插入失败！");
+					}
+				
+			}else{
+				$this->error("自动创建失败，插入失败！");
+				
+			}
+			
+			
+				
+					
+			
+		}
 		//确认
 		public function confirm(){
 			

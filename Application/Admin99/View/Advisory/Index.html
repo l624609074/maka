@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta name="renderer" content="webkit">
-    <title>99培元-后台订单修改管理</title>
+    <title>99培元-美容测试管理</title>
     <link rel="stylesheet" href="__PUBLIC__/Admin/css/pintuer.css">
     <link rel="stylesheet" href="__PUBLIC__/Admin/css/admin.css">
     <link rel="stylesheet" href="__PUBLIC__/Admin/css/float.css">
@@ -20,6 +20,34 @@
 </head>
 
 <body>
+<script>
+	function AdvisoryAction(Action,Url){
+		if(Action=="Delete"){
+			var str="删除";
+		}else{
+		
+			var str="更新回答状态";
+		}
+	$.ajax({
+				url:Url,
+				success:function(data){
+		
+					if(data=="ok"){
+						alert(str+"成功！");
+							window.location.reload(); 
+					}else{
+						alert(str+"失败！");
+						
+					}
+				}
+		
+		});
+		
+		
+		
+	}
+
+</script>
 <div class="lefter">
     <div class="logo"><a href="#" target="_blank"><img src="__PUBLIC__/Admin/images/logo.png" alt="后台管理系统" /></a></div>
 </div>
@@ -44,7 +72,7 @@
             <ul class="bread">
                 <li><a href="__MODULE__/User" class="icon-home"> 开始</a></li>
                 
-                <li>订单信息修改</li>
+                <li>美容测试信息列表</li>
             </ul>
 			    
 			
@@ -55,71 +83,53 @@
 <div class="admin">
 	
     <div class="panel admin-panel">
-	<form action="__MODULE__/Order/doModify" method="POST">
-	
+ <div class="padding border-bottom">
+            <input type="button" class="button button-small checkall" name="checkall" checkfor="id" value="全选" />
+			<!--  <input type="button" class="button button-small border-blue" value="添加新的" onclick="javascript:window.location.href='__MODULE__/Product/Add'" /> -->
+      
+            <input type="button" class="button button-small border-yellow" value="批量删除" />
+           
+        </div>
+	<center>
+	   	<div class="panel-head"><strong>美容测试信息列表</strong></div>
+       
 				  <table class="table table-hover" border=1 style="text-align:center">
         	
 				
-            	<input type="hidden" value="<{$hiddenOrderid}>" name="orderid" />
+            
             	<input type="hidden" value="<{$Think.session.useradmin}>" name="operator" />
+				<tr><td width="100">选择</td><td >留言用户</td><td>联系方式</td><td>咨询问题</td><td>留言时间</td><td>回答状态</td><td>操作</td></tr>
 				<foreach name="data" item="vo" >
-			<tr><td width="50%">订单号</td><td><{$vo.orderid}></td></tr>
-			<tr><td width="50%">产品名字*盒数--总价格</td><td><select name="productid">
-							<foreach name="productData" item="v">
-							
-							
-									<if  condition="$v['id'] eq $vo['productid']" >
-											<option selected value="<{$v.id}>">已选中--<{$v.productname}>/￥<{$v.price}></option>
-											<else/>
-											<option value="<{$v.id}>"><{$v.productname}>/￥<{$v.price}></option>
-									
-									</if>
-									
-									
-									
-							</foreach>
-							</select>
-						</td></tr>
-			<tr><td width="50%">客户名</td><td><input type="text" value="<{$vo.name}>" name="name" /></td></tr>
-			<tr><td width="50%">联系电话</td><td><input type="text" value="<{$vo.contact}>" name="contact" /></td></tr>
-			<tr><td width="50%">联系地址</td><td><input type="text" value="<{$vo.address}>" name="address" /></td></tr>
-			<tr><td width="50%">用户留言</td><td><textarea name="word"  ><{$vo.word}></textarea></td></tr>
-			<tr><td width="50%">付款方式</td><td><{$vo.payment}></td></tr>
-			<tr><td width="50%">下单时间</td><td><{$vo.ordertime|date="Y-m-d h:i:s",###}></td></tr>
-			<tr><td width="50%">订单状态</td><td><select name="status">
-							
-						
+			<tr>
+			<td><input type="checkbox" name="id[]" value="<{$vo.id}>" /></td><td><{$vo.name}></td><td> <{$vo.contact}></td><td width="45%"><{$vo.word}></td><td><{$vo.lefttime|date="Y-m-d H:i:s",###}></td>
+			<td>
+					<if condition="$vo['recall'] eq 1">
+							<font color="green" >已回答</font>
+						<else/>
+						<font color="red" >未回答</font>
+					</if>
 					
-					    <switch name="vo.status">
-								<case value="0"><option value="0">--已选中--未确认</option></case>
-								<case value="1"><option value="1">--已选中--已确认</option></case>
-								<case value="2"><option value="2">--已选中--已发货</option></case>
-								<default />
-					</switch>
-							<option value="0">
-									--未确认--
+			
+			
+			</td>		<td>
+
+					<!-- 		<a class="button border-yellow button-little" href="javascript:window.location.href='__MODULE__/Product/Modify/id/<{$vo.id}>'"  onclick="" >修改</a> -->
+							<a class="button border-yellow button-little" href="javascript:AdvisoryAction('Recall','__MODULE__/Advisory/Recall/id/<{$vo.id}>/RecallStatus/<{$vo.recall}>')"  >改变回答状态</a> 
+							<a class="button border-red button-little" href="javascript:AdvisoryAction('Delete','__MODULE__/Advisory/Delete/id/<{$vo.id}>')" onclick="{if(confirm('确认删除?')){return true;}return false;}">删除</a>
 							
-							</option>
-							<option value="1">
-									--已确认--
+			
+						</td>
+				
 							
-							</option>
-							<option value="2">
-									--已发货--
 							
-							</option>
-					
-					
-						</select></td></tr>
-			<tr><td width="50%">快递公司</td><td><input  name="expressname" value="<{$vo.expressname}>"/></td></tr>
-			<tr><td width="50%">快递单号</td><td><input  name="expressnum" value="<{$vo.expressnum}>"/></td></tr>
-			<tr><td width="50%">操作</td><td><input type="submit"  value="确认修改" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" onclick="javascript:history.go(-1);" value="返回" /> </td></tr>
+							
+								
 				
 	
-						
+						</tr>	
 					
 				</foreach>
-		
+			
 			
 			
 			
@@ -128,11 +138,18 @@
 		
 		
 		</table>
-		    </form>
+		
+	</center>
+
     </div>
 
     <br />
-
+	
+ <div class="panel-foot text-center">
+			  <div class="pagination pagination-large"><{$show}></div>
+		
+        
+        </div>
     <p class="text-center">Power By Blues &copy; 2015</p>
 </div>
 

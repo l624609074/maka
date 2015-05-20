@@ -83,6 +83,7 @@ function phpsys_update_code(a){
           <div class="input_div">
             <label>
 				<input type="hidden" value="Phone" name="client"  />
+					<input type="hidden" value="<{$Think.session.useradmin}>" name="operator" />
               <input checked="checked" type="radio" name="payment" class="payment" value="货到付款"/>
               货到付款 </label>
 			  <label>

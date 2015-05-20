@@ -9,8 +9,13 @@
 			function All(){
 				//默认显示全部
 				$products=M("products");
-				$data=$products->select();
+				$data=$products->page($_GET['p'].',8')->select();
+				$count=$products->count();
+				$Page       = new \Think\Page($count,8);// 实例化分页类 传入总记录数和每页显示的记录数
+				$show       = $Page->show();// 分页显示输出// 进行分页数据查询 注意limit方法的参数要使用Page类的属性
+				
 				$this->assign("data",$data);
+				$this->assign("show",$show);
 				$this->display();
 				
 			}
@@ -83,7 +88,18 @@
 		
 		
 		//删除
-		
+		function Delete(){
+				$products=M("products");
+				$data["id"]=I("get.id");
+				if($products->where($data)->delete()){
+					$this->success("删除产品信息成功！");
+					
+				}else{
+					
+					$this->error("删除产品信息失败！!");
+				}
+			
+		}
 		
 		
 	}
