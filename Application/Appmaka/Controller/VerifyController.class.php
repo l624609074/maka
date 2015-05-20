@@ -10,7 +10,7 @@ Class verifyController extends Controller{
 	$Verify->length   = 4;
 	$Verify->imageW   =200;
 	$Verify->imageH   = 50;
-	$Verify->useNoise = true;
+	$Verify->useNoise = false;
 
 	$Verify->entry();
 		

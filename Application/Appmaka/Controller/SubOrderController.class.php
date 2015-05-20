@@ -9,7 +9,7 @@
 				$verify=D("Verify"); 
 
 				if(!$verify->create()){
-				$this->error($verify->getError(),U('Index/Index#wyhp'));	
+				$this->error($verify->getError());	
 			
 				} 
 				$rules=array(
@@ -27,14 +27,14 @@
 					$order->orderid=$orderid;
 					$id=$order->auto($rules)->add();
 					if($id){
-						$this->success("您的订单已经提交\n您的订单号是【{$orderid}】\n我们将在1个工作日和您联系！",U('Index/Index#wyhp'),4);
+						$this->success("您的订单已经提交\n您的订单号是【{$orderid}】\n我们将在1个工作日和您联系！",'',4);
 						
 						
 					}	
 					
 				}else{
 					
-					$this->error("提交订单失败，请联系管理员！",U("Index/Index#wyhp'"));
+					$this->error("提交订单失败，请联系管理员！");
 					
 				}
 				

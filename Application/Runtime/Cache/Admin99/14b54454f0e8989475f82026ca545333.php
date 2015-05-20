@@ -99,7 +99,8 @@
             <input type="button" class="button button-small checkall" name="checkall" checkfor="id" value="全选" />
 			 <input type="button" class="button button-small border-blue" value="批量确认" />
             <input type="button" class="button button-small border-green" value="批量发货" />
-            <input type="button" class="button button-small border-yellow" value="批量删除" />
+            <input type="button" class="button button-small border-yellow" value="批量删除" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="button" class="button button-small border-yellow" value="添加新订单" onclick="window.location.href='/maka/index.php/Admin99/Order/Add'" />
            
         </div>
 	

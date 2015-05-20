@@ -58,7 +58,7 @@
 	<form action="/maka/index.php/Home/SubOrder/submit" method="POST">
 	
 				  <table class="table table-hover" border=1 style="text-align:center">
-      
+						<input type="hidden" value="PC" name="client"  />
             	<input type="hidden" value="<?php echo (session('useradmin')); ?>" name="operator" />
             	<input type="hidden" value="<?php echo time();?>" name="uptime" />
 				

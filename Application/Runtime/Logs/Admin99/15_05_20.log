@@ -207,3 +207,9 @@ INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 [ 2015-05-20T11:41:30+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Product/Delete/id/6
 ERR: 非法操作:Delete
 
+[ 2015-05-20T18:14:39+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Search
+ERR: 无法加载控制器:Search
+
+[ 2015-05-20T18:14:44+08:00 ] 127.0.0.1 /maka/index.php/Admin99/Search
+ERR: 无法加载控制器:Search
+

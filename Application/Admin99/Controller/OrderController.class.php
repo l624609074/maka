@@ -20,7 +20,7 @@
 		
 			if($order->create()){
 					if($order->add()){
-						$this->success("添加新订单成功！",U("User/index"));
+						$this->success("添加新订单成功！");
 						
 					}else{
 						
