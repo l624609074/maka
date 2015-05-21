@@ -108,12 +108,15 @@ function phpsys_update_code(a){
   </div>
   <div class="bottom"><img src="/maka/Public/Appmaka/images/bottom.png" style="width:100%;" /></div>
   <div id="bottomContent"><img src="/maka/Public/Appmaka/images/maka11.jpg" style="width:100%;" />
-	 <div class="maka10_b">
-      <a href="http://ala.zoossoft.com/LR/Chatpre.aspx?id=ALA96738846&lng=cn&p=www.dns-sh.com"></a>
-		<a href="#form1"></a>
-       <a href="tel:400-885-6836"></a>
-     </div>
 
+      <div class="maka10_b" > 
+		<div  id="LR_User_Icon0" style="width:30%;"></div>
+		<div><a href="#maka10"></a> </div>
+		<div><a href="tel:400-666-5145"></a> </div>
+	
+		
+		
+	</div>
 		
   </div>
 </div>
@@ -215,15 +218,20 @@ $(document).ready(function() {
 });
 </script>
 
-<!-- WPA Button Begin -->
-<script charset="utf-8" type="text/javascript" src="http://wpa.b.qq.com/cgi/wpa.php?key=XzkzODAxNjc4Nl8yNTU2ODhfNDAwODg1NjgzNl8"></script>
-<!-- WPA Button End -->
-
-
-
+	<script charset="utf-8" type="text/javascript" src="http://wpa.b.qq.com/cgi/wpa.php?key=XzkzODAxNjc4Nl8yNTU2ODhfNDAwODg1NjgzNl8"></script>
 <!--请将以下码嵌入到您网页源代码的最后面，通常是</body></HTML>之后,这样在LR服务器升级维护的时候也不会影响您的网页打开呈现速度。-->
-<script language="javascript" src="http://ala.zoossoft.com/JS/LsJS.aspx?siteid=ALA96738846&lng=big5"></script>
-
+<script language="javascript" src="http://ala.zoossoft.com/JS/LSJS.aspx?siteid=ALA96738846&lng=cn"></script>
+<script language="javascript">
+<!--
+if(typeof(LiveReceptionCode_isonline)!='undefined')
+{
+	if(LiveReceptionCode_isonline)
+		LR_GetObj('LR_User_Icon0').innerHTML='<a '+LiveReceptionCode_BuildChatWin('传递给客服人员的文本,请修改','客服人员在线,欢迎点击咨询')+'></a>';
+	else
+		LR_GetObj('LR_User_Icon0').innerHTML='<a '+LiveReceptionCode_BuildChatWin('传递给客服人员的文本,请修改','客服人员不在线,请点击留言')+'></a>';
+}
+//-->
+</script>
 	<!--请将以下码嵌入到您网页源代码的最后面，通常是</body></HTML>之后,这样在服务器升级维护的时候也不会影响您的网页打开呈现速度。-->
 <script language=javascript>
 <!--
@@ -232,7 +240,6 @@ var LiveAutoInvite1='来自首页的对话';
 var LiveAutoInvite2=' 网站商务通 主要功能：<br>1、主动邀请<br>2、即时沟通<br>3、查看即时访问动态<br>4、访问轨迹跟踪<br>5、内部对话<br>6、不安装任何插件也实现双向文件传输<br><br><b>如果您有任何问题请接受此邀请以开始即时沟通</b>';
 //-->
 </script>
-
-
+<script language="javascript" src="http://ala.zoossoft.com/JS/LsJS.aspx?siteid=ALA96738846&lng=cn"></script>
 </body>
 </html>

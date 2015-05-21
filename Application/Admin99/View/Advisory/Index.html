@@ -98,10 +98,10 @@
 				
             
             	<input type="hidden" value="<{$Think.session.useradmin}>" name="operator" />
-				<tr><td width="100">选择</td><td >留言用户</td><td>联系方式</td><td>咨询问题</td><td>留言时间</td><td>回答状态</td><td>操作</td></tr>
+				<tr><td width="100">选择</td><td >留言用户</td><td>年龄</td><td>联系方式</td><td>咨询问题</td><td>留言时间</td><td>回答状态</td><td>操作</td></tr>
 				<foreach name="data" item="vo" >
 			<tr>
-			<td><input type="checkbox" name="id[]" value="<{$vo.id}>" /></td><td><{$vo.name}></td><td> <{$vo.contact}></td><td width="45%"><{$vo.word}></td><td><{$vo.lefttime|date="Y-m-d H:i:s",###}></td>
+			<td><input type="checkbox" name="id[]" value="<{$vo.id}>" /></td><td><{$vo.name}></td><td><{$vo.age}></td><td> <{$vo.contact}></td><td width="45%"><{$vo.word}></td><td><{$vo.lefttime|date="Y-m-d H:i:s",###}></td>
 			<td>
 					<if condition="$vo['recall'] eq 1">
 							<font color="green" >已回答</font>
