@@ -4,7 +4,7 @@ use Common\Controller\CommonLoginController;
 Class UserController extends CommonLoginController {        //继承基本的user类库
   	
 	public function index(){
-	
+		
 		$order=M("order");
 		$data = $order->join("LEFT JOIN __PRODUCTS__ ON __ORDER__.productid=__PRODUCTS__.id")->order('ordertime')->page($_GET['p'].',8')->select();
 		$count = $order->join("LEFT JOIN __PRODUCTS__ ON __ORDER__.productid=__PRODUCTS__.id")->count();

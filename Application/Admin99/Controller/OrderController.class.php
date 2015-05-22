@@ -38,7 +38,7 @@
 			
 		}
 		//确认
-		public function confirm(){
+		public function Confirm(){
 			
 			$order=M("order");	
 			$orderid=I("get.orderid");
@@ -86,7 +86,7 @@
 		}
 		
 			//删除
-	public function delete(){
+	public function Delete(){
 		
 			$order=M("order");	
 			$orderid=I("get.orderid");
@@ -126,12 +126,13 @@
 	
 	//修改操作
 	
-	public function doModify(){
+	public function DoModify(){
 		$order=M("order");	
 			
 			if($order->create()){
+				//var_dump($order->create());
 				if($order->save()){
-					$this->success("修改成功！",U("User/Index"),3);
+					$this->success("修改成功！");
 					
 				}else{
 					$this->error("无修改！");

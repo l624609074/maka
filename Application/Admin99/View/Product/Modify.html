@@ -33,16 +33,15 @@
             <ul class="nav nav-inline admin-nav">
               
               
-                <li class="active"><a href="content.html" class="icon-shopping-cart" class="icon-file-text" > 订单管理</a>
-					<ul><li><a href="#"> </a></li><li class="active"><a href="__MODULE__/User">订单管理</a><li><a href="__MODULE__/Search">订单搜索</a><li><a href="__MODULE__/Product/All">产品设定</a></li><li><a href="__MODULE__/Advisory/Index">美容测试</a></li></ul>
-                </li>
+                <li class="active"><a href="__MODULE__/User/index/System/<{$System}>" class="icon-shopping-cart" class="icon-file-text" > 订单管理</a>	<ul><li><li class="active"><a href="__MODULE__/User/index/System/<{$System}>">玛卡订单管理</a><li><a href="__MODULE__/Order/Search/System/<{$System}>" >订单搜索</a><li><a href="__MODULE__/Product/All/System/Maka">产品设定</a></li><li><a href="__MODULE__/Advisory/Index/System/Maka">美容测试</a></li></ul>
+                </li>       <li class="active"  ><a href="__MODULE__/User/index/System/Ejiao" class="icon-shopping-cart"  style="margin-left:300px;background:white;border:1px solid #09c;border-bottom:none;color:#09c" class="icon-file-text" >阿胶订单管理</a>
                
             </ul>
         </div>
         <div class="admin-bread" >
             <span>您好，<font style="color:red" ><{$Think.session.useradmin}> </font>，欢迎您。</span>
             <ul class="bread">
-                <li><a href="__MODULE__/User" class="icon-home"> 开始</a></li>
+                <li><a href="__MODULE__/User/index/System/<{$System}>" class="icon-home"> 开始</a></li>
                 
                 <li>产品信息修改</li>
             </ul>

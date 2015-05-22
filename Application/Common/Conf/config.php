@@ -14,6 +14,6 @@ return array(
 	"SHOW_PAGE_TRACE"=>"TRUE",
 	'MODULE_ALLOW_LIST'     =>  array('Home','Admin99',"Appmaka","Ejiao","Appejiao"), // 配置你原来的分组列表
 	'DEFAULT_MODULE'        =>  'Home', // 配置你原来的默认分组
-	
+
 	
 );

@@ -1,4 +1,4 @@
-function orderAction(action,orderid,inputUrl){
+function orderAction(action,orderid,inputUrl,SystemModule){
 	switch (action){
 			case "Confirm":
 				var go=action;
@@ -11,7 +11,7 @@ function orderAction(action,orderid,inputUrl){
 				var expressName=$("input[name='expressName']").val();
 				var expressNum=$("input[name='expressNum']").val();
 				var orderid=$("input[name='orderIdHidden']").val();
-				var orderid=orderid+"&expressName="+expressName+"&expressNum="+expressNum;
+				var orderid=orderid+"/expressName/"+expressName+"/expressNum/"+expressNum;
 				var str="发货";
 			break;	
 			case "Delete":
@@ -22,16 +22,18 @@ function orderAction(action,orderid,inputUrl){
 		
 		
 	}
+	/* /web/index.php/Admin99/Order/Confirm/System/Ejiao/orderid=967b8cefa419 */
 
-	
-	
+	 url=""+inputUrl+"/"+go+"/System/"+SystemModule+"/orderid/"+orderid;
+	//alert(url);
 		 //确认
 		$.ajax({
-					url:""+inputUrl+"/"+go+"?orderid="+orderid,
+					url:url,
 					
 					success:function(data){
-				
+					
 							if(data!=0){
+							
 									alert(str+"成功！");
 									if(str=="确认订单"){
 										$("#"+data+"").html("");

@@ -4,12 +4,12 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <!-- <meta http-equiv="refresh" content="0.1;url=http://www.99peiyuan.com/ejiao/"> -->
 <title>315认证网站</title>
-<link href="/maka/Public/pcmaka/images/css/style.css" rel="stylesheet" type="text/css" charset="utf-8" />
-<script src="/maka/Public/pcmaka/images/js/jquery.min.js"></script>
-<script src="/maka/Public/pcmaka/images/js/lrtk.js"></script>
-<script src="/maka/Public/pcmaka/images/js/jscarousel.js" type="text/javascript"></script>
-<script src="/maka/Public/pcmaka/images/js/Area.js" type="text/javascript"></script>
-<script src="/maka/Public/pcmaka/images/js/AreaData_min.js" type="text/javascript"></script>
+<link href="/web/Public/pcmaka/images/css/style.css" rel="stylesheet" type="text/css" charset="utf-8" />
+<script src="/web/Public/pcmaka/images/js/jquery.min.js"></script>
+<script src="/web/Public/pcmaka/images/js/lrtk.js"></script>
+<script src="/web/Public/pcmaka/images/js/jscarousel.js" type="text/javascript"></script>
+<script src="/web/Public/pcmaka/images/js/Area.js" type="text/javascript"></script>
+<script src="/web/Public/pcmaka/images/js/AreaData_min.js" type="text/javascript"></script>
 </head>
 <body >
 <DIV class="nav" >
@@ -79,38 +79,38 @@ show_student163_time();
     <div class="countdown">
       <div class="time"> <span id="span_dt_dt"></span> </div>
     </div>
-    <div class="yd"> <img title="药店有售" src="/maka/Public/pcmaka/images/activity_01.jpg" /> <img title="天猫药店同款" src="/maka/Public/pcmaka/images/activity_02.jpg" /> </div>
+    <div class="yd"> <img title="药店有售" src="/web/Public/pcmaka/images/activity_01.jpg" /> <img title="天猫药店同款" src="/web/Public/pcmaka/images/activity_02.jpg" /> </div>
   </div>
 </div>
 <div class="contain">
   <div class="blmk" id="blmk" name="blmk">
     <div class="titlebar">秘鲁玛卡——100%秘鲁进口高品质玛卡，纯天然绿色无添加</div>
-    <div class="content"> <img title="" src="/maka/Public/pcmaka/images/blmk_01.jpg" /> <img title="吸收率高" src="/maka/Public/pcmaka/images/blmk_02.jpg" /> </div>
+    <div class="content"> <img title="" src="/web/Public/pcmaka/images/blmk_01.jpg" /> <img title="吸收率高" src="/web/Public/pcmaka/images/blmk_02.jpg" /> </div>
   </div>
   <div class="mkyk" id="mkyk" name="mkyk">
     <div class="titlebar">玛卡益康</div>
-    <div class="content"> <img title="纯度高达90%，够劲" src="/maka/Public/pcmaka/images/mkyk_01.jpg" /> <img title="纯度高达90%，够劲 " src="/maka/Public/pcmaka/images/mkyk_02.jpg" /> <img title="无依赖" src="/maka/Public/pcmaka/images/mkyk_03.jpg" /> </div>
+    <div class="content"> <img title="纯度高达90%，够劲" src="/web/Public/pcmaka/images/mkyk_01.jpg" /> <img title="纯度高达90%，够劲 " src="/web/Public/pcmaka/images/mkyk_02.jpg" /> <img title="无依赖" src="/web/Public/pcmaka/images/mkyk_03.jpg" /> </div>
   </div>
   <div class="mkykgx" id="mkykgx" name="mkykgx">
     <div class="titlebar">玛卡益康咀嚼片的功效</div>
-    <div class="content"> <img title="" src="/maka/Public/pcmaka/images/mkykgx_01.jpg" /> <img title="" src="/maka/Public/pcmaka/images/mkykgx_02.jpg" /> <img title="" src="/maka/Public/pcmaka/images/mkykgx_03.jpg" /> </div>
+    <div class="content"> <img title="" src="/web/Public/pcmaka/images/mkykgx_01.jpg" /> <img title="" src="/web/Public/pcmaka/images/mkykgx_02.jpg" /> <img title="" src="/web/Public/pcmaka/images/mkykgx_03.jpg" /> </div>
   </div>
   <div class="qsyl" id="qsyl" name="qsyl">
     <div class="titlebar">玛卡强肾三重奏：阳刚男人，三步到位</div>
-    <div class="content"> <img title="" src="/maka/Public/pcmaka/images/qsyl_01.jpg" /> <img title="" src="/maka/Public/pcmaka/images/qsyl_02.jpg" /> <img title="" src="/maka/Public/pcmaka/images/qsyl_03.jpg" /> </div>
+    <div class="content"> <img title="" src="/web/Public/pcmaka/images/qsyl_01.jpg" /> <img title="" src="/web/Public/pcmaka/images/qsyl_02.jpg" /> <img title="" src="/web/Public/pcmaka/images/qsyl_03.jpg" /> </div>
   </div>
   <div class="shrq" id="syrq" name="syrq">
     <div class="titlebar">玛卡适用人群</div>
-    <div class="content"> <img title="" src="/maka/Public/pcmaka/images/shrq_01.jpg" /> <img title="" src="/maka/Public/pcmaka/images/shrq_02.jpg" /> </div>
+    <div class="content"> <img title="" src="/web/Public/pcmaka/images/shrq_01.jpg" /> <img title="" src="/web/Public/pcmaka/images/shrq_02.jpg" /> </div>
   </div>
   <div class="zjdy"  id="zjdy" name="zjdy">
     <div class="case1">用户感言</div>
     <div class="Guarantee">三大保证</div>
     <div class="Package">
-      <div class="move1"> <a href="#wyhp"><img src="/maka/Public/pcmaka/images/anniu.jpg" id="pf_nav" /></a> </div>
-      <div class="move2"> <a href="#wyhp"><img src="/maka/Public/pcmaka/images/anniu.jpg" id="pf_nav" /></a> </div>
-      <div class="move3"> <a href="#wyhp"><img src="/maka/Public/pcmaka/images/anniu.jpg" id="pf_nav" /></a> </div>
-      <div class="move4"> <a href="#wyhp"><img src="/maka/Public/pcmaka/images/anniu.jpg" id="pf_nav" /></a> </div>
+      <div class="move1"> <a href="#wyhp"><img src="/web/Public/pcmaka/images/anniu.jpg" id="pf_nav" /></a> </div>
+      <div class="move2"> <a href="#wyhp"><img src="/web/Public/pcmaka/images/anniu.jpg" id="pf_nav" /></a> </div>
+      <div class="move3"> <a href="#wyhp"><img src="/web/Public/pcmaka/images/anniu.jpg" id="pf_nav" /></a> </div>
+      <div class="move4"> <a href="#wyhp"><img src="/web/Public/pcmaka/images/anniu.jpg" id="pf_nav" /></a> </div>
     </div>
     <div class="titlebar">玛卡专家答疑，用心解答您的每一个疑惑</div>
     <div class="content">
@@ -150,34 +150,34 @@ show_student163_time();
   </div>
   <div class="qwrz" id="qwrz" name="qwrz">
     <div class="titlebar">玛卡权威认证</div>
-    <div class="content"> <img title="" src="/maka/Public/pcmaka/images/qwrz_01.jpg" /> <img title="" src="/maka/Public/pcmaka/images/qwrz_02.jpg" /> <img title="" src="/maka/Public/pcmaka/images/qwrz_03.jpg" /> <img title="" src="/maka/Public/pcmaka/images/qwrz_04.jpg" />
+    <div class="content"> <img title="" src="/web/Public/pcmaka/images/qwrz_01.jpg" /> <img title="" src="/web/Public/pcmaka/images/qwrz_02.jpg" /> <img title="" src="/web/Public/pcmaka/images/qwrz_03.jpg" /> <img title="" src="/web/Public/pcmaka/images/qwrz_04.jpg" />
       <div class="qwzs">
-        <div class="overlay"><img src="/maka/Public/pcmaka/images/zs_1.jpg" id="overlay_pic"></div>
+        <div class="overlay"><img src="/web/Public/pcmaka/images/zs_1.jpg" id="overlay_pic"></div>
         <div id="wrapper">
           <div id="jsCarousel">
-            <div> <img src="/maka/Public/pcmaka/images/zs_1.jpg" /> </div>
-            <div> <img src="/maka/Public/pcmaka/images/zs_2.jpg" /> </div>
-            <div> <img src="/maka/Public/pcmaka/images/zs_3.jpg" /> </div>
-            <div> <img src="/maka/Public/pcmaka/images/zs_4.jpg" /> </div>
-            <div> <img src="/maka/Public/pcmaka/images/zs_5.jpg" /> </div>
-            <div> <img src="/maka/Public/pcmaka/images/zs_6.jpg" /> </div>
-            <div> <img src="/maka/Public/pcmaka/images/zs_7.jpg" /> </div>
-            <div> <img src="/maka/Public/pcmaka/images/zs_8.jpg" /> </div>
-            <div> <img src="/maka/Public/pcmaka/images/zs_9.jpg" /> </div>
-            <div> <img src="/maka/Public/pcmaka/images/zs_10.jpg" /> </div>
+            <div> <img src="/web/Public/pcmaka/images/zs_1.jpg" /> </div>
+            <div> <img src="/web/Public/pcmaka/images/zs_2.jpg" /> </div>
+            <div> <img src="/web/Public/pcmaka/images/zs_3.jpg" /> </div>
+            <div> <img src="/web/Public/pcmaka/images/zs_4.jpg" /> </div>
+            <div> <img src="/web/Public/pcmaka/images/zs_5.jpg" /> </div>
+            <div> <img src="/web/Public/pcmaka/images/zs_6.jpg" /> </div>
+            <div> <img src="/web/Public/pcmaka/images/zs_7.jpg" /> </div>
+            <div> <img src="/web/Public/pcmaka/images/zs_8.jpg" /> </div>
+            <div> <img src="/web/Public/pcmaka/images/zs_9.jpg" /> </div>
+            <div> <img src="/web/Public/pcmaka/images/zs_10.jpg" /> </div>
           </div>
           <div id="demo-side-bar"> </div>
         </div>
       </div>
-      <img title="" src="/maka/Public/pcmaka/images/qwrz_06.jpg" /> </div>
+      <img title="" src="/web/Public/pcmaka/images/qwrz_06.jpg" /> </div>
   </div>
   <div class="zjs" id="zjs" name="zjs">
     <div class="titlebar">全球专家说“玛卡”</div>
-    <div class="content"> <img title="" src="/maka/Public/pcmaka/images/zjs_01.jpg" /> <img title="" src="/maka/Public/pcmaka/images/zjs_02.jpg" /> </div>
+    <div class="content"> <img title="" src="/web/Public/pcmaka/images/zjs_01.jpg" /> <img title="" src="/web/Public/pcmaka/images/zjs_02.jpg" /> </div>
   </div>
   <div class="zdxl" id="zdxl" name="zdxl">
     <div class="titlebar">好东西值得信赖！</div>
-    <div class="content"> <img title="" src="/maka/Public/pcmaka/images/zdxl_01.jpg" /> <img title="" src="/maka/Public/pcmaka/images/zdxl_02.jpg" /> <img title="" src="/maka/Public/pcmaka/images/zdxl_03.jpg" /> </div>
+    <div class="content"> <img title="" src="/web/Public/pcmaka/images/zdxl_01.jpg" /> <img title="" src="/web/Public/pcmaka/images/zdxl_02.jpg" /> <img title="" src="/web/Public/pcmaka/images/zdxl_03.jpg" /> </div>
   </div>
   <div class="wyhp" id="wyhp" name="wyhp">
     <div class="titlebar">在线订购</div>
@@ -186,7 +186,7 @@ show_student163_time();
 		 
 $(function(){
 		$("#changeCode").on("click",function(){
-				var mySrc="/maka/index.php/Home/Verify/getVerifyCode?"+Math.random();
+				var mySrc="/web/index.php/Home/Verify/getVerifyCode?"+Math.random();
 				$("#codeImg").attr("src",mySrc);
 				
 			
@@ -195,7 +195,7 @@ $(function(){
 
 });
 function phpsys_update_code(a){
-	a.src="/maka/index.php/Home/Verify/getVerifyCode?"+Math.random();
+	a.src="/web/index.php/Home/Verify/getVerifyCode?"+Math.random();
 }
 
 /* 表单判断 */
@@ -292,7 +292,7 @@ $(document).ready(function() {
 	initComplexArea('prov', 'cityselect', 'dist', area_array, sub_array, '0', '0', '0');
 });
     </script>
-      <form method="post" action="/maka/index.php/Home/SubOrder/submit"  style="width:528px; height:500px; margin:0 auto; _margin-left:316px;" onsubmit="return mycheck()" name="form1">
+      <form method="post" action="/web/index.php/Home/SubOrder/submit"  style="width:528px; height:500px; margin:0 auto; _margin-left:316px;" onsubmit="return mycheck()" name="form1">
         <label>
           <select name="productid" id="productid" style="width:264px; height:26px; font-size:12px; color:#a30c1f;">
             <?php if(is_array($data)): foreach($data as $key=>$vo): ?><option value="<?php echo ($vo["id"]); ?>" style="color:#000000;"><?php echo ($vo["productname"]); ?>  ￥<?php echo ($vo["price"]); ?></option><?php endforeach; endif; ?>
@@ -320,7 +320,7 @@ $(document).ready(function() {
         <br />
         <label>
           <input name="verify" id="verify" type="text" style="width:150px; height:26px; background:none; border:0px; margin-left:4px; margin-top:36px; _margin-top:31px;" />
-          <span id="phpsys_update_code" ><img src="/maka/index.php/Home/Verify/getVerifyCode" border="0" align="absmiddle" style="width:100px;height:28px;" style="cursor:pointer;" onclick="phpsys_update_code(this)" id="codeImg" > <a style="color:white" href="javascript:void();" id="changeCode" >看不清?</a> </span> </label>
+          <span id="phpsys_update_code" ><img src="/web/index.php/Home/Verify/getVerifyCode" border="0" align="absmiddle" style="width:100px;height:28px;" style="cursor:pointer;" onclick="phpsys_update_code(this)" id="codeImg" > <a style="color:white" href="javascript:void();" id="changeCode" >看不清?</a> </span> </label>
         <br />
         <label>
           <textarea name="word" id="word" style="background:none; width:455px; height:190px; border:0px; margin-top:35px; margin-left:5px; "></textarea>

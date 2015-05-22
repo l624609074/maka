@@ -56,8 +56,8 @@
             <ul class="nav nav-inline admin-nav">
               
               
-                <li class="active"><a href="content.html" class="icon-shopping-cart" class="icon-file-text" > 订单管理</a>
-					<ul><li><a href="#"> </a></li><li class="active"><a href="__MODULE__/User">订单管理</a><li><a href="__MODULE__/Order/Search">订单搜索</a></li><li><a href="__MODULE__/Product/All">产品设定</a></li><li><a href="__MODULE__/Advisory/Index">美容测试</a></li></ul>
+                <li class="active"><a href="__MODULE__/User/index/System/<{$System}>" class="icon-shopping-cart" class="icon-file-text" > 订单管理</a>
+					<ul><li><a href="#"> </a></li><li class="active"><a href="__MODULE__/User/index/System/<{$System}>">订单管理</a><li><a href="__MODULE__/Order/Search/System/<{$System}>" >订单搜索</a></li><li><a href="__MODULE__/Product/All/System/<{$System}>" >产品设定</a></li><li><a href="__MODULE__/Advisory/Index/System/<{$System}>" >美容测试</a></li></ul>
                 </li>
                
             </ul>
@@ -65,7 +65,7 @@
         <div class="admin-bread">
             <span>您好，<font style="color:red" ><{$Think.session.useradmin}> </font>，欢迎您。</span>
             <ul class="bread">
-                 <li><a href="__MODULE__/User" class="icon-home"> 开始</a></li>
+                 <li><a href="__MODULE__/User/index/System/<{$System}>" class="icon-home"> 开始</a></li>
                 
                 <li>订单搜索管理</li>
             </ul>
@@ -75,7 +75,7 @@
 <div style="text-align:center">
 <div id="fullbg"></div> 
 <div id="dialog"> 
-<p class="close"><span id="add"></span><a href="#" onclick="closeBg();">关闭</a>  </p>
+<p class="close"><span id="add"></span><a href="#" onClick="closeBg();">关闭</a>  </p>
 <div><center>
 	<table>
 			<tr><td>快递公司:&nbsp;&nbsp;</td><td><input type="text" name="expressName" /></td></tr>
@@ -85,7 +85,7 @@
 	</table>
 <br/>
 <br/>
-<input type="button" value="提交" onclick="orderAction('sent','','__MODULE__/Order')" />
+<input type="button" value="提交" onClick="orderAction('sent','','__MODULE__/Order','<{$System}>')" />
 </center>
 
 </div> 
@@ -115,7 +115,7 @@
 						<td><{$vo.orderid}></td><td><{$vo.productname}>--<{$vo.price}></td><td><{$vo.name}></td><td><{$vo.contact}></td><td><{$vo.address}></td><td><{$vo.payment}></td><td>
 						
 							<if condition="strlen($vo['word']) gt 30 ">
-									<{$vo.word|substr=0,30}><a href="__MODULE__/Order/Modify/orderid/<{$vo.orderid}>" ><font color="red">...查看更多</font></a>
+									<{$vo.word|substr=0,30}><a href="__MODULE__/Order/Modify/orderid/<{$vo.orderid}>/System/<{$System}>" ><font color="red">...查看更多</font></a>
 							<else /> 
 									<{$vo.word}>
 							</if>
@@ -135,10 +135,9 @@
 
 				<td><{$vo.expressname}>--<{$vo.expressnum}></td>		
 						<td>
-							<a class="button border-blue button-little" href="#" onclick="orderAction('Confirm','<{$vo.orderid}>','__MODULE__/Order')" >确认</a> 
-							<a class="button border-green button-little" href="#" onclick="showBg('<{$vo.orderid}>')" >发货</a>
-							<a class="button border-yellow button-little" href="__MODULE__/Order/Modify/orderid/<{$vo.orderid}>"  onclick="" >修改</a>
-							<a class="button border-red button-little" href="javascript:orderAction('Delete','<{$vo.orderid}>','__MODULE__/Order')" onclick="{if(confirm('确认删除?')){return true;}return false;}">删除</a>
+							<a class="button border-blue button-little" href="#" onClick="orderAction('Confirm','<{$vo.orderid}>','__MODULE__/Order','<{$System}>')" >确认</a> <a class="button border-green button-little" href="#" onClick="showBg('<{$vo.orderid}>')" >发货</a>
+							<a class="button border-yellow button-little" href="__MODULE__/Order/Modify/orderid/<{$vo.orderid}>/System/<{$System}>"  onclick="" >修改</a>
+							<a class="button border-red button-little" href="javascript:orderAction('Delete','<{$vo.orderid}>','__MODULE__/Order','<{$System}>')" onClick="{if(confirm('确认删除?')){return true;}return false;}">删除</a>
 							
 			
 						</td>

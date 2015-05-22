@@ -8,7 +8,7 @@ form .form-group:last-child{padding-bottom:0;}
 .righter{float:right;width:100%;padding-top:15px;background:#e6f2fb;}
 .mainer{margin-left:180px;}
 
-.logo{border-bottom:solid 1px #b5cfd9;padding:23px 10px;}
+/* .logo{border-bottom:solid 1px #b5cfd9;padding:23px 10px;} */
 
 .admin-navbar{border-bottom:solid 5px #09c;padding:0 15px;}
 .admin-nav li{display:inline-block;}

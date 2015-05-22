@@ -62,7 +62,7 @@
               
               
                 <li class="active"><a href="content.html" class="icon-shopping-cart" class="icon-file-text" > 订单管理</a>
-					<ul><li><a href="#"> </a></li><li class="active"><a href="__MODULE__/User">订单管理</a><li><a href="__MODULE__/Search">订单搜索</a><li><a href="__MODULE__/Product/All">产品设定</a></li><li><a href="__MODULE__/Advisory/Index">美容测试</a></li></ul>
+					<ul><li><a href="#"> </a></li><li class="active"><a href="__MODULE__/User">订单管理</a><li><a href="__MODULE__/Search">订单搜索</a><li><a href="__MODULE__/Product/All/System/<{$System}>" >产品设定</a></li><li><a href="__MODULE__/Advisory/Index/System/<{$System}>" >美容测试</a></li></ul>
                 </li>
                
             </ul>
@@ -115,7 +115,7 @@
 
 					<!-- 		<a class="button border-yellow button-little" href="javascript:window.location.href='__MODULE__/Product/Modify/id/<{$vo.id}>'"  onclick="" >修改</a> -->
 							<a class="button border-yellow button-little" href="javascript:AdvisoryAction('Recall','__MODULE__/Advisory/Recall/id/<{$vo.id}>/RecallStatus/<{$vo.recall}>')"  >改变回答状态</a> 
-							<a class="button border-red button-little" href="javascript:AdvisoryAction('Delete','__MODULE__/Advisory/Delete/id/<{$vo.id}>')" onclick="{if(confirm('确认删除?')){return true;}return false;}">删除</a>
+							<a class="button border-red button-little" href="javascript:AdvisoryAction('Delete','__MODULE__/Advisory/Delete/id/<{$vo.id}>')" onClick="{if(confirm('确认删除?')){return true;}return false;}">删除</a>
 							
 			
 						</td>

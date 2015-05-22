@@ -6,43 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta name="renderer" content="webkit">
     <title>99培元-后台订单修改管理</title>
-    <link rel="stylesheet" href="/maka/Public/Admin/css/pintuer.css">
-    <link rel="stylesheet" href="/maka/Public/Admin/css/admin.css">
-    <link rel="stylesheet" href="/maka/Public/Admin/css/float.css">
+    <link rel="stylesheet" href="/web/Public/Admin/css/pintuer.css">
+    <link rel="stylesheet" href="/web/Public/Admin/css/admin.css">
+    <link rel="stylesheet" href="/web/Public/Admin/css/float.css">
    
-    <link rel="stylesheet" href="/maka/Public/Admin/css/pagination.css">
-    <script src="/maka/Public/js/jq.js"></script>
-    <script src="/maka/Public/Admin/js/pintuer.js"></script>
-    <script src="/maka/Public/Admin/js/respond.js"></script>
-    <script src="/maka/Public/Admin/js/admin.js"></script>
+    <link rel="stylesheet" href="/web/Public/Admin/css/pagination.css">
+    <script src="/web/Public/js/jq.js"></script>
+    <script src="/web/Public/Admin/js/pintuer.js"></script>
+    <script src="/web/Public/Admin/js/respond.js"></script>
+    <script src="/web/Public/Admin/js/admin.js"></script>
 
     
 </head>
 
 <body>
 <div class="lefter">
-    <div class="logo"><a href="#" target="_blank"><img src="/maka/Public/Admin/images/logo.png" alt="后台管理系统" /></a></div>
+    <div class="logo"><a href="#" target="_blank"><img src="/web/Public/Admin/images/logo.png" alt="后台管理系统" /></a></div>
 </div>
 <div class="righter nav-navicon" id="admin-nav">
     <div class="mainer">
         <div class="admin-navbar">
             <span class="float-right">
-            	<a class="button button-little bg-main" href="/maka/index.php">网站首页</a>
-                <a class="button button-little bg-yellow" href="/maka/index.php/Admin99/Login/LoginOut">注销登录</a>
+            	<a class="button button-little bg-main" href="/web/index.php">网站首页</a>
+                <a class="button button-little bg-yellow" href="/web/index.php/Admin99/Login/LoginOut">注销登录</a>
             </span>
             <ul class="nav nav-inline admin-nav">
               
               
-                <li class="active"><a href="content.html" class="icon-shopping-cart" class="icon-file-text" > 订单管理</a>
-					<ul><li><a href="#"> </a></li><li class="active"><a href="/maka/index.php/Admin99/User">订单管理</a><li><a href="/maka/index.php/Admin99/Search">订单管理</a><li><a href="/maka/index.php/Admin99/Product/All">产品设定</a></li></ul>
-                </li>
+                <li class="active"><a href="/web/index.php/Admin99/User/index/System/Maka" class="icon-shopping-cart" class="icon-file-text" > 玛卡订单管理</a>	<ul><li><li class="active"><a href="/web/index.php/Admin99/User/index/System/Maka">订单管理</a><li><a href="/web/index.php/Admin99/Order/Search/System/<?php echo ($System); ?>" >订单搜索</a><li><a href="/web/index.php/Admin99/Product/All/System/Maka">产品设定</a></li><li><a href="/web/index.php/Admin99/Advisory/Index/System/Maka">美容测试</a></li></ul>
+                </li>       <li class="active"  ><a href="/web/index.php/Admin99/User/index/System/Ejiao" class="icon-shopping-cart"  style="margin-left:300px;background:white;border:1px solid #09c;border-bottom:none;color:#09c" class="icon-file-text" >阿胶订单管理</a>
                
             </ul>
         </div>
         <div class="admin-bread" >
             <span>您好，<font style="color:red" ><?php echo (session('useradmin')); ?> </font>，欢迎您。</span>
             <ul class="bread">
-                <li><a href="/maka/index.php/Admin99/User" class="icon-home"> 开始</a></li>
+                <li><a href="/web/index.php/Admin99/User/index/System/<?php echo ($System); ?>" class="icon-home"> 开始</a></li>
                 
                 <li>订单信息修改</li>
             </ul>
@@ -55,7 +54,7 @@
 <div class="admin">
 	
     <div class="panel admin-panel">
-	<form action="/maka/index.php/Admin99/Order/doModify" method="POST">
+	<form action="/web/index.php/Admin99/Order/DoModify/System/<?php echo ($System); ?>" method="POST">
 	
 				  <table class="table table-hover" border=1 style="text-align:center">
         	
@@ -100,7 +99,10 @@
 						</select></td></tr>
 			<tr><td width="50%">快递公司</td><td><input  name="expressname" value="<?php echo ($vo["expressname"]); ?>"/></td></tr>
 			<tr><td width="50%">快递单号</td><td><input  name="expressnum" value="<?php echo ($vo["expressnum"]); ?>"/></td></tr>
-			<tr><td width="50%">操作</td><td><input type="submit"  value="确认修改" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" onclick="javascript:history.go(-1);" value="返回" /> </td></tr><?php endforeach; endif; ?>
+			<tr><td width="50%">操作</td><td><input type="submit"  value="确认修改" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" onclick="javascript:history.go(-1);" value="返回" /> </td></tr>
+				
+	
+						<input type="hidden" value="<?php echo ($vo["id"]); ?>" name="id"/><?php endforeach; endif; ?>
 		
 			
 			

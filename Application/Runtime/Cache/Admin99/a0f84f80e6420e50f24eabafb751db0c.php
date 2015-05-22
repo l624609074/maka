@@ -5,17 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta name="renderer" content="webkit">
-    <title>99培元-后台管理</title>
-    <link rel="stylesheet" href="/maka/Public/Admin/css/pintuer.css">
-    <link rel="stylesheet" href="/maka/Public/Admin/css/admin.css">
-    <link rel="stylesheet" href="/maka/Public/Admin/css/float.css">
+    <title>99培元-<?php echo ($System); ?>后台管理</title>
+    <link rel="stylesheet" href="/web/Public/Admin/css/pintuer.css">
+    <link rel="stylesheet" href="/web/Public/Admin/css/admin.css">
+    <link rel="stylesheet" href="/web/Public/Admin/css/float.css">
    
-    <link rel="stylesheet" href="/maka/Public/Admin/css/pagination.css">
-    <script src="/maka/Public/js/jq.js"></script>
-    <script src="/maka/Public/Admin/js/pintuer.js"></script>
-    <script src="/maka/Public/Admin/js/respond.js"></script>
-    <script src="/maka/Public/Admin/js/admin.js"></script>
-    <script src="/maka/Public/Admin/js/order.js"></script>
+    <link rel="stylesheet" href="/web/Public/Admin/css/pagination.css">
+    <script src="/web/Public/js/jq.js"></script>
+    <script src="/web/Public/Admin/js/pintuer.js"></script>
+    <script src="/web/Public/Admin/js/respond.js"></script>
+    <script src="/web/Public/Admin/js/admin.js"></script>
+    <script src="/web/Public/Admin/js/order.js"></script>
    <script type="text/javascript"> 
 			//显示灰色 jQuery 遮罩层 
 		function showBg(orderid) { 
@@ -44,28 +44,47 @@
 
 <body>
 <div class="lefter">
-    <div class="logo"><a href="#" target="_blank"><img src="/maka/Public/Admin/images/logo.png" alt="后台管理系统" /></a></div>
+    <div class="logo"><a href="#" target="_blank"><img src="/web/Public/Admin/images/logo.png" alt="后台管理系统" /></a></div>
 </div>
 <div class="righter nav-navicon" id="admin-nav">
     <div class="mainer">
         <div class="admin-navbar">
             <span class="float-right">
-            	<a class="button button-little bg-main" href="/maka/index.php">网站首页</a>
-                <a class="button button-little bg-yellow" href="/maka/index.php/Admin99/Login/LoginOut">注销登录</a>
+            	<a class="button button-little bg-main" href="/web/index.php">网站首页</a>
+                <a class="button button-little bg-yellow" href="/web/index.php/Admin99/Login/LoginOut">注销登录</a>
             </span>
             <ul class="nav nav-inline admin-nav">
+				
+							        <li class="active"><a href="/web/index.php/Admin99/User/index/System/<?php echo ($System); ?>" class="icon-shopping-cart" class="icon-file-text" >玛卡订单管理</a>
+											<ul>
+												
+													<li ><a href="/web/index.php/Admin99/User/index/System/<?php echo ($System); ?>">订单管理</a><li><a href="/web/index.php/Admin99/Order/Search/System/<?php echo ($System); ?>">订单搜索</a></li><li><a href="/web/index.php/Admin99/Product/All/System/<?php echo ($System); ?>">产品设定</a></li><li><a href="/web/index.php/Admin99/Advisory/Index/System/<?php echo ($System); ?>">美容测试</a></li>  </li>
+										   </ul>
+					
+				
+				
+									</li>
+							
+					
+							
+							<li class="active"  ><a href="/web/index.php/Admin99/User/index/System/Ejiao" class="icon-shopping-cart"  style="margin-left:300px;background:white;border:1px solid #09c;border-bottom:none;color:#09c" class="icon-file-text" >阿胶订单管理</a>
+											
+				
+							</li>
+				
+
+				
+				
+        
+          
               
-              
-                <li class="active"><a href="content.html" class="icon-shopping-cart" class="icon-file-text" > 订单管理</a>
-					<ul><li><a href="#"> </a></li><li class="active"><a href="/maka/index.php/Admin99/User">订单管理</a><li><a href="/maka/index.php/Admin99/Order/Search">订单搜索</a></li><li><a href="/maka/index.php/Admin99/Product/All">产品设定</a></li><li><a href="/maka/index.php/Admin99/Advisory/Index">美容测试</a></li></ul>
-                </li>
                
             </ul>
         </div>
         <div class="admin-bread">
             <span>您好，<font style="color:red" ><?php echo (session('useradmin')); ?> </font>，欢迎您。</span>
             <ul class="bread">
-                 <li><a href="/maka/index.php/Admin99/User" class="icon-home"> 开始</a></li>
+                 <li><a href="/web/index.php/Admin99/User/index/System/<?php echo ($System); ?>" class="icon-home"> 开始</a></li>
                 
                 <li>订单管理</li>
             </ul>
@@ -75,7 +94,7 @@
 <div style="text-align:center">
 <div id="fullbg"></div> 
 <div id="dialog"> 
-<p class="close"><span id="add"></span><a href="#" onclick="closeBg();">关闭</a>  </p>
+<p class="close"><span id="add"></span><a href="#" onClick="closeBg();">关闭</a>  </p>
 <div><center>
 	<table>
 			<tr><td>快递公司:&nbsp;&nbsp;</td><td><input type="text" name="expressName" /></td></tr>
@@ -85,7 +104,7 @@
 	</table>
 <br/>
 <br/>
-<input type="button" value="提交" onclick="orderAction('sent','','/maka/index.php/Admin99/Order')" />
+<input type="button" value="提交" onClick="orderAction('sent','','/web/index.php/Admin99/Order','<?php echo ($System); ?>')" />
 </center>
 
 </div> 
@@ -100,7 +119,7 @@
 			 <input type="button" class="button button-small border-blue" value="批量确认" />
             <input type="button" class="button button-small border-green" value="批量发货" />
             <input type="button" class="button button-small border-yellow" value="批量删除" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <input type="button" class="button button-small border-yellow" value="添加新订单" onclick="window.location.href='/maka/index.php/Admin99/Order/Add'" />
+            <input type="button" class="button button-small border-yellow" value="添加新订单" onClick="window.location.href='/web/index.php/Admin99/Order/Add/System/<?php echo ($System); ?>'" />
            
         </div>
 	
@@ -112,7 +131,7 @@
 						<td><input type="checkbox" name="orderid" value="<?php echo ($vo["orderid"]); ?>" /></td>
 						<td><?php echo ($vo["orderid"]); ?></td><td><?php echo ($vo["productname"]); ?>--<?php echo ($vo["price"]); ?></td><td><?php echo ($vo["name"]); ?></td><td><?php echo ($vo["contact"]); ?></td><td><?php echo ($vo["address"]); ?></td><td><?php echo ($vo["payment"]); ?></td><td>
 						
-							<?php if(strlen($vo['word']) > 30 ): echo (substr($vo["word"],0,30)); ?><a href="/maka/index.php/Admin99/Order/Modify/orderid/<?php echo ($vo["orderid"]); ?>" ><font color="red">...查看更多</font></a>
+							<?php if(strlen($vo['word']) > 30 ): echo (substr($vo["word"],0,30)); ?><a href="/web/index.php/Admin99/Order/Modify/orderid/<?php echo ($vo["orderid"]); ?>/System/<?php echo ($System); ?>" ><font color="red">...查看更多</font></a>
 							<?php else: ?> 
 									<?php echo ($vo["word"]); endif; ?>
 					
@@ -129,10 +148,9 @@
 				<td width=50><?php echo ($vo["client"]); ?></td>
 				<td><?php echo ($vo["expressname"]); ?>--<?php echo ($vo["expressnum"]); ?></td>		
 						<td>
-							<a class="button border-blue button-little" href="#" onclick="orderAction('Confirm','<?php echo ($vo["orderid"]); ?>','/maka/index.php/Admin99/Order')" >确认</a> 
-							<a class="button border-green button-little" href="#" onclick="showBg('<?php echo ($vo["orderid"]); ?>')" >发货</a>
-							<a class="button border-yellow button-little" href="/maka/index.php/Admin99/Order/Modify/orderid/<?php echo ($vo["orderid"]); ?>"  onclick="" >修改</a>
-							<a class="button border-red button-little" href="javascript:orderAction('Delete','<?php echo ($vo["orderid"]); ?>','/maka/index.php/Admin99/Order')" onclick="{if(confirm('确认删除?')){return true;}return false;}">删除</a>
+							<a class="button border-blue button-little" href="#" onClick="orderAction('Confirm','<?php echo ($vo["orderid"]); ?>','/web/index.php/Admin99/Order','<?php echo ($System); ?>')" >确认</a> <a class="button border-green button-little" href="#" onClick="showBg('<?php echo ($vo["orderid"]); ?>','<?php echo ($System); ?>')" >发货</a>
+							<a class="button border-yellow button-little" href="/web/index.php/Admin99/Order/Modify/orderid/<?php echo ($vo["orderid"]); ?>/System/<?php echo ($System); ?>"  onclick="" >修改</a>
+							<a class="button border-red button-little" href="javascript:orderAction('Delete','<?php echo ($vo["orderid"]); ?>','/web/index.php/Admin99/Order','<?php echo ($System); ?>')" onClick="{if(confirm('确认删除?')){return true;}return false;}">删除</a>
 							
 			
 						</td>
